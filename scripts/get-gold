@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""Script shim for uv/setuptools editable installs."""
+
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+
+def load_main():
+    try:
+        from get_gold import main
+
+        return main
+    except ModuleNotFoundError as exc:
+        if exc.name != "get_gold":
+            raise
+
+    candidates = [
+        Path.cwd(),
+        Path(__file__).resolve().parents[2],
+    ]
+    for root in candidates:
+        if (root / "get_gold.py").exists():
+            sys.path.insert(0, str(root))
+            from get_gold import main
+
+            return main
+
+    raise ModuleNotFoundError("Could not find get_gold.py from the installed script.")
+
+
+if __name__ == "__main__":
+    raise SystemExit(load_main()())

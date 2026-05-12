@@ -1,0 +1,28 @@
+{
+  "pdf": "pdfs/1959-09865-001.pdf",
+  "queryId": "DOI:10.1037/h0042519",
+  "referenceCount": 0,
+  "references": [],
+  "source": {
+    "authors": [
+      {
+        "authorId": "51083130",
+        "name": "F. Rosenblatt"
+      }
+    ],
+    "citationCount": 12070,
+    "externalIds": {
+      "CorpusId": 12781225,
+      "DOI": "10.1037/H0042519",
+      "MAG": "2040870580",
+      "PubMed": "13602029"
+    },
+    "paperId": "5d11aad09f65431b5d3cb1d85328743c9e53ba96",
+    "publicationDate": "1958-11-01",
+    "referenceCount": 15,
+    "title": "The perceptron: a probabilistic model for information storage and organization in the brain.",
+    "url": "https://www.semanticscholar.org/paper/5d11aad09f65431b5d3cb1d85328743c9e53ba96",
+    "venue": "Psychology Review",
+    "year": 1958
+  }
+}

@@ -1,0 +1,2100 @@
+{
+  "pdf": "pdfs/He_Deep_Residual_Learning_CVPR_2016_paper.pdf",
+  "queryId": "DOI:10.1109/CVPR.2016.90",
+  "referenceCount": 53,
+  "references": [
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2100612",
+            "name": "R. Srivastava"
+          },
+          {
+            "authorId": "3035541",
+            "name": "Klaus Greff"
+          },
+          {
+            "authorId": "145341374",
+            "name": "J. Schmidhuber"
+          }
+        ],
+        "citationCount": 1750,
+        "externalIds": {
+          "ArXiv": "1507.06228",
+          "CorpusId": 2722012,
+          "DBLP": "conf/nips/SrivastavaGS15",
+          "MAG": "2950621961"
+        },
+        "paperId": "b92aa7024b87f50737b372e5df31ef091ab54e62",
+        "publicationDate": "2015-07-22",
+        "referenceCount": null,
+        "title": "Training Very Deep Networks",
+        "url": "https://www.semanticscholar.org/paper/b92aa7024b87f50737b372e5df31ef091ab54e62",
+        "venue": "Neural Information Processing Systems",
+        "year": 2015
+      },
+      "index": 0,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3080683",
+            "name": "Shaoqing Ren"
+          },
+          {
+            "authorId": "39353098",
+            "name": "Kaiming He"
+          },
+          {
+            "authorId": "2983898",
+            "name": "Ross B. Girshick"
+          },
+          {
+            "authorId": "2032184078",
+            "name": "Jian Sun"
+          }
+        ],
+        "citationCount": 72274,
+        "externalIds": {
+          "ArXiv": "1506.01497",
+          "CorpusId": 10328909,
+          "DBLP": "journals/pami/RenHG017",
+          "DOI": "10.1109/TPAMI.2016.2577031",
+          "MAG": "2953106684",
+          "PubMed": "27295650"
+        },
+        "paperId": "424561d8585ff8ebce7d5d07de8dbf7aae5e7270",
+        "publicationDate": "2015-06-04",
+        "referenceCount": null,
+        "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+        "url": "https://www.semanticscholar.org/paper/424561d8585ff8ebce7d5d07de8dbf7aae5e7270",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "year": 2015
+      },
+      "index": 1,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2475428",
+            "name": "Spyros Gidaris"
+          },
+          {
+            "authorId": "2505902",
+            "name": "N. Komodakis"
+          }
+        ],
+        "citationCount": 771,
+        "externalIds": {
+          "ArXiv": "1505.01749",
+          "CorpusId": 215824235,
+          "DBLP": "conf/iccv/GidarisK15",
+          "DOI": "10.1109/ICCV.2015.135",
+          "MAG": "1932624639"
+        },
+        "paperId": "020928259a848b91b7c36062e4bbc6df6398c02e",
+        "publicationDate": "2015-05-07",
+        "referenceCount": null,
+        "title": "Object Detection via a Multi-region and Semantic Segmentation-Aware CNN Model",
+        "url": "https://www.semanticscholar.org/paper/020928259a848b91b7c36062e4bbc6df6398c02e",
+        "venue": "IEEE International Conference on Computer Vision",
+        "year": 2015
+      },
+      "index": 2,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2100612",
+            "name": "R. Srivastava"
+          },
+          {
+            "authorId": "3035541",
+            "name": "Klaus Greff"
+          },
+          {
+            "authorId": "145341374",
+            "name": "J. Schmidhuber"
+          }
+        ],
+        "citationCount": 1883,
+        "externalIds": {
+          "ArXiv": "1505.00387",
+          "CorpusId": 14786967,
+          "DBLP": "journals/corr/SrivastavaGS15"
+        },
+        "paperId": "e0945081b5b87187a53d4329cf77cd8bff635795",
+        "publicationDate": "2015-05-03",
+        "referenceCount": null,
+        "title": "Highway Networks",
+        "url": "https://www.semanticscholar.org/paper/e0945081b5b87187a53d4329cf77cd8bff635795",
+        "venue": "arXiv.org",
+        "year": 2015
+      },
+      "index": 3,
+      "intents": [
+        "result",
+        "background"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2983898",
+            "name": "Ross B. Girshick"
+          }
+        ],
+        "citationCount": 28242,
+        "externalIds": {
+          "ArXiv": "1504.08083",
+          "CorpusId": 206770307
+        },
+        "paperId": "7ffdbc358b63378f07311e883dddacc9faeeaf4b",
+        "publicationDate": "2015-04-29",
+        "referenceCount": null,
+        "title": "Fast R-CNN",
+        "url": "https://www.semanticscholar.org/paper/7ffdbc358b63378f07311e883dddacc9faeeaf4b",
+        "venue": "",
+        "year": 2015
+      },
+      "index": 4,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3080683",
+            "name": "Shaoqing Ren"
+          },
+          {
+            "authorId": "39353098",
+            "name": "Kaiming He"
+          },
+          {
+            "authorId": "2983898",
+            "name": "Ross B. Girshick"
+          },
+          {
+            "authorId": "1771551",
+            "name": "X. Zhang"
+          },
+          {
+            "authorId": null,
+            "name": "Jian Sun"
+          }
+        ],
+        "citationCount": 430,
+        "externalIds": {
+          "ArXiv": "1504.06066",
+          "CorpusId": 5919483,
+          "DBLP": "journals/pami/RenHGZS17",
+          "DOI": "10.1109/TPAMI.2016.2601099",
+          "MAG": "2952009708",
+          "PubMed": "27541490"
+        },
+        "paperId": "f075f89b4f4026748cbf2fb9f989a9934c42ee8f",
+        "publicationDate": "2015-04-23",
+        "referenceCount": null,
+        "title": "Object Detection Networks on Convolutional Feature Maps",
+        "url": "https://www.semanticscholar.org/paper/f075f89b4f4026748cbf2fb9f989a9934c42ee8f",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "year": 2015
+      },
+      "index": 5,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2054165706",
+            "name": "Sergey Ioffe"
+          },
+          {
+            "authorId": "2574060",
+            "name": "Christian Szegedy"
+          }
+        ],
+        "citationCount": 46597,
+        "externalIds": {
+          "ArXiv": "1502.03167",
+          "CorpusId": 5808102,
+          "DBLP": "conf/icml/IoffeS15",
+          "MAG": "1836465849"
+        },
+        "paperId": "995c5f5e62614fcb4d2796ad2faab969da51713e",
+        "publicationDate": "2015-02-10",
+        "referenceCount": null,
+        "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+        "url": "https://www.semanticscholar.org/paper/995c5f5e62614fcb4d2796ad2faab969da51713e",
+        "venue": "International Conference on Machine Learning",
+        "year": 2015
+      },
+      "index": 6,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "39353098",
+            "name": "Kaiming He"
+          },
+          {
+            "authorId": "1771551",
+            "name": "X. Zhang"
+          },
+          {
+            "authorId": "3080683",
+            "name": "Shaoqing Ren"
+          },
+          {
+            "authorId": null,
+            "name": "Jian Sun"
+          }
+        ],
+        "citationCount": 20415,
+        "externalIds": {
+          "ArXiv": "1502.01852",
+          "CorpusId": 13740328,
+          "DBLP": "conf/iccv/HeZRS15",
+          "DOI": "10.1109/ICCV.2015.123",
+          "MAG": "1677182931"
+        },
+        "paperId": "d6f2f611da110b5b5061731be3fc4c7f45d8ee23",
+        "publicationDate": "2015-02-06",
+        "referenceCount": null,
+        "title": "Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification",
+        "url": "https://www.semanticscholar.org/paper/d6f2f611da110b5b5061731be3fc4c7f45d8ee23",
+        "venue": "IEEE International Conference on Computer Vision",
+        "year": 2015
+      },
+      "index": 7,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2069136633",
+            "name": "Adriana Romero"
+          },
+          {
+            "authorId": "2482072",
+            "name": "Nicolas Ballas"
+          },
+          {
+            "authorId": "3127597",
+            "name": "Samira Ebrahimi Kahou"
+          },
+          {
+            "authorId": "3186079",
+            "name": "Antoine Chassang"
+          },
+          {
+            "authorId": "143706039",
+            "name": "C. Gatta"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "citationCount": 4609,
+        "externalIds": {
+          "ArXiv": "1412.6550",
+          "CorpusId": 2723173,
+          "DBLP": "journals/corr/RomeroBKCGB14",
+          "MAG": "2964118293"
+        },
+        "paperId": "8604f376633af8b347e31d84c6150a93b11e34c2",
+        "publicationDate": "2014-12-19",
+        "referenceCount": null,
+        "title": "FitNets: Hints for Thin Deep Nets",
+        "url": "https://www.semanticscholar.org/paper/8604f376633af8b347e31d84c6150a93b11e34c2",
+        "venue": "International Conference on Learning Representations",
+        "year": 2014
+      },
+      "index": 8,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "39353098",
+            "name": "Kaiming He"
+          },
+          {
+            "authorId": null,
+            "name": "Jian Sun"
+          }
+        ],
+        "citationCount": 1370,
+        "externalIds": {
+          "ArXiv": "1412.1710",
+          "CorpusId": 2141952,
+          "DBLP": "journals/corr/He014",
+          "DOI": "10.1109/CVPR.2015.7299173",
+          "MAG": "1932847118"
+        },
+        "paperId": "8ad35df17ae4064dd174690efb04d347428f1117",
+        "publicationDate": "2014-12-04",
+        "referenceCount": null,
+        "title": "Convolutional neural networks at constrained time cost",
+        "url": "https://www.semanticscholar.org/paper/8ad35df17ae4064dd174690efb04d347428f1117",
+        "venue": "Computer Vision and Pattern Recognition",
+        "year": 2014
+      },
+      "index": 9,
+      "intents": [
+        "result"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1782282",
+            "name": "Evan Shelhamer"
+          },
+          {
+            "authorId": "2117314646",
+            "name": "Jonathan Long"
+          },
+          {
+            "authorId": "1753210",
+            "name": "Trevor Darrell"
+          }
+        ],
+        "citationCount": 41708,
+        "externalIds": {
+          "ArXiv": "1411.4038",
+          "CorpusId": 1629541,
+          "DBLP": "journals/corr/ShelhamerLD16",
+          "DOI": "10.1109/CVPR.2015.7298965",
+          "MAG": "2952632681"
+        },
+        "paperId": "6fc6803df5f9ae505cae5b2f178ade4062c768d0",
+        "publicationDate": "2014-11-14",
+        "referenceCount": null,
+        "title": "Fully convolutional networks for semantic segmentation",
+        "url": "https://www.semanticscholar.org/paper/6fc6803df5f9ae505cae5b2f178ade4062c768d0",
+        "venue": "Computer Vision and Pattern Recognition",
+        "year": 2014
+      },
+      "index": 10,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "50521003",
+            "name": "Chen-Yu Lee"
+          },
+          {
+            "authorId": "1817030",
+            "name": "Saining Xie"
+          },
+          {
+            "authorId": "21561136",
+            "name": "Patrick W. Gallagher"
+          },
+          {
+            "authorId": "2148905709",
+            "name": "Zhengyou Zhang"
+          },
+          {
+            "authorId": "144035504",
+            "name": "Z. Tu"
+          }
+        ],
+        "citationCount": 2444,
+        "externalIds": {
+          "ArXiv": "1409.5185",
+          "CorpusId": 1289873,
+          "DBLP": "journals/corr/LeeXGZT14",
+          "MAG": "2168894214"
+        },
+        "paperId": "fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd",
+        "publicationDate": "2014-09-17",
+        "referenceCount": null,
+        "title": "Deeply-Supervised Nets",
+        "url": "https://www.semanticscholar.org/paper/fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd",
+        "venue": "International Conference on Artificial Intelligence and Statistics",
+        "year": 2014
+      },
+      "index": 11,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2574060",
+            "name": "Christian Szegedy"
+          },
+          {
+            "authorId": "2157222093",
+            "name": "Wei Liu"
+          },
+          {
+            "authorId": "39978391",
+            "name": "Yangqing Jia"
+          },
+          {
+            "authorId": "3142556",
+            "name": "P. Sermanet"
+          },
+          {
+            "authorId": "144828948",
+            "name": "Scott E. Reed"
+          },
+          {
+            "authorId": "1838674",
+            "name": "Dragomir Anguelov"
+          },
+          {
+            "authorId": "1761978",
+            "name": "D. Erhan"
+          },
+          {
+            "authorId": "2657155",
+            "name": "Vincent Vanhoucke"
+          },
+          {
+            "authorId": "39863668",
+            "name": "A. Rabinovich"
+          }
+        ],
+        "citationCount": 47121,
+        "externalIds": {
+          "ArXiv": "1409.4842",
+          "CorpusId": 206592484,
+          "DBLP": "journals/corr/SzegedyLJSRAEVR14",
+          "DOI": "10.1109/CVPR.2015.7298594",
+          "MAG": "2097117768"
+        },
+        "paperId": "e15cf50aa89fee8535703b9f9512fca5bfc43327",
+        "publicationDate": "2014-09-16",
+        "referenceCount": null,
+        "title": "Going deeper with convolutions",
+        "url": "https://www.semanticscholar.org/paper/e15cf50aa89fee8535703b9f9512fca5bfc43327",
+        "venue": "Computer Vision and Pattern Recognition",
+        "year": 2014
+      },
+      "index": 12,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "34838386",
+            "name": "K. Simonyan"
+          },
+          {
+            "authorId": "1688869",
+            "name": "Andrew Zisserman"
+          }
+        ],
+        "citationCount": 111105,
+        "externalIds": {
+          "ArXiv": "1409.1556",
+          "CorpusId": 14124313,
+          "DBLP": "journals/corr/SimonyanZ14a",
+          "MAG": "2949429431"
+        },
+        "paperId": "eb42cf88027de515750f230b23b1a057dc782108",
+        "publicationDate": "2014-09-04",
+        "referenceCount": null,
+        "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+        "url": "https://www.semanticscholar.org/paper/eb42cf88027de515750f230b23b1a057dc782108",
+        "venue": "International Conference on Learning Representations",
+        "year": 2014
+      },
+      "index": 13,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2314850892",
+            "name": "Olga Russakovsky"
+          },
+          {
+            "authorId": "153302678",
+            "name": "Jia Deng"
+          },
+          {
+            "authorId": "144914140",
+            "name": "Hao Su"
+          },
+          {
+            "authorId": "2285165",
+            "name": "J. Krause"
+          },
+          {
+            "authorId": "145031342",
+            "name": "S. Satheesh"
+          },
+          {
+            "authorId": "2261887230",
+            "name": "Sean Ma"
+          },
+          {
+            "authorId": "3109481",
+            "name": "Zhiheng Huang"
+          },
+          {
+            "authorId": "2354728",
+            "name": "A. Karpathy"
+          },
+          {
+            "authorId": "2556428",
+            "name": "A. Khosla"
+          },
+          {
+            "authorId": "145879842",
+            "name": "Michael S. Bernstein"
+          },
+          {
+            "authorId": "39668247",
+            "name": "A. Berg"
+          },
+          {
+            "authorId": "48004138",
+            "name": "Li Fei-Fei"
+          }
+        ],
+        "citationCount": 42505,
+        "externalIds": {
+          "ArXiv": "1409.0575",
+          "CorpusId": 2930547,
+          "DBLP": "journals/corr/RussakovskyDSKSMHKKBBF14",
+          "DOI": "10.1007/s11263-015-0816-y",
+          "MAG": "2546241758"
+        },
+        "paperId": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+        "publicationDate": "2014-09-01",
+        "referenceCount": null,
+        "title": "ImageNet Large Scale Visual Recognition Challenge",
+        "url": "https://www.semanticscholar.org/paper/e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+        "venue": "International Journal of Computer Vision",
+        "year": 2014
+      },
+      "index": 14,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "39978391",
+            "name": "Yangqing Jia"
+          },
+          {
+            "authorId": "1782282",
+            "name": "Evan Shelhamer"
+          },
+          {
+            "authorId": "7408951",
+            "name": "Jeff Donahue"
+          },
+          {
+            "authorId": "3049736",
+            "name": "Sergey Karayev"
+          },
+          {
+            "authorId": "2117314646",
+            "name": "Jonathan Long"
+          },
+          {
+            "authorId": "2983898",
+            "name": "Ross B. Girshick"
+          },
+          {
+            "authorId": "1687120",
+            "name": "S. Guadarrama"
+          },
+          {
+            "authorId": "1753210",
+            "name": "Trevor Darrell"
+          }
+        ],
+        "citationCount": 14844,
+        "externalIds": {
+          "ArXiv": "1408.5093",
+          "CorpusId": 1799558,
+          "DBLP": "journals/corr/JiaSDKLGGD14",
+          "DOI": "10.1145/2647868.2654889",
+          "MAG": "2950094539"
+        },
+        "paperId": "6bdb186ec4726e00a8051119636d4df3b94043b5",
+        "publicationDate": "2014-06-20",
+        "referenceCount": null,
+        "title": "Caffe: Convolutional Architecture for Fast Feature Embedding",
+        "url": "https://www.semanticscholar.org/paper/6bdb186ec4726e00a8051119636d4df3b94043b5",
+        "venue": "ACM Multimedia",
+        "year": 2014
+      },
+      "index": 15,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "39353098",
+            "name": "Kaiming He"
+          },
+          {
+            "authorId": "1771551",
+            "name": "X. Zhang"
+          },
+          {
+            "authorId": "3080683",
+            "name": "Shaoqing Ren"
+          },
+          {
+            "authorId": null,
+            "name": "Jian Sun"
+          }
+        ],
+        "citationCount": 12498,
+        "externalIds": {
+          "ArXiv": "1406.4729",
+          "CorpusId": 436933,
+          "DBLP": "journals/pami/HeZR015",
+          "DOI": "10.1007/978-3-319-10578-9_23",
+          "MAG": "2179352600",
+          "PubMed": "26353135"
+        },
+        "paperId": "cbb19236820a96038d000dc629225d36e0b6294a",
+        "publicationDate": "2014-06-18",
+        "referenceCount": null,
+        "title": "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition",
+        "url": "https://www.semanticscholar.org/paper/cbb19236820a96038d000dc629225d36e0b6294a",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "year": 2014
+      },
+      "index": 16,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "33493200",
+            "name": "Tsung-Yi Lin"
+          },
+          {
+            "authorId": "145854440",
+            "name": "M. Maire"
+          },
+          {
+            "authorId": "50172592",
+            "name": "Serge J. Belongie"
+          },
+          {
+            "authorId": "48966748",
+            "name": "James Hays"
+          },
+          {
+            "authorId": "1690922",
+            "name": "P. Perona"
+          },
+          {
+            "authorId": "1770537",
+            "name": "Deva Ramanan"
+          },
+          {
+            "authorId": "3127283",
+            "name": "Piotr Dollár"
+          },
+          {
+            "authorId": "1699161",
+            "name": "C. L. Zitnick"
+          }
+        ],
+        "citationCount": 52299,
+        "externalIds": {
+          "ArXiv": "1405.0312",
+          "CorpusId": 14113767,
+          "DBLP": "conf/eccv/LinMBHPRDZ14",
+          "DOI": "10.1007/978-3-319-10602-1_48",
+          "MAG": "2952122856"
+        },
+        "paperId": "71b7178df5d2b112d07e45038cb5637208659ff7",
+        "publicationDate": "2014-05-01",
+        "referenceCount": null,
+        "title": "Microsoft COCO: Common Objects in Context",
+        "url": "https://www.semanticscholar.org/paper/71b7178df5d2b112d07e45038cb5637208659ff7",
+        "venue": "European Conference on Computer Vision",
+        "year": 2014
+      },
+      "index": 17,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1784667",
+            "name": "Guido Montúfar"
+          },
+          {
+            "authorId": "1996134",
+            "name": "Razvan Pascanu"
+          },
+          {
+            "authorId": "1979489",
+            "name": "Kyunghyun Cho"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "citationCount": 1391,
+        "externalIds": {
+          "ArXiv": "1402.1869",
+          "CorpusId": 5941770,
+          "DBLP": "conf/nips/MontufarPCB14",
+          "MAG": "2161388792"
+        },
+        "paperId": "b034b5769ab94acf9fb8ae48c7edb560a300bb63",
+        "publicationDate": "2014-02-08",
+        "referenceCount": null,
+        "title": "On the Number of Linear Regions of Deep Neural Networks",
+        "url": "https://www.semanticscholar.org/paper/b034b5769ab94acf9fb8ae48c7edb560a300bb63",
+        "venue": "Neural Information Processing Systems",
+        "year": 2014
+      },
+      "index": 18,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3142556",
+            "name": "P. Sermanet"
+          },
+          {
+            "authorId": "2060028",
+            "name": "D. Eigen"
+          },
+          {
+            "authorId": null,
+            "name": "Xiang Zhang"
+          },
+          {
+            "authorId": "143949035",
+            "name": "Michaël Mathieu"
+          },
+          {
+            "authorId": "2276554",
+            "name": "R. Fergus"
+          },
+          {
+            "authorId": "1688882",
+            "name": "Yann LeCun"
+          }
+        ],
+        "citationCount": 5115,
+        "externalIds": {
+          "ArXiv": "1312.6229",
+          "CorpusId": 4071727,
+          "DBLP": "journals/corr/SermanetEZMFL13",
+          "MAG": "1487583988"
+        },
+        "paperId": "1109b663453e78a59e4f66446d71720ac58cec25",
+        "publicationDate": "2013-12-21",
+        "referenceCount": null,
+        "title": "OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks",
+        "url": "https://www.semanticscholar.org/paper/1109b663453e78a59e4f66446d71720ac58cec25",
+        "venue": "International Conference on Learning Representations",
+        "year": 2013
+      },
+      "index": 19,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "34927843",
+            "name": "Andrew M. Saxe"
+          },
+          {
+            "authorId": "1701656",
+            "name": "James L. McClelland"
+          },
+          {
+            "authorId": "25769960",
+            "name": "S. Ganguli"
+          }
+        ],
+        "citationCount": 2057,
+        "externalIds": {
+          "ArXiv": "1312.6120",
+          "CorpusId": 17272965,
+          "DBLP": "journals/corr/SaxeMG13",
+          "MAG": "2953334419"
+        },
+        "paperId": "99c970348b8f70ce23d6641e201904ea49266b6e",
+        "publicationDate": "2013-12-20",
+        "referenceCount": null,
+        "title": "Exact solutions to the nonlinear dynamics of learning in deep linear neural networks",
+        "url": "https://www.semanticscholar.org/paper/99c970348b8f70ce23d6641e201904ea49266b6e",
+        "venue": "International Conference on Learning Representations",
+        "year": 2013
+      },
+      "index": 20,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2115913164",
+            "name": "Min Lin"
+          },
+          {
+            "authorId": "35370244",
+            "name": "Qiang Chen"
+          },
+          {
+            "authorId": "143653681",
+            "name": "Shuicheng Yan"
+          }
+        ],
+        "citationCount": 6672,
+        "externalIds": {
+          "ArXiv": "1312.4400",
+          "CorpusId": 16636683,
+          "DBLP": "journals/corr/LinCY13",
+          "MAG": "1799366690"
+        },
+        "paperId": "5e83ab70d0cbc003471e87ec306d27d9c80ecb16",
+        "publicationDate": "2013-12-16",
+        "referenceCount": null,
+        "title": "Network In Network",
+        "url": "https://www.semanticscholar.org/paper/5e83ab70d0cbc003471e87ec306d27d9c80ecb16",
+        "venue": "International Conference on Learning Representations",
+        "year": 2013
+      },
+      "index": 21,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "48799969",
+            "name": "Matthew D. Zeiler"
+          },
+          {
+            "authorId": "2276554",
+            "name": "R. Fergus"
+          }
+        ],
+        "citationCount": 554,
+        "externalIds": {
+          "CorpusId": 62099841,
+          "MAG": "2206858481"
+        },
+        "paperId": "fc26b9c1afe81e1b20195123fe6f3ced9520abb6",
+        "publicationDate": "2013-11-12",
+        "referenceCount": null,
+        "title": "Visualizing and Understanding Convolutional Neural Networks",
+        "url": "https://www.semanticscholar.org/paper/fc26b9c1afe81e1b20195123fe6f3ced9520abb6",
+        "venue": "",
+        "year": 2013
+      },
+      "index": 22,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2983898",
+            "name": "Ross B. Girshick"
+          },
+          {
+            "authorId": "7408951",
+            "name": "Jeff Donahue"
+          },
+          {
+            "authorId": "1753210",
+            "name": "Trevor Darrell"
+          },
+          {
+            "authorId": "153652147",
+            "name": "J. Malik"
+          }
+        ],
+        "citationCount": 28840,
+        "externalIds": {
+          "ArXiv": "1311.2524",
+          "CorpusId": 215827080,
+          "DBLP": "journals/corr/GirshickDDM13",
+          "DOI": "10.1109/CVPR.2014.81",
+          "MAG": "2951638509"
+        },
+        "paperId": "2f4df08d9072fc2ac181b7fced6a245315ce05c8",
+        "publicationDate": "2013-11-11",
+        "referenceCount": null,
+        "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+        "url": "https://www.semanticscholar.org/paper/2f4df08d9072fc2ac181b7fced6a245315ce05c8",
+        "venue": "2014 IEEE Conference on Computer Vision and Pattern Recognition",
+        "year": 2013
+      },
+      "index": 23,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "153440022",
+            "name": "I. Goodfellow"
+          },
+          {
+            "authorId": "1393680089",
+            "name": "David Warde-Farley"
+          },
+          {
+            "authorId": "153583218",
+            "name": "Mehdi Mirza"
+          },
+          {
+            "authorId": "1760871",
+            "name": "Aaron C. Courville"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "citationCount": 2245,
+        "externalIds": {
+          "ArXiv": "1302.4389",
+          "CorpusId": 10600578,
+          "DBLP": "conf/icml/GoodfellowWMCB13",
+          "MAG": "3037950864"
+        },
+        "paperId": "b7b915d508987b73b61eccd2b237e7ed099a2d29",
+        "publicationDate": "2013-02-18",
+        "referenceCount": null,
+        "title": "Maxout Networks",
+        "url": "https://www.semanticscholar.org/paper/b7b915d508987b73b61eccd2b237e7ed099a2d29",
+        "venue": "International Conference on Machine Learning",
+        "year": 2013
+      },
+      "index": 24,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1837700",
+            "name": "T. Vatanen"
+          },
+          {
+            "authorId": "2785022",
+            "name": "T. Raiko"
+          },
+          {
+            "authorId": "2132516",
+            "name": "Harri Valpola"
+          },
+          {
+            "authorId": "1688882",
+            "name": "Yann LeCun"
+          }
+        ],
+        "citationCount": 34,
+        "externalIds": {
+          "ArXiv": "1301.3476",
+          "CorpusId": 8739352,
+          "DBLP": "journals/corr/abs-1301-3476",
+          "DOI": "10.1007/978-3-642-42054-2_55",
+          "MAG": "2953236079"
+        },
+        "paperId": "f72c079d9179cfaada1135a7e4c77d48b6309a30",
+        "publicationDate": "2013-01-15",
+        "referenceCount": null,
+        "title": "Pushing Stochastic Gradient towards Second-Order Methods -- Backpropagation Learning with Transformations in Nonlinearities",
+        "url": "https://www.semanticscholar.org/paper/f72c079d9179cfaada1135a7e4c77d48b6309a30",
+        "venue": "International Conference on Learning Representations",
+        "year": 2013
+      },
+      "index": 25,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2064160",
+            "name": "A. Krizhevsky"
+          },
+          {
+            "authorId": "1701686",
+            "name": "I. Sutskever"
+          },
+          {
+            "authorId": "1695689",
+            "name": "Geoffrey E. Hinton"
+          }
+        ],
+        "citationCount": 128674,
+        "externalIds": {
+          "CorpusId": 195908774,
+          "DBLP": "conf/nips/KrizhevskySH12",
+          "DOI": "10.1145/3065386",
+          "MAG": "2618530766"
+        },
+        "paperId": "abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+        "publicationDate": "2012-12-03",
+        "referenceCount": null,
+        "title": "ImageNet classification with deep convolutional neural networks",
+        "url": "https://www.semanticscholar.org/paper/abd1c342495432171beb7ca8fd9551ef13cbd0ff",
+        "venue": "Communications of the ACM",
+        "year": 2012
+      },
+      "index": 26,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1681054",
+            "name": "H. Jégou"
+          },
+          {
+            "authorId": "1723883",
+            "name": "Florent Perronnin"
+          },
+          {
+            "authorId": "3271933",
+            "name": "Matthijs Douze"
+          },
+          {
+            "authorId": "143995443",
+            "name": "Jorge Sánchez"
+          },
+          {
+            "authorId": "144565371",
+            "name": "P. Pérez"
+          },
+          {
+            "authorId": "2462253",
+            "name": "C. Schmid"
+          }
+        ],
+        "citationCount": 1657,
+        "externalIds": {
+          "CorpusId": 9437674,
+          "DBLP": "journals/pami/JegouPDSPS12",
+          "DOI": "10.1109/TPAMI.2011.235",
+          "MAG": "1984309565",
+          "PubMed": "22156101"
+        },
+        "paperId": "5183230b706b72f6f6c19415c423d93c79ddde53",
+        "publicationDate": "2012-09-01",
+        "referenceCount": null,
+        "title": "Aggregating Local Image Descriptors into Compact Codes",
+        "url": "https://www.semanticscholar.org/paper/5183230b706b72f6f6c19415c423d93c79ddde53",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "year": 2012
+      },
+      "index": 27,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1695689",
+            "name": "Geoffrey E. Hinton"
+          },
+          {
+            "authorId": "2897313",
+            "name": "Nitish Srivastava"
+          },
+          {
+            "authorId": "2064160",
+            "name": "A. Krizhevsky"
+          },
+          {
+            "authorId": "1701686",
+            "name": "I. Sutskever"
+          },
+          {
+            "authorId": "145124475",
+            "name": "R. Salakhutdinov"
+          }
+        ],
+        "citationCount": 7988,
+        "externalIds": {
+          "ArXiv": "1207.0580",
+          "CorpusId": 14832074,
+          "DBLP": "journals/corr/abs-1207-0580",
+          "MAG": "1904365287"
+        },
+        "paperId": "0060745e006c5f14ec326904119dca19c6545e51",
+        "publicationDate": "2012-07-02",
+        "referenceCount": null,
+        "title": "Improving neural networks by preventing co-adaptation of feature detectors",
+        "url": "https://www.semanticscholar.org/paper/0060745e006c5f14ec326904119dca19c6545e51",
+        "venue": "arXiv.org",
+        "year": 2012
+      },
+      "index": 28,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2785022",
+            "name": "T. Raiko"
+          },
+          {
+            "authorId": "2132516",
+            "name": "Harri Valpola"
+          },
+          {
+            "authorId": "1688882",
+            "name": "Yann LeCun"
+          }
+        ],
+        "citationCount": 211,
+        "externalIds": {
+          "CorpusId": 2204994,
+          "DBLP": "journals/jmlr/RaikoVL12",
+          "MAG": "2152424459"
+        },
+        "paperId": "b8ef1230a5cc9ea7cd8358f1ae7d1af97813ba14",
+        "publicationDate": "2012-03-21",
+        "referenceCount": null,
+        "title": "Deep Learning Made Easier by Linear Transformations in Perceptrons",
+        "url": "https://www.semanticscholar.org/paper/b8ef1230a5cc9ea7cd8358f1ae7d1af97813ba14",
+        "venue": "International Conference on Artificial Intelligence and Statistics",
+        "year": 2012
+      },
+      "index": 29,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1687524",
+            "name": "A. Vedaldi"
+          },
+          {
+            "authorId": "2487006",
+            "name": "B. Fulkerson"
+          }
+        ],
+        "citationCount": 3521,
+        "externalIds": {
+          "CorpusId": 1458265,
+          "DBLP": "conf/mm/VedaldiF10",
+          "DOI": "10.1145/1873951.1874249",
+          "MAG": "2066941820"
+        },
+        "paperId": "d720a95e1501922ea17ee31f299f43b2db5e15ef",
+        "publicationDate": "2010-10-25",
+        "referenceCount": null,
+        "title": "Vlfeat: an open and portable library of computer vision algorithms",
+        "url": "https://www.semanticscholar.org/paper/d720a95e1501922ea17ee31f299f43b2db5e15ef",
+        "venue": "ACM Multimedia",
+        "year": 2010
+      },
+      "index": 30,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2073603971",
+            "name": "Vinod Nair"
+          },
+          {
+            "authorId": "1695689",
+            "name": "Geoffrey E. Hinton"
+          }
+        ],
+        "citationCount": 18638,
+        "externalIds": {
+          "CorpusId": 15539264,
+          "DBLP": "conf/icml/NairH10",
+          "MAG": "1665214252"
+        },
+        "paperId": "a538b05ebb01a40323997629e171c91aa28b8e2f",
+        "publicationDate": "2010-06-21",
+        "referenceCount": null,
+        "title": "Rectified Linear Units Improve Restricted Boltzmann Machines",
+        "url": "https://www.semanticscholar.org/paper/a538b05ebb01a40323997629e171c91aa28b8e2f",
+        "venue": "International Conference on Machine Learning",
+        "year": 2010
+      },
+      "index": 31,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3056091",
+            "name": "M. Everingham"
+          },
+          {
+            "authorId": "2246990749",
+            "name": "L. V. Gool"
+          },
+          {
+            "authorId": "2248834687",
+            "name": "Christopher K. I. Williams"
+          },
+          {
+            "authorId": "33652486",
+            "name": "J. Winn"
+          },
+          {
+            "authorId": "2252432062",
+            "name": "A. Zisserman"
+          }
+        ],
+        "citationCount": 16072,
+        "externalIds": {
+          "CorpusId": 4246903,
+          "DBLP": "journals/ijcv/EveringhamGWWZ10",
+          "DOI": "10.1007/s11263-009-0275-4",
+          "MAG": "2031489346"
+        },
+        "paperId": "3a9b175324ba11bc0e16c0633912d897b2fac4e2",
+        "publicationDate": "2010-06-01",
+        "referenceCount": null,
+        "title": "The Pascal Visual Object Classes (VOC) Challenge",
+        "url": "https://www.semanticscholar.org/paper/3a9b175324ba11bc0e16c0633912d897b2fac4e2",
+        "venue": "International Journal of Computer Vision",
+        "year": 2010
+      },
+      "index": 32,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3119801",
+            "name": "Xavier Glorot"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "citationCount": 19146,
+        "externalIds": {
+          "CorpusId": 5575601,
+          "DBLP": "journals/jmlr/GlorotB10",
+          "MAG": "2606251538"
+        },
+        "paperId": "ea9d2a2b4ce11aaf85136840c65f3bc9c03ab649",
+        "publicationDate": "2010-03-31",
+        "referenceCount": null,
+        "title": "Understanding the difficulty of training deep feedforward neural networks",
+        "url": "https://www.semanticscholar.org/paper/ea9d2a2b4ce11aaf85136840c65f3bc9c03ab649",
+        "venue": "International Conference on Artificial Intelligence and Statistics",
+        "year": 2010
+      },
+      "index": 33,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2059358552",
+            "name": "P. Cochat"
+          },
+          {
+            "authorId": "13267685",
+            "name": "L. Vaucoret"
+          },
+          {
+            "authorId": "2097644863",
+            "name": "J. Sarles"
+          }
+        ],
+        "citationCount": 74475,
+        "externalIds": {
+          "CorpusId": 11759366,
+          "DOI": "10.1136/ebmh.11.4.102",
+          "PubMed": "22365577"
+        },
+        "paperId": "bc6dff14a130c57a91d5a21339c23471faf1d46f",
+        "publicationDate": "2008-10-24",
+        "referenceCount": null,
+        "title": "Et al",
+        "url": "https://www.semanticscholar.org/paper/bc6dff14a130c57a91d5a21339c23471faf1d46f",
+        "venue": "Archives de pédiatrie",
+        "year": 2008
+      },
+      "index": 34,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1723883",
+            "name": "Florent Perronnin"
+          },
+          {
+            "authorId": "3344005",
+            "name": "C. Dance"
+          }
+        ],
+        "citationCount": 1803,
+        "externalIds": {
+          "CorpusId": 12795415,
+          "DBLP": "conf/cvpr/PerronninD07",
+          "DOI": "10.1109/CVPR.2007.383266",
+          "MAG": "2147238549"
+        },
+        "paperId": "23694b6d61668e62bb11f17c1d75dde3b4951948",
+        "publicationDate": "2007-06-17",
+        "referenceCount": null,
+        "title": "Fisher Kernels on Visual Vocabularies for Image Categorization",
+        "url": "https://www.semanticscholar.org/paper/23694b6d61668e62bb11f17c1d75dde3b4951948",
+        "venue": "2007 IEEE Conference on Computer Vision and Pattern Recognition",
+        "year": 2007
+      },
+      "index": 35,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1717841",
+            "name": "R. Szeliski"
+          }
+        ],
+        "citationCount": 124,
+        "externalIds": {
+          "CorpusId": 835779,
+          "DBLP": "journals/tog/Szeliski06",
+          "DOI": "10.1145/1179352.1142005",
+          "MAG": "2022532533"
+        },
+        "paperId": "4f04da90218f8ddfa3a758188edade8c7bd95ac1",
+        "publicationDate": "2006-07-01",
+        "referenceCount": null,
+        "title": "Locally adapted hierarchical basis preconditioning",
+        "url": "https://www.semanticscholar.org/paper/4f04da90218f8ddfa3a758188edade8c7bd95ac1",
+        "venue": "ACM Transactions on Graphics",
+        "year": 2006
+      },
+      "index": 36,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "35180917",
+            "name": "W. Briggs"
+          },
+          {
+            "authorId": "65844783",
+            "name": "V. Henson"
+          },
+          {
+            "authorId": "26529098",
+            "name": "S. McCormick"
+          }
+        ],
+        "citationCount": 1308,
+        "externalIds": {
+          "CorpusId": 58982102,
+          "DBLP": "books/daglib/0002128",
+          "DOI": "10.1137/1.9780898719505",
+          "MAG": "1997542937"
+        },
+        "paperId": "1bd875676fe49f83d431500cea908da1bdf068da",
+        "publicationDate": "2000-06-01",
+        "referenceCount": null,
+        "title": "A multigrid tutorial, Second Edition",
+        "url": "https://www.semanticscholar.org/paper/1bd875676fe49f83d431500cea908da1bdf068da",
+        "venue": "",
+        "year": 2000
+      },
+      "index": 37,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1739396",
+            "name": "N. Schraudolph"
+          }
+        ],
+        "citationCount": 32,
+        "externalIds": {
+          "CorpusId": 14135490,
+          "DOI": "10.3929/ETHZ-A-004263473",
+          "MAG": "2139398462"
+        },
+        "paperId": "5763bd6b3f24a01c3bc7cd15d3c916b4840b759d",
+        "publicationDate": "1998-05-20",
+        "referenceCount": null,
+        "title": "Accelerated Gradient Descent by Factor-Centering Decomposition",
+        "url": "https://www.semanticscholar.org/paper/5763bd6b3f24a01c3bc7cd15d3c916b4840b759d",
+        "venue": "",
+        "year": 1998
+      },
+      "index": 38,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3308557",
+            "name": "Sepp Hochreiter"
+          },
+          {
+            "authorId": "145341374",
+            "name": "J. Schmidhuber"
+          }
+        ],
+        "citationCount": 104180,
+        "externalIds": {
+          "CorpusId": 1915014,
+          "DBLP": "journals/neco/HochreiterS97",
+          "DOI": "10.1162/neco.1997.9.8.1735",
+          "MAG": "2064675550",
+          "PubMed": "9377276"
+        },
+        "paperId": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+        "publicationDate": "1997-11-01",
+        "referenceCount": null,
+        "title": "Long Short-Term Memory",
+        "url": "https://www.semanticscholar.org/paper/2e9d221c206e9503ceb452302d68d10e293f2a10",
+        "venue": "Neural Computation",
+        "year": 1997
+      },
+      "index": 39,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "38883832",
+            "name": "W. Venables"
+          },
+          {
+            "authorId": "2122942",
+            "name": "B. Ripley"
+          }
+        ],
+        "citationCount": 4553,
+        "externalIds": {
+          "CorpusId": 61844108,
+          "DOI": "10.2307/2532871",
+          "MAG": "2797624385"
+        },
+        "paperId": "1f711685bfe9e67d6afe0d5a3cb6675c310237d6",
+        "publicationDate": "1996-12-01",
+        "referenceCount": null,
+        "title": "Modern Applied Statistics with S-Plus.",
+        "url": "https://www.semanticscholar.org/paper/1f711685bfe9e67d6afe0d5a3cb6675c310237d6",
+        "venue": "",
+        "year": 1996
+      },
+      "index": 40,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          },
+          {
+            "authorId": "2812486",
+            "name": "P. Simard"
+          },
+          {
+            "authorId": "1688235",
+            "name": "P. Frasconi"
+          }
+        ],
+        "citationCount": 8981,
+        "externalIds": {
+          "CorpusId": 206457500,
+          "DBLP": "journals/tnn/BengioSF94",
+          "DOI": "10.1109/72.279181",
+          "MAG": "2107878631",
+          "PubMed": "18267787"
+        },
+        "paperId": "d0be39ee052d246ae99c082a565aba25b811be2d",
+        "publicationDate": "1994-03-01",
+        "referenceCount": null,
+        "title": "Learning long-term dependencies with gradient descent is difficult",
+        "url": "https://www.semanticscholar.org/paper/d0be39ee052d246ae99c082a565aba25b811be2d",
+        "venue": "IEEE Trans. Neural Networks",
+        "year": 1994
+      },
+      "index": 41,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1688882",
+            "name": "Yann LeCun"
+          },
+          {
+            "authorId": "2219581",
+            "name": "B. Boser"
+          },
+          {
+            "authorId": "1747317",
+            "name": "J. Denker"
+          },
+          {
+            "authorId": "37274089",
+            "name": "D. Henderson"
+          },
+          {
+            "authorId": "2799635",
+            "name": "R. Howard"
+          },
+          {
+            "authorId": "34859193",
+            "name": "W. Hubbard"
+          },
+          {
+            "authorId": "2041866",
+            "name": "L. Jackel"
+          }
+        ],
+        "citationCount": 12038,
+        "externalIds": {
+          "CorpusId": 41312633,
+          "DBLP": "journals/neco/LeCunBDHHHJ89",
+          "DOI": "10.1162/neco.1989.1.4.541",
+          "MAG": "2147800946"
+        },
+        "paperId": "a8e8f3c8d4418c8d62e306538c9c1292635e9d27",
+        "publicationDate": "1989-12-01",
+        "referenceCount": null,
+        "title": "Backpropagation Applied to Handwritten Zip Code Recognition",
+        "url": "https://www.semanticscholar.org/paper/a8e8f3c8d4418c8d62e306538c9c1292635e9d27",
+        "venue": "Neural Computation",
+        "year": 1989
+      },
+      "index": 42,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1717841",
+            "name": "R. Szeliski"
+          }
+        ],
+        "citationCount": 205,
+        "externalIds": {
+          "CorpusId": 6245009,
+          "DBLP": "conf/cvpr/Szeliski89",
+          "DOI": "10.1109/CVPR.1989.37853",
+          "MAG": "2567422056"
+        },
+        "paperId": "1efc5a54a4b3f4675bee194ee5842978e45a5bc2",
+        "publicationDate": "1989-06-04",
+        "referenceCount": null,
+        "title": "Fast surface interpolation using hierarchical basis functions",
+        "url": "https://www.semanticscholar.org/paper/1efc5a54a4b3f4675bee194ee5842978e45a5bc2",
+        "venue": "Proceedings CVPR '89: IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+        "year": 1989
+      },
+      "index": 43,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1688882",
+            "name": "Yann LeCun"
+          },
+          {
+            "authorId": "52184096",
+            "name": "L. Bottou"
+          },
+          {
+            "authorId": "34782608",
+            "name": "Genevieve B. Orr"
+          },
+          {
+            "authorId": "145034054",
+            "name": "K. Müller"
+          }
+        ],
+        "citationCount": 3465,
+        "externalIds": {
+          "CorpusId": 20158889,
+          "DBLP": "series/lncs/LeCunBOM12",
+          "DOI": "10.1007/978-3-642-35289-8_3",
+          "MAG": "2783747228"
+        },
+        "paperId": "b87274e6d9aa4e6ba5148898aa92941617d2b6ed",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Efficient BackProp",
+        "url": "https://www.semanticscholar.org/paper/b87274e6d9aa4e6ba5148898aa92941617d2b6ed",
+        "venue": "Neural Networks",
+        "year": 2012
+      },
+      "index": 44,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1681054",
+            "name": "H. Jégou"
+          },
+          {
+            "authorId": "3271933",
+            "name": "Matthijs Douze"
+          },
+          {
+            "authorId": "2462253",
+            "name": "C. Schmid"
+          }
+        ],
+        "citationCount": 3393,
+        "externalIds": {
+          "CorpusId": 5850884,
+          "DBLP": "journals/pami/JegouDS11",
+          "DOI": "10.1109/TPAMI.2010.57",
+          "MAG": "2124509324",
+          "PubMed": "21088323"
+        },
+        "paperId": "4748d22348e72e6e06c2476486afddbc76e5eca7",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Product Quantization for Nearest Neighbor Search",
+        "url": "https://www.semanticscholar.org/paper/4748d22348e72e6e06c2476486afddbc76e5eca7",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "year": 2011
+      },
+      "index": 45,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1764761",
+            "name": "Ken Chatfield"
+          },
+          {
+            "authorId": "1740145",
+            "name": "V. Lempitsky"
+          },
+          {
+            "authorId": "1687524",
+            "name": "A. Vedaldi"
+          },
+          {
+            "authorId": "1688869",
+            "name": "Andrew Zisserman"
+          }
+        ],
+        "citationCount": 953,
+        "externalIds": {
+          "CorpusId": 13126996,
+          "DBLP": "conf/bmvc/ChatfieldLVZ11",
+          "DOI": "10.5244/C.25.76",
+          "MAG": "1976921161"
+        },
+        "paperId": "7b7908f71188b89adf62ce9126a0466e1a34338f",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The devil is in the details: an evaluation of recent feature encoding methods",
+        "url": "https://www.semanticscholar.org/paper/7b7908f71188b89adf62ce9126a0466e1a34338f",
+        "venue": "British Machine Vision Conference",
+        "year": 2011
+      },
+      "index": 46,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2064160",
+            "name": "A. Krizhevsky"
+          }
+        ],
+        "citationCount": 41917,
+        "externalIds": {
+          "CorpusId": 18268744,
+          "MAG": "2945315962"
+        },
+        "paperId": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Learning Multiple Layers of Features from Tiny Images",
+        "url": "https://www.semanticscholar.org/paper/5d90f06bb70a0a3dced62413346235c02b1aa086",
+        "venue": "",
+        "year": 2009
+      },
+      "index": 47,
+      "intents": [
+        "result",
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1739396",
+            "name": "N. Schraudolph"
+          }
+        ],
+        "citationCount": 66,
+        "externalIds": {
+          "CorpusId": 2226276,
+          "DBLP": "conf/nips/Schraudolph96",
+          "DOI": "10.1007/3-540-49430-8_11",
+          "MAG": "2986790716"
+        },
+        "paperId": "75a026ddfdd9c219d69fe8af816f085ea1b3877d",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Centering Neural Network Gradient Factors",
+        "url": "https://www.semanticscholar.org/paper/75a026ddfdd9c219d69fe8af816f085ea1b3877d",
+        "venue": "Neural Networks",
+        "year": 1996
+      },
+      "index": 48,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1688882",
+            "name": "Yann LeCun"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "citationCount": 4601,
+        "externalIds": {
+          "CorpusId": 9584248,
+          "MAG": "1538142388"
+        },
+        "paperId": "bf7e1b6997433dcb2121b07cce1de1c61471ff2d",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Pattern Recognition and Neural Networks",
+        "url": "https://www.semanticscholar.org/paper/bf7e1b6997433dcb2121b07cce1de1c61471ff2d",
+        "venue": "",
+        "year": 1995
+      },
+      "index": 49,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "66219956",
+            "name": "Franziska Wulf"
+          }
+        ],
+        "citationCount": 16982,
+        "externalIds": {
+          "CorpusId": 177751,
+          "DOI": "10.1016/S0065-2458(08)60404-0"
+        },
+        "paperId": "83b6755242f1cff6bacf270f65b4626d4d118f32",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Neural Networks for Pattern Recognition",
+        "url": "https://www.semanticscholar.org/paper/83b6755242f1cff6bacf270f65b4626d4d118f32",
+        "venue": "Advances in Computing",
+        "year": 1993
+      },
+      "index": 50,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2066667188",
+            "name": "Sepp Hochreiter"
+          }
+        ],
+        "citationCount": 822,
+        "externalIds": {
+          "CorpusId": 60091947,
+          "MAG": "194249466"
+        },
+        "paperId": "3f3d13e95c25a8f6a753e38dfce88885097cbd43",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Untersuchungen zu dynamischen neuronalen Netzen",
+        "url": "https://www.semanticscholar.org/paper/3f3d13e95c25a8f6a753e38dfce88885097cbd43",
+        "venue": "",
+        "year": 1991
+      },
+      "index": 51,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "35180917",
+            "name": "W. Briggs"
+          }
+        ],
+        "citationCount": 2708,
+        "externalIds": {
+          "CorpusId": 33704151,
+          "DBLP": "books/daglib/0000904",
+          "MAG": "1530872699"
+        },
+        "paperId": "8a2384ff41dc2c337e6aaacbcfd13f74e0e2f1ea",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "A multigrid tutorial",
+        "url": "https://www.semanticscholar.org/paper/8a2384ff41dc2c337e6aaacbcfd13f74e0e2f1ea",
+        "venue": "",
+        "year": 1987
+      },
+      "index": 52,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    }
+  ],
+  "source": {
+    "authors": [
+      {
+        "authorId": "39353098",
+        "name": "Kaiming He"
+      },
+      {
+        "authorId": "1771551",
+        "name": "X. Zhang"
+      },
+      {
+        "authorId": "3080683",
+        "name": "Shaoqing Ren"
+      },
+      {
+        "authorId": null,
+        "name": "Jian Sun"
+      }
+    ],
+    "citationCount": 227384,
+    "externalIds": {
+      "ArXiv": "1512.03385",
+      "CorpusId": 206594692,
+      "DBLP": "conf/cvpr/HeZRS16",
+      "DOI": "10.1109/cvpr.2016.90",
+      "MAG": "2949650786"
+    },
+    "paperId": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+    "publicationDate": "2015-12-10",
+    "referenceCount": 53,
+    "title": "Deep Residual Learning for Image Recognition",
+    "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+    "venue": "Computer Vision and Pattern Recognition",
+    "year": 2015
+  }
+}

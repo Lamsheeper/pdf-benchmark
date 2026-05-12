@@ -1,0 +1,1759 @@
+{
+  "pdf": "pdfs/1706.03762v7.pdf",
+  "queryId": "ARXIV:1706.03762",
+  "referenceCount": 41,
+  "references": [
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2896063",
+            "name": "Romain Paulus"
+          },
+          {
+            "authorId": "2228109",
+            "name": "Caiming Xiong"
+          },
+          {
+            "authorId": "2166511",
+            "name": "R. Socher"
+          }
+        ],
+        "citationCount": 1652,
+        "externalIds": {
+          "ArXiv": "1705.04304",
+          "CorpusId": 21850704,
+          "DBLP": "journals/corr/PaulusXS17",
+          "MAG": "2612675303"
+        },
+        "paperId": "032274e57f7d8b456bd255fe76b909b2c1d7458e",
+        "publicationDate": "2017-05-11",
+        "referenceCount": null,
+        "title": "A Deep Reinforced Model for Abstractive Summarization",
+        "url": "https://www.semanticscholar.org/paper/032274e57f7d8b456bd255fe76b909b2c1d7458e",
+        "venue": "International Conference on Learning Representations",
+        "year": 2017
+      },
+      "index": 0,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2401865",
+            "name": "Jonas Gehring"
+          },
+          {
+            "authorId": "2325985",
+            "name": "Michael Auli"
+          },
+          {
+            "authorId": "2529182",
+            "name": "David Grangier"
+          },
+          {
+            "authorId": "13759615",
+            "name": "Denis Yarats"
+          },
+          {
+            "authorId": "2921469",
+            "name": "Yann Dauphin"
+          }
+        ],
+        "citationCount": 3519,
+        "externalIds": {
+          "ArXiv": "1705.03122",
+          "CorpusId": 3648736,
+          "DBLP": "journals/corr/GehringAGYD17",
+          "MAG": "2950686565"
+        },
+        "paperId": "43428880d75b3a14257c3ee9bda054e61eb869c0",
+        "publicationDate": "2017-05-08",
+        "referenceCount": null,
+        "title": "Convolutional Sequence to Sequence Learning",
+        "url": "https://www.semanticscholar.org/paper/43428880d75b3a14257c3ee9bda054e61eb869c0",
+        "venue": "International Conference on Machine Learning",
+        "year": 2017
+      },
+      "index": 1,
+      "intents": [
+        "result",
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3908643",
+            "name": "D. Britz"
+          },
+          {
+            "authorId": "46684455",
+            "name": "Anna Goldie"
+          },
+          {
+            "authorId": "1707242",
+            "name": "Minh-Thang Luong"
+          },
+          {
+            "authorId": "2827616",
+            "name": "Quoc V. Le"
+          }
+        ],
+        "citationCount": 543,
+        "externalIds": {
+          "ACL": "D17-1151",
+          "ArXiv": "1703.03906",
+          "CorpusId": 2201909,
+          "DBLP": "journals/corr/BritzGLL17",
+          "DOI": "10.18653/v1/D17-1151",
+          "MAG": "2952564229"
+        },
+        "paperId": "4550a4c714920ef57d19878e31c9ebae37b049b2",
+        "publicationDate": "2017-03-11",
+        "referenceCount": null,
+        "title": "Massive Exploration of Neural Machine Translation Architectures",
+        "url": "https://www.semanticscholar.org/paper/4550a4c714920ef57d19878e31c9ebae37b049b2",
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "year": 2017
+      },
+      "index": 2,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3146592",
+            "name": "Zhouhan Lin"
+          },
+          {
+            "authorId": "2521552",
+            "name": "Minwei Feng"
+          },
+          {
+            "authorId": "1790831",
+            "name": "C. D. Santos"
+          },
+          {
+            "authorId": "2482533",
+            "name": "Mo Yu"
+          },
+          {
+            "authorId": "144028698",
+            "name": "Bing Xiang"
+          },
+          {
+            "authorId": "145218984",
+            "name": "Bowen Zhou"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "citationCount": 2284,
+        "externalIds": {
+          "ArXiv": "1703.03130",
+          "CorpusId": 15280949,
+          "DBLP": "conf/iclr/LinFSYXZB17",
+          "MAG": "2963386218"
+        },
+        "paperId": "204a4a70428f3938d2c538a4d74c7ae0416306d8",
+        "publicationDate": "2017-03-09",
+        "referenceCount": null,
+        "title": "A Structured Self-attentive Sentence Embedding",
+        "url": "https://www.semanticscholar.org/paper/204a4a70428f3938d2c538a4d74c7ae0416306d8",
+        "venue": "International Conference on Learning Representations",
+        "year": 2017
+      },
+      "index": 3,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2787022",
+            "name": "Oleksii Kuchaiev"
+          },
+          {
+            "authorId": "31963005",
+            "name": "Boris Ginsburg"
+          }
+        ],
+        "citationCount": 122,
+        "externalIds": {
+          "ArXiv": "1703.10722",
+          "CorpusId": 3570621,
+          "DBLP": "conf/iclr/KuchaievG17",
+          "MAG": "2963385194"
+        },
+        "paperId": "79baf48bd560060549998d7b61751286de062e2a",
+        "publicationDate": "2017-02-17",
+        "referenceCount": null,
+        "title": "Factorization tricks for LSTM networks",
+        "url": "https://www.semanticscholar.org/paper/79baf48bd560060549998d7b61751286de062e2a",
+        "venue": "International Conference on Learning Representations",
+        "year": 2017
+      },
+      "index": 4,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "38367242",
+            "name": "Yoon Kim"
+          },
+          {
+            "authorId": "47472547",
+            "name": "Carl Denton"
+          },
+          {
+            "authorId": "144294755",
+            "name": "Luong Hoang"
+          },
+          {
+            "authorId": "2531268",
+            "name": "Alexander M. Rush"
+          }
+        ],
+        "citationCount": 489,
+        "externalIds": {
+          "ArXiv": "1702.00887",
+          "CorpusId": 6961760,
+          "DBLP": "conf/iclr/KimDHR17",
+          "MAG": "2949847915"
+        },
+        "paperId": "13d9323a8716131911bfda048a40e2cde1a76a46",
+        "publicationDate": "2017-02-03",
+        "referenceCount": null,
+        "title": "Structured Attention Networks",
+        "url": "https://www.semanticscholar.org/paper/13d9323a8716131911bfda048a40e2cde1a76a46",
+        "venue": "International Conference on Learning Representations",
+        "year": 2017
+      },
+      "index": 5,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1846258",
+            "name": "Noam Shazeer"
+          },
+          {
+            "authorId": "1861312",
+            "name": "Azalia Mirhoseini"
+          },
+          {
+            "authorId": "2275364713",
+            "name": "Krzysztof Maziarz"
+          },
+          {
+            "authorId": "36347083",
+            "name": "Andy Davis"
+          },
+          {
+            "authorId": "2827616",
+            "name": "Quoc V. Le"
+          },
+          {
+            "authorId": "1695689",
+            "name": "Geoffrey E. Hinton"
+          },
+          {
+            "authorId": "48448318",
+            "name": "J. Dean"
+          }
+        ],
+        "citationCount": 4491,
+        "externalIds": {
+          "ArXiv": "1701.06538",
+          "CorpusId": 12462234,
+          "DBLP": "journals/corr/ShazeerMMDLHD17",
+          "MAG": "2952339051"
+        },
+        "paperId": "510e26733aaff585d65701b9f1be7ca9d5afc586",
+        "publicationDate": "2017-01-23",
+        "referenceCount": null,
+        "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+        "url": "https://www.semanticscholar.org/paper/510e26733aaff585d65701b9f1be7ca9d5afc586",
+        "venue": "International Conference on Learning Representations",
+        "year": 2017
+      },
+      "index": 6,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2583391",
+            "name": "Nal Kalchbrenner"
+          },
+          {
+            "authorId": "2311318",
+            "name": "L. Espeholt"
+          },
+          {
+            "authorId": "34838386",
+            "name": "K. Simonyan"
+          },
+          {
+            "authorId": "3422336",
+            "name": "Aäron van den Oord"
+          },
+          {
+            "authorId": "1753223",
+            "name": "Alex Graves"
+          },
+          {
+            "authorId": "2645384",
+            "name": "K. Kavukcuoglu"
+          }
+        ],
+        "citationCount": 578,
+        "externalIds": {
+          "ArXiv": "1610.10099",
+          "CorpusId": 13895969,
+          "DBLP": "journals/corr/KalchbrennerESO16",
+          "MAG": "2540404261"
+        },
+        "paperId": "98445f4172659ec5e891e031d8202c102135c644",
+        "publicationDate": "2016-10-31",
+        "referenceCount": null,
+        "title": "Neural Machine Translation in Linear Time",
+        "url": "https://www.semanticscholar.org/paper/98445f4172659ec5e891e031d8202c102135c644",
+        "venue": "arXiv.org",
+        "year": 2016
+      },
+      "index": 7,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "40527594",
+            "name": "Lukasz Kaiser"
+          },
+          {
+            "authorId": "1751569",
+            "name": "Samy Bengio"
+          }
+        ],
+        "citationCount": 60,
+        "externalIds": {
+          "ArXiv": "1610.08613",
+          "CorpusId": 11250862,
+          "DBLP": "journals/corr/KaiserB16",
+          "MAG": "2545625743"
+        },
+        "paperId": "735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+        "publicationDate": "2016-10-27",
+        "referenceCount": null,
+        "title": "Can Active Memory Replace Attention?",
+        "url": "https://www.semanticscholar.org/paper/735d547fc75e0772d2a78c46a1cc5fad7da1474c",
+        "venue": "Neural Information Processing Systems",
+        "year": 2016
+      },
+      "index": 8,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1565641737",
+            "name": "François Chollet"
+          }
+        ],
+        "citationCount": 17584,
+        "externalIds": {
+          "ArXiv": "1610.02357",
+          "CorpusId": 2375110,
+          "DBLP": "conf/cvpr/Chollet17",
+          "DOI": "10.1109/CVPR.2017.195",
+          "MAG": "2531409750"
+        },
+        "paperId": "5b6ec746d309b165f9f9def873a2375b6fb40f3d",
+        "publicationDate": "2016-10-07",
+        "referenceCount": null,
+        "title": "Xception: Deep Learning with Depthwise Separable Convolutions",
+        "url": "https://www.semanticscholar.org/paper/5b6ec746d309b165f9f9def873a2375b6fb40f3d",
+        "venue": "Computer Vision and Pattern Recognition",
+        "year": 2016
+      },
+      "index": 9,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "48607963",
+            "name": "Yonghui Wu"
+          },
+          {
+            "authorId": "144927151",
+            "name": "M. Schuster"
+          },
+          {
+            "authorId": "2545358",
+            "name": "Z. Chen"
+          },
+          {
+            "authorId": "2827616",
+            "name": "Quoc V. Le"
+          },
+          {
+            "authorId": "144739074",
+            "name": "Mohammad Norouzi"
+          },
+          {
+            "authorId": "3153147",
+            "name": "Wolfgang Macherey"
+          },
+          {
+            "authorId": "2048712",
+            "name": "M. Krikun"
+          },
+          {
+            "authorId": "145144022",
+            "name": "Yuan Cao"
+          },
+          {
+            "authorId": "145312180",
+            "name": "Qin Gao"
+          },
+          {
+            "authorId": "113439369",
+            "name": "Klaus Macherey"
+          },
+          {
+            "authorId": "2367620",
+            "name": "J. Klingner"
+          },
+          {
+            "authorId": "145825976",
+            "name": "Apurva Shah"
+          },
+          {
+            "authorId": "145657834",
+            "name": "Melvin Johnson"
+          },
+          {
+            "authorId": "2109059862",
+            "name": "Xiaobing Liu"
+          },
+          {
+            "authorId": "40527594",
+            "name": "Lukasz Kaiser"
+          },
+          {
+            "authorId": "2776283",
+            "name": "Stephan Gouws"
+          },
+          {
+            "authorId": "2739610",
+            "name": "Yoshikiyo Kato"
+          },
+          {
+            "authorId": "1765329",
+            "name": "Taku Kudo"
+          },
+          {
+            "authorId": "1754386",
+            "name": "H. Kazawa"
+          },
+          {
+            "authorId": "144077726",
+            "name": "K. Stevens"
+          },
+          {
+            "authorId": "1753079661",
+            "name": "George Kurian"
+          },
+          {
+            "authorId": "2056800684",
+            "name": "Nishant Patil"
+          },
+          {
+            "authorId": "49337181",
+            "name": "Wei Wang"
+          },
+          {
+            "authorId": "39660914",
+            "name": "C. Young"
+          },
+          {
+            "authorId": "2119125158",
+            "name": "Jason R. Smith"
+          },
+          {
+            "authorId": "2909504",
+            "name": "Jason Riesa"
+          },
+          {
+            "authorId": "29951847",
+            "name": "Alex Rudnick"
+          },
+          {
+            "authorId": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "authorId": "32131713",
+            "name": "G. Corrado"
+          },
+          {
+            "authorId": "48342565",
+            "name": "Macduff Hughes"
+          },
+          {
+            "authorId": "49959210",
+            "name": "J. Dean"
+          }
+        ],
+        "citationCount": 7238,
+        "externalIds": {
+          "ArXiv": "1609.08144",
+          "CorpusId": 3603249,
+          "DBLP": "journals/corr/WuSCLNMKCGMKSJL16",
+          "MAG": "2525778437"
+        },
+        "paperId": "c6850869aa5e78a107c378d2e8bfa39633158c0c",
+        "publicationDate": "2016-09-26",
+        "referenceCount": null,
+        "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation",
+        "url": "https://www.semanticscholar.org/paper/c6850869aa5e78a107c378d2e8bfa39633158c0c",
+        "venue": "arXiv.org",
+        "year": 2016
+      },
+      "index": 10,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "40170001",
+            "name": "Ofir Press"
+          },
+          {
+            "authorId": "145128145",
+            "name": "Lior Wolf"
+          }
+        ],
+        "citationCount": 810,
+        "externalIds": {
+          "ACL": "E17-2025",
+          "ArXiv": "1608.05859",
+          "CorpusId": 836219,
+          "DBLP": "journals/corr/PressW16",
+          "DOI": "10.18653/V1/E17-2025",
+          "MAG": "2963347649"
+        },
+        "paperId": "63e39cdf1ad884da6bc69096bb3413b5b1100559",
+        "publicationDate": "2016-08-20",
+        "referenceCount": null,
+        "title": "Using the Output Embedding to Improve Language Models",
+        "url": "https://www.semanticscholar.org/paper/63e39cdf1ad884da6bc69096bb3413b5b1100559",
+        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+        "year": 2016
+      },
+      "index": 11,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2503659",
+            "name": "Jimmy Ba"
+          },
+          {
+            "authorId": "51131802",
+            "name": "J. Kiros"
+          },
+          {
+            "authorId": "1695689",
+            "name": "Geoffrey E. Hinton"
+          }
+        ],
+        "citationCount": 12432,
+        "externalIds": {
+          "ArXiv": "1607.06450",
+          "CorpusId": 8236317,
+          "DBLP": "journals/corr/BaKH16",
+          "MAG": "3037932933"
+        },
+        "paperId": "97fb4e3d45bb098e27e0071448b6152217bd35a5",
+        "publicationDate": "2016-07-21",
+        "referenceCount": null,
+        "title": "Layer Normalization",
+        "url": "https://www.semanticscholar.org/paper/97fb4e3d45bb098e27e0071448b6152217bd35a5",
+        "venue": "arXiv.org",
+        "year": 2016
+      },
+      "index": 12,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "49178343",
+            "name": "Jie Zhou"
+          },
+          {
+            "authorId": "2112866139",
+            "name": "Ying Cao"
+          },
+          {
+            "authorId": "2108084524",
+            "name": "Xuguang Wang"
+          },
+          {
+            "authorId": "144326610",
+            "name": "Peng Li"
+          },
+          {
+            "authorId": "145738410",
+            "name": "W. Xu"
+          }
+        ],
+        "citationCount": 223,
+        "externalIds": {
+          "ACL": "Q16-1027",
+          "ArXiv": "1606.04199",
+          "CorpusId": 8586038,
+          "DBLP": "journals/tacl/ZhouCWLX16",
+          "DOI": "10.1162/tacl_a_00105",
+          "MAG": "2963991316"
+        },
+        "paperId": "b60abe57bc195616063be10638c6437358c81d1e",
+        "publicationDate": "2016-06-14",
+        "referenceCount": null,
+        "title": "Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation",
+        "url": "https://www.semanticscholar.org/paper/b60abe57bc195616063be10638c6437358c81d1e",
+        "venue": "Transactions of the Association for Computational Linguistics",
+        "year": 2016
+      },
+      "index": 13,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1944541",
+            "name": "R. Józefowicz"
+          },
+          {
+            "authorId": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "authorId": "144927151",
+            "name": "M. Schuster"
+          },
+          {
+            "authorId": "1846258",
+            "name": "Noam Shazeer"
+          },
+          {
+            "authorId": "48607963",
+            "name": "Yonghui Wu"
+          }
+        ],
+        "citationCount": 1184,
+        "externalIds": {
+          "ArXiv": "1602.02410",
+          "CorpusId": 260422,
+          "DBLP": "journals/corr/JozefowiczVSSW16",
+          "MAG": "2259472270"
+        },
+        "paperId": "2f2d8f8072e5cc9b296fad551f65f183bdbff7aa",
+        "publicationDate": "2016-02-07",
+        "referenceCount": null,
+        "title": "Exploring the Limits of Language Modeling",
+        "url": "https://www.semanticscholar.org/paper/2f2d8f8072e5cc9b296fad551f65f183bdbff7aa",
+        "venue": "arXiv.org",
+        "year": 2016
+      },
+      "index": 14,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1745899",
+            "name": "Chris Dyer"
+          },
+          {
+            "authorId": "3376845",
+            "name": "A. Kuncoro"
+          },
+          {
+            "authorId": "143668305",
+            "name": "Miguel Ballesteros"
+          },
+          {
+            "authorId": "144365875",
+            "name": "Noah A. Smith"
+          }
+        ],
+        "citationCount": 543,
+        "externalIds": {
+          "ACL": "N16-1024",
+          "ArXiv": "1602.07776",
+          "CorpusId": 1949831,
+          "DBLP": "journals/corr/DyerKBS16",
+          "DOI": "10.18653/v1/N16-1024",
+          "MAG": "2963073938"
+        },
+        "paperId": "7345843e87c81e24e42264859b214d26042f8d51",
+        "publicationDate": "2016-02-01",
+        "referenceCount": null,
+        "title": "Recurrent Neural Network Grammars",
+        "url": "https://www.semanticscholar.org/paper/7345843e87c81e24e42264859b214d26042f8d51",
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "year": 2016
+      },
+      "index": 15,
+      "intents": [
+        "result"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1941442",
+            "name": "Jianpeng Cheng"
+          },
+          {
+            "authorId": "145307652",
+            "name": "Li Dong"
+          },
+          {
+            "authorId": "1747893",
+            "name": "Mirella Lapata"
+          }
+        ],
+        "citationCount": 1168,
+        "externalIds": {
+          "ACL": "D16-1053",
+          "ArXiv": "1601.06733",
+          "CorpusId": 6506243,
+          "DBLP": "conf/emnlp/0001DL16",
+          "DOI": "10.18653/v1/D16-1053",
+          "MAG": "2952191002"
+        },
+        "paperId": "13fe71da009484f240c46f14d9330e932f8de210",
+        "publicationDate": "2016-01-25",
+        "referenceCount": null,
+        "title": "Long Short-Term Memory-Networks for Machine Reading",
+        "url": "https://www.semanticscholar.org/paper/13fe71da009484f240c46f14d9330e932f8de210",
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "year": 2016
+      },
+      "index": 16,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "39353098",
+            "name": "Kaiming He"
+          },
+          {
+            "authorId": "1771551",
+            "name": "X. Zhang"
+          },
+          {
+            "authorId": "3080683",
+            "name": "Shaoqing Ren"
+          },
+          {
+            "authorId": null,
+            "name": "Jian Sun"
+          }
+        ],
+        "citationCount": 227384,
+        "externalIds": {
+          "ArXiv": "1512.03385",
+          "CorpusId": 206594692,
+          "DBLP": "conf/cvpr/HeZRS16",
+          "DOI": "10.1109/cvpr.2016.90",
+          "MAG": "2949650786"
+        },
+        "paperId": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+        "publicationDate": "2015-12-10",
+        "referenceCount": null,
+        "title": "Deep Residual Learning for Image Recognition",
+        "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+        "venue": "Computer Vision and Pattern Recognition",
+        "year": 2015
+      },
+      "index": 17,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2574060",
+            "name": "Christian Szegedy"
+          },
+          {
+            "authorId": "2657155",
+            "name": "Vincent Vanhoucke"
+          },
+          {
+            "authorId": "2054165706",
+            "name": "Sergey Ioffe"
+          },
+          {
+            "authorId": "1789737",
+            "name": "Jonathon Shlens"
+          },
+          {
+            "authorId": "3282833",
+            "name": "Z. Wojna"
+          }
+        ],
+        "citationCount": 30821,
+        "externalIds": {
+          "ArXiv": "1512.00567",
+          "CorpusId": 206593880,
+          "DBLP": "conf/cvpr/SzegedyVISW16",
+          "DOI": "10.1109/CVPR.2016.308",
+          "MAG": "2183341477"
+        },
+        "paperId": "23ffaa0fe06eae05817f527a47ac3291077f9e58",
+        "publicationDate": "2015-12-02",
+        "referenceCount": null,
+        "title": "Rethinking the Inception Architecture for Computer Vision",
+        "url": "https://www.semanticscholar.org/paper/23ffaa0fe06eae05817f527a47ac3291077f9e58",
+        "venue": "Computer Vision and Pattern Recognition",
+        "year": 2015
+      },
+      "index": 18,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "40527594",
+            "name": "Lukasz Kaiser"
+          },
+          {
+            "authorId": "1701686",
+            "name": "I. Sutskever"
+          }
+        ],
+        "citationCount": 390,
+        "externalIds": {
+          "ArXiv": "1511.08228",
+          "CorpusId": 2009318,
+          "DBLP": "journals/corr/KaiserS15",
+          "MAG": "2173051530"
+        },
+        "paperId": "5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+        "publicationDate": "2015-11-25",
+        "referenceCount": null,
+        "title": "Neural GPUs Learn Algorithms",
+        "url": "https://www.semanticscholar.org/paper/5e4eb58d5b47ac1c73f4cf189497170e75ae6237",
+        "venue": "International Conference on Learning Representations",
+        "year": 2015
+      },
+      "index": 19,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1707242",
+            "name": "Minh-Thang Luong"
+          },
+          {
+            "authorId": "2827616",
+            "name": "Quoc V. Le"
+          },
+          {
+            "authorId": "1701686",
+            "name": "I. Sutskever"
+          },
+          {
+            "authorId": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "authorId": "40527594",
+            "name": "Lukasz Kaiser"
+          }
+        ],
+        "citationCount": 834,
+        "externalIds": {
+          "ArXiv": "1511.06114",
+          "CorpusId": 6954272,
+          "DBLP": "journals/corr/LuongLSVK15",
+          "MAG": "2172589779"
+        },
+        "paperId": "d76c07211479e233f7c6a6f32d5346c983c5598f",
+        "publicationDate": "2015-11-19",
+        "referenceCount": null,
+        "title": "Multi-task Sequence to Sequence Learning",
+        "url": "https://www.semanticscholar.org/paper/d76c07211479e233f7c6a6f32d5346c983c5598f",
+        "venue": "International Conference on Learning Representations",
+        "year": 2015
+      },
+      "index": 20,
+      "intents": [],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2082372",
+            "name": "Rico Sennrich"
+          },
+          {
+            "authorId": "2259100",
+            "name": "B. Haddow"
+          },
+          {
+            "authorId": "2539211",
+            "name": "Alexandra Birch"
+          }
+        ],
+        "citationCount": 8648,
+        "externalIds": {
+          "ACL": "P16-1162",
+          "ArXiv": "1508.07909",
+          "CorpusId": 1114678,
+          "DBLP": "conf/acl/SennrichHB16a",
+          "DOI": "10.18653/v1/P16-1162",
+          "MAG": "1816313093"
+        },
+        "paperId": "1518039b5001f1836565215eb047526b3ac7f462",
+        "publicationDate": "2015-08-31",
+        "referenceCount": null,
+        "title": "Neural Machine Translation of Rare Words with Subword Units",
+        "url": "https://www.semanticscholar.org/paper/1518039b5001f1836565215eb047526b3ac7f462",
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "year": 2015
+      },
+      "index": 21,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1821711",
+            "name": "Thang Luong"
+          },
+          {
+            "authorId": "143950636",
+            "name": "Hieu Pham"
+          },
+          {
+            "authorId": "144783904",
+            "name": "Christopher D. Manning"
+          }
+        ],
+        "citationCount": 8375,
+        "externalIds": {
+          "ACL": "D15-1166",
+          "ArXiv": "1508.04025",
+          "CorpusId": 1998416,
+          "DBLP": "journals/corr/LuongPM15",
+          "DOI": "10.18653/v1/D15-1166",
+          "MAG": "1902237438"
+        },
+        "paperId": "93499a7c7f699b6630a86fad964536f9423bb6d0",
+        "publicationDate": "2015-08-17",
+        "referenceCount": null,
+        "title": "Effective Approaches to Attention-based Neural Machine Translation",
+        "url": "https://www.semanticscholar.org/paper/93499a7c7f699b6630a86fad964536f9423bb6d0",
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "year": 2015
+      },
+      "index": 22,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2265067",
+            "name": "Sainbayar Sukhbaatar"
+          },
+          {
+            "authorId": "3149531",
+            "name": "Arthur Szlam"
+          },
+          {
+            "authorId": "145183709",
+            "name": "J. Weston"
+          },
+          {
+            "authorId": "2276554",
+            "name": "R. Fergus"
+          }
+        ],
+        "citationCount": 2706,
+        "externalIds": {
+          "CorpusId": 1399322,
+          "DBLP": "conf/nips/SukhbaatarSWF15",
+          "MAG": "2951008357"
+        },
+        "paperId": "4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e",
+        "publicationDate": "2015-03-31",
+        "referenceCount": null,
+        "title": "End-To-End Memory Networks",
+        "url": "https://www.semanticscholar.org/paper/4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e",
+        "venue": "Neural Information Processing Systems",
+        "year": 2015
+      },
+      "index": 23,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "authorId": "40527594",
+            "name": "Lukasz Kaiser"
+          },
+          {
+            "authorId": "2060101052",
+            "name": "Terry Koo"
+          },
+          {
+            "authorId": "1754497",
+            "name": "Slav Petrov"
+          },
+          {
+            "authorId": "1701686",
+            "name": "I. Sutskever"
+          },
+          {
+            "authorId": "1695689",
+            "name": "Geoffrey E. Hinton"
+          }
+        ],
+        "citationCount": 939,
+        "externalIds": {
+          "ArXiv": "1412.7449",
+          "CorpusId": 14223,
+          "DBLP": "conf/nips/VinyalsKKPSH15",
+          "MAG": "2951648188"
+        },
+        "paperId": "47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+        "publicationDate": "2014-12-23",
+        "referenceCount": null,
+        "title": "Grammar as a Foreign Language",
+        "url": "https://www.semanticscholar.org/paper/47570e7f63e296f224a0e7f9a0d08b0de3cbaf40",
+        "venue": "Neural Information Processing Systems",
+        "year": 2014
+      },
+      "index": 24,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1726807",
+            "name": "Diederik P. Kingma"
+          },
+          {
+            "authorId": "2503659",
+            "name": "Jimmy Ba"
+          }
+        ],
+        "citationCount": 165867,
+        "externalIds": {
+          "ArXiv": "1412.6980",
+          "CorpusId": 6628106,
+          "DBLP": "journals/corr/KingmaB14",
+          "MAG": "2964121744"
+        },
+        "paperId": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+        "publicationDate": "2014-12-22",
+        "referenceCount": null,
+        "title": "Adam: A Method for Stochastic Optimization",
+        "url": "https://www.semanticscholar.org/paper/a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+        "venue": "International Conference on Learning Representations",
+        "year": 2014
+      },
+      "index": 25,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "8270717",
+            "name": "Junyoung Chung"
+          },
+          {
+            "authorId": "1854385",
+            "name": "Çaglar Gülçehre"
+          },
+          {
+            "authorId": "1979489",
+            "name": "Kyunghyun Cho"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "citationCount": 14569,
+        "externalIds": {
+          "ArXiv": "1412.3555",
+          "CorpusId": 5201925,
+          "DBLP": "journals/corr/ChungGCB14",
+          "MAG": "1924770834"
+        },
+        "paperId": "ac3ee98020251797c2b401e1389461df88e52e62",
+        "publicationDate": "2014-12-10",
+        "referenceCount": null,
+        "title": "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling",
+        "url": "https://www.semanticscholar.org/paper/ac3ee98020251797c2b401e1389461df88e52e62",
+        "venue": "arXiv.org",
+        "year": 2014
+      },
+      "index": 26,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1701686",
+            "name": "I. Sutskever"
+          },
+          {
+            "authorId": "1689108",
+            "name": "O. Vinyals"
+          },
+          {
+            "authorId": "2827616",
+            "name": "Quoc V. Le"
+          }
+        ],
+        "citationCount": 21989,
+        "externalIds": {
+          "ArXiv": "1409.3215",
+          "CorpusId": 7961699,
+          "DBLP": "conf/nips/SutskeverVL14",
+          "MAG": "2130942839"
+        },
+        "paperId": "cea967b59209c6be22829699f05b8b1ac4dc092d",
+        "publicationDate": "2014-09-10",
+        "referenceCount": null,
+        "title": "Sequence to Sequence Learning with Neural Networks",
+        "url": "https://www.semanticscholar.org/paper/cea967b59209c6be22829699f05b8b1ac4dc092d",
+        "venue": "Neural Information Processing Systems",
+        "year": 2014
+      },
+      "index": 27,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3335364",
+            "name": "Dzmitry Bahdanau"
+          },
+          {
+            "authorId": "1979489",
+            "name": "Kyunghyun Cho"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "citationCount": 29333,
+        "externalIds": {
+          "ArXiv": "1409.0473",
+          "CorpusId": 11212020,
+          "DBLP": "journals/corr/BahdanauCB14",
+          "MAG": "2133564696"
+        },
+        "paperId": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+        "publicationDate": "2014-09-01",
+        "referenceCount": null,
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "url": "https://www.semanticscholar.org/paper/fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
+        "venue": "International Conference on Learning Representations",
+        "year": 2014
+      },
+      "index": 28,
+      "intents": [
+        "background",
+        "methodology"
+      ],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1979489",
+            "name": "Kyunghyun Cho"
+          },
+          {
+            "authorId": "3158246",
+            "name": "B. V. Merrienboer"
+          },
+          {
+            "authorId": "1854385",
+            "name": "Çaglar Gülçehre"
+          },
+          {
+            "authorId": "3335364",
+            "name": "Dzmitry Bahdanau"
+          },
+          {
+            "authorId": "2076086",
+            "name": "Fethi Bougares"
+          },
+          {
+            "authorId": "144518416",
+            "name": "Holger Schwenk"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "citationCount": 26163,
+        "externalIds": {
+          "ACL": "D14-1179",
+          "ArXiv": "1406.1078",
+          "CorpusId": 5590763,
+          "DBLP": "conf/emnlp/ChoMGBBSB14",
+          "DOI": "10.3115/v1/D14-1179",
+          "MAG": "2950635152"
+        },
+        "paperId": "0b544dfe355a5070b60986319a3f51fb45d1348e",
+        "publicationDate": "2014-06-03",
+        "referenceCount": null,
+        "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation",
+        "url": "https://www.semanticscholar.org/paper/0b544dfe355a5070b60986319a3f51fb45d1348e",
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "year": 2014
+      },
+      "index": 29,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1753223",
+            "name": "Alex Graves"
+          }
+        ],
+        "citationCount": 4278,
+        "externalIds": {
+          "ArXiv": "1308.0850",
+          "CorpusId": 1697424,
+          "DBLP": "journals/corr/Graves13",
+          "MAG": "1810943226"
+        },
+        "paperId": "6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+        "publicationDate": "2013-08-04",
+        "referenceCount": null,
+        "title": "Generating Sequences With Recurrent Neural Networks",
+        "url": "https://www.semanticscholar.org/paper/6471fd1cbc081fb3b7b5b14d6ab9eaaba02b5c17",
+        "venue": "arXiv.org",
+        "year": 2013
+      },
+      "index": 30,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "145490067",
+            "name": "Muhua Zhu"
+          },
+          {
+            "authorId": null,
+            "name": "Yue Zhang"
+          },
+          {
+            "authorId": "2463750",
+            "name": "Wenliang Chen"
+          },
+          {
+            "authorId": "1390813134",
+            "name": "Min Zhang"
+          },
+          {
+            "authorId": "1728004",
+            "name": "Jingbo Zhu"
+          }
+        ],
+        "citationCount": 221,
+        "externalIds": {
+          "ACL": "P13-1043",
+          "CorpusId": 10361562,
+          "DBLP": "conf/acl/ZhuZCZZ13",
+          "MAG": "2126433015"
+        },
+        "paperId": "174bbdb96252454cbb40a9c4e53335996235a008",
+        "publicationDate": "2013-08-01",
+        "referenceCount": null,
+        "title": "Fast and Accurate Shift-Reduce Constituent Parsing",
+        "url": "https://www.semanticscholar.org/paper/174bbdb96252454cbb40a9c4e53335996235a008",
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "year": 2013
+      },
+      "index": 31,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "34227637",
+            "name": "Zhongqiang Huang"
+          },
+          {
+            "authorId": "1999488",
+            "name": "M. Harper"
+          }
+        ],
+        "citationCount": 104,
+        "externalIds": {
+          "ACL": "D09-1087",
+          "CorpusId": 447315,
+          "DBLP": "conf/emnlp/HuangH09",
+          "DOI": "10.3115/1699571.1699621",
+          "MAG": "2113691817"
+        },
+        "paperId": "5bfd8d40bc071fffaf93685a46974b122ee4239d",
+        "publicationDate": "2009-08-06",
+        "referenceCount": null,
+        "title": "Self-Training PCFG Grammars with Latent Annotations Across Languages",
+        "url": "https://www.semanticscholar.org/paper/5bfd8d40bc071fffaf93685a46974b122ee4239d",
+        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "year": 2009
+      },
+      "index": 32,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1754497",
+            "name": "Slav Petrov"
+          },
+          {
+            "authorId": "37157794",
+            "name": "Leon Barrett"
+          },
+          {
+            "authorId": "3323298",
+            "name": "R. Thibaux"
+          },
+          {
+            "authorId": "38666915",
+            "name": "D. Klein"
+          }
+        ],
+        "citationCount": 990,
+        "externalIds": {
+          "ACL": "P06-1055",
+          "CorpusId": 6684426,
+          "DBLP": "conf/acl/PetrovBTK06",
+          "DOI": "10.3115/1220175.1220230",
+          "MAG": "2139621418"
+        },
+        "paperId": "f52de7242e574b70410ca6fb70b79c811919fc00",
+        "publicationDate": "2006-07-17",
+        "referenceCount": null,
+        "title": "Learning Accurate, Compact, and Interpretable Tree Annotation",
+        "url": "https://www.semanticscholar.org/paper/f52de7242e574b70410ca6fb70b79c811919fc00",
+        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "year": 2006
+      },
+      "index": 33,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2240597",
+            "name": "David McClosky"
+          },
+          {
+            "authorId": "1749837",
+            "name": "Eugene Charniak"
+          },
+          {
+            "authorId": "145177220",
+            "name": "Mark Johnson"
+          }
+        ],
+        "citationCount": 701,
+        "externalIds": {
+          "ACL": "N06-1020",
+          "CorpusId": 628455,
+          "DBLP": "conf/naacl/McCloskyCJ06",
+          "DOI": "10.3115/1220835.1220855",
+          "MAG": "2163568299"
+        },
+        "paperId": "78a9513e70f596077179101f6cb6eadc51602039",
+        "publicationDate": "2006-06-04",
+        "referenceCount": null,
+        "title": "Effective Self-Training for Parsing",
+        "url": "https://www.semanticscholar.org/paper/78a9513e70f596077179101f6cb6eadc51602039",
+        "venue": "North American Chapter of the Association for Computational Linguistics",
+        "year": 2006
+      },
+      "index": 34,
+      "intents": [],
+      "isInfluential": true
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3308557",
+            "name": "Sepp Hochreiter"
+          },
+          {
+            "authorId": "145341374",
+            "name": "J. Schmidhuber"
+          }
+        ],
+        "citationCount": 104180,
+        "externalIds": {
+          "CorpusId": 1915014,
+          "DBLP": "journals/neco/HochreiterS97",
+          "DOI": "10.1162/neco.1997.9.8.1735",
+          "MAG": "2064675550",
+          "PubMed": "9377276"
+        },
+        "paperId": "2e9d221c206e9503ceb452302d68d10e293f2a10",
+        "publicationDate": "1997-11-01",
+        "referenceCount": null,
+        "title": "Long Short-Term Memory",
+        "url": "https://www.semanticscholar.org/paper/2e9d221c206e9503ceb452302d68d10e293f2a10",
+        "venue": "Neural Computation",
+        "year": 1997
+      },
+      "index": 35,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "1734174",
+            "name": "Mitchell P. Marcus"
+          },
+          {
+            "authorId": "2424234",
+            "name": "Beatrice Santorini"
+          },
+          {
+            "authorId": "2063206",
+            "name": "Mary Ann Marcinkiewicz"
+          }
+        ],
+        "citationCount": 9161,
+        "externalIds": {
+          "ACL": "J93-2004",
+          "CorpusId": 252796,
+          "DBLP": "journals/coling/MarcusSM94",
+          "MAG": "1632114991"
+        },
+        "paperId": "0b44fcbeea9415d400c5f5789d6b892b6f98daff",
+        "publicationDate": "1993-06-01",
+        "referenceCount": null,
+        "title": "Building a Large Annotated Corpus of English: The Penn Treebank",
+        "url": "https://www.semanticscholar.org/paper/0b44fcbeea9415d400c5f5789d6b892b6f98daff",
+        "venue": "International Conference on Computational Logic",
+        "year": 1993
+      },
+      "index": 36,
+      "intents": [
+        "methodology"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "A decomposable attention model",
+        "url": null,
+        "venue": "In Empirical Methods in Natural Language Processing,",
+        "year": 2016
+      },
+      "index": 37,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "2897313",
+            "name": "Nitish Srivastava"
+          },
+          {
+            "authorId": "1695689",
+            "name": "Geoffrey E. Hinton"
+          },
+          {
+            "authorId": "2064160",
+            "name": "A. Krizhevsky"
+          },
+          {
+            "authorId": "1701686",
+            "name": "I. Sutskever"
+          },
+          {
+            "authorId": "145124475",
+            "name": "R. Salakhutdinov"
+          }
+        ],
+        "citationCount": 43060,
+        "externalIds": {
+          "CorpusId": 6844431,
+          "DBLP": "journals/jmlr/SrivastavaHKSS14",
+          "DOI": "10.5555/2627435.2670313",
+          "MAG": "2095705004"
+        },
+        "paperId": "34f25a8704614163c4095b3ee2fc969b60de4698",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Dropout: a simple way to prevent neural networks from overfitting",
+        "url": "https://www.semanticscholar.org/paper/34f25a8704614163c4095b3ee2fc969b60de4698",
+        "venue": "Journal of machine learning research",
+        "year": 2014
+      },
+      "index": 38,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "authorId": "3308557",
+            "name": "Sepp Hochreiter"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "citationCount": 2067,
+        "externalIds": {
+          "CorpusId": 17278462,
+          "MAG": "1525783482"
+        },
+        "paperId": "2e5f2b57f4c476dd69dc22ccdf547e48f40a994c",
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies",
+        "url": "https://www.semanticscholar.org/paper/2e5f2b57f4c476dd69dc22ccdf547e48f40a994c",
+        "venue": "",
+        "year": 2001
+      },
+      "index": 39,
+      "intents": [
+        "background"
+      ],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Le , Ilya Sutskever , Oriol Vinyals , and Lukasz Kaiser . Multitask sequence to sequence learning",
+        "url": null,
+        "venue": "",
+        "year": null
+      },
+      "index": 40,
+      "intents": [],
+      "isInfluential": false
+    }
+  ],
+  "source": {
+    "authors": [
+      {
+        "authorId": "40348417",
+        "name": "Ashish Vaswani"
+      },
+      {
+        "authorId": "1846258",
+        "name": "Noam Shazeer"
+      },
+      {
+        "authorId": "3877127",
+        "name": "Niki Parmar"
+      },
+      {
+        "authorId": "39328010",
+        "name": "Jakob Uszkoreit"
+      },
+      {
+        "authorId": "145024664",
+        "name": "Llion Jones"
+      },
+      {
+        "authorId": "19177000",
+        "name": "Aidan N. Gomez"
+      },
+      {
+        "authorId": "40527594",
+        "name": "Lukasz Kaiser"
+      },
+      {
+        "authorId": "3443442",
+        "name": "I. Polosukhin"
+      }
+    ],
+    "citationCount": 175735,
+    "externalIds": {
+      "ArXiv": "1706.03762",
+      "CorpusId": 13756489,
+      "DBLP": "journals/corr/VaswaniSPUJGKP17",
+      "MAG": "2963403868"
+    },
+    "paperId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+    "publicationDate": "2017-06-12",
+    "referenceCount": 41,
+    "title": "Attention is All you Need",
+    "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776",
+    "venue": "Neural Information Processing Systems",
+    "year": 2017
+  }
+}

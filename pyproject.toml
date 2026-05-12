@@ -1,0 +1,15 @@
+[project]
+name = "pdf-benchmark"
+version = "0.1.0"
+description = "Benchmark LLM PDF pipelines and build reference-list gold sets."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["get_gold"]
+script-files = ["scripts/get-gold"]
