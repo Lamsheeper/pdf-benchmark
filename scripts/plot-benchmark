@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""Script shim for uv/setuptools editable installs."""
+
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+
+def load_main():
+    try:
+        from plot_benchmark import main
+
+        return main
+    except ModuleNotFoundError as exc:
+        if exc.name != "plot_benchmark":
+            raise
+
+    candidates = [
+        Path.cwd(),
+        Path(__file__).resolve().parents[2],
+    ]
+    for root in candidates:
+        if (root / "plot_benchmark.py").exists():
+            sys.path.insert(0, str(root))
+            from plot_benchmark import main
+
+            return main
+
+    raise ModuleNotFoundError("Could not find plot_benchmark.py from the installed script.")
+
+
+if __name__ == "__main__":
+    raise SystemExit(load_main()())

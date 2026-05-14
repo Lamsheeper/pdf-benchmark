@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""Script shim for uv/setuptools editable installs."""
+
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+
+def load_main():
+    try:
+        from run_pipelines import main
+
+        return main
+    except ModuleNotFoundError as exc:
+        if exc.name != "run_pipelines":
+            raise
+
+    candidates = [
+        Path.cwd(),
+        Path(__file__).resolve().parents[2],
+    ]
+    for root in candidates:
+        if (root / "run_pipelines.py").exists():
+            sys.path.insert(0, str(root))
+            from run_pipelines import main
+
+            return main
+
+    raise ModuleNotFoundError("Could not find run_pipelines.py from the installed script.")
+
+
+if __name__ == "__main__":
+    raise SystemExit(load_main()())

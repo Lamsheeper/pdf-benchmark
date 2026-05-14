@@ -4,12 +4,15 @@ version = "0.1.0"
 description = "Benchmark LLM PDF pipelines and build reference-list gold sets."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.8.0",
+    "PyMuPDF>=1.24.0",
+]
 
 [build-system]
 requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-py-modules = ["get_gold"]
-script-files = ["scripts/get-gold"]
+py-modules = ["evaluate_outputs", "get_gold", "plot_benchmark", "run_pipelines"]
+script-files = ["scripts/evaluate-benchmark", "scripts/get-gold", "scripts/plot-benchmark", "scripts/run-benchmark"]
