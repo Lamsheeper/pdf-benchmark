@@ -1,8 +1,390 @@
 {
   "pdf": "pdfs/1959-09865-001.pdf",
   "queryId": "DOI:10.1037/h0042519",
-  "referenceCount": 0,
-  "references": [],
+  "referenceCount": 18,
+  "references": [
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "W. Ross Ashby"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Design for a brain",
+        "url": null,
+        "venue": "Wiley",
+        "year": 1952
+      },
+      "index": 0,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "J. T. Culbertson"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Consciousness and behavior",
+        "url": null,
+        "venue": "Wm. C. Brown",
+        "year": 1950
+      },
+      "index": 1,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "J. T. Culbertson"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Some uneconomical robots",
+        "url": null,
+        "venue": "Automata Studies",
+        "year": 1956
+      },
+      "index": 2,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "J. C. Eccles"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The neurophysiological basis of mind",
+        "url": null,
+        "venue": "Clarendon",
+        "year": 1953
+      },
+      "index": 3,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Kurt Goldstein"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Human nature in the light of psychopathology",
+        "url": null,
+        "venue": "Harvard University Press",
+        "year": 1940
+      },
+      "index": 4,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "F. A. Hayek"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The sensory order",
+        "url": null,
+        "venue": "University of Chicago Press",
+        "year": 1952
+      },
+      "index": 5,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "D. O. Hebb"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The organization of behavior",
+        "url": null,
+        "venue": "Wiley",
+        "year": 1949
+      },
+      "index": 6,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "S. C. Kleene"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Representation of events in nerve nets and finite automata",
+        "url": null,
+        "venue": "Automata Studies",
+        "year": 1956
+      },
+      "index": 7,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "W. Kohler"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Relational determination in perception",
+        "url": null,
+        "venue": "Cerebral Mechanisms in Behavior",
+        "year": 1951
+      },
+      "index": 8,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "W. S. McCulloch"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Why the mind is in the head",
+        "url": null,
+        "venue": "Cerebral Mechanisms in Behavior",
+        "year": 1951
+      },
+      "index": 9,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "W. S. McCulloch"
+          },
+          {
+            "name": "W. Pitts"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "A logical calculus of the ideas immanent in nervous activity",
+        "url": null,
+        "venue": "Bulletin of Mathematical Biophysics",
+        "year": 1943
+      },
+      "index": 10,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "P. M. Milner"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The cell assembly: Mark II",
+        "url": null,
+        "venue": "Psychological Review",
+        "year": 1957
+      },
+      "index": 11,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "M. L. Minsky"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Some universal elements for finite automata",
+        "url": null,
+        "venue": "Automata Studies",
+        "year": 1956
+      },
+      "index": 12,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "N. Rashevsky"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Mathematical biophysics",
+        "url": null,
+        "venue": "University of Chicago Press",
+        "year": 1938
+      },
+      "index": 13,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "F. Rosenblatt"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The perceptron: A theory of statistical separability in cognitive systems",
+        "url": null,
+        "venue": "Cornell Aeronautical Laboratory",
+        "year": 1958
+      },
+      "index": 14,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "A. M. Uttley"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Conditional probability machines and conditioned reflexes",
+        "url": null,
+        "venue": "Automata Studies",
+        "year": 1956
+      },
+      "index": 15,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "J. von Neumann"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The general and logical theory of automata",
+        "url": null,
+        "venue": "Cerebral Mechanisms in Behavior",
+        "year": 1951
+      },
+      "index": 16,
+      "intents": [],
+      "isInfluential": false
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "J. von Neumann"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Probabilistic logics and the synthesis of reliable organisms from unreliable components",
+        "url": null,
+        "venue": "Automata Studies",
+        "year": 1956
+      },
+      "index": 17,
+      "intents": [],
+      "isInfluential": false
+    }
+  ],
   "source": {
     "authors": [
       {
@@ -19,10 +401,10 @@
     },
     "paperId": "5d11aad09f65431b5d3cb1d85328743c9e53ba96",
     "publicationDate": "1958-11-01",
-    "referenceCount": 15,
+    "referenceCount": 18,
     "title": "The perceptron: a probabilistic model for information storage and organization in the brain.",
     "url": "https://www.semanticscholar.org/paper/5d11aad09f65431b5d3cb1d85328743c9e53ba96",
-    "venue": "Psychology Review",
+    "venue": "Psychological Review",
     "year": 1958
   }
 }

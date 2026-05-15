@@ -32,6 +32,11 @@ PIPELINE_LABELS = {
     "pymupdf_markdown": "PyMuPDF Markdown",
     "pdf_images": "PDF Images",
 }
+PIPELINE_SHORT_LABELS = {
+    "direct_pdf": "Direct",
+    "pymupdf_markdown": "Markdown",
+    "pdf_images": "Images",
+}
 MODEL_COLORS = [
     "#4C78A8",
     "#F58518",
@@ -347,6 +352,25 @@ def score_lookup(scores: list[dict[str, Any]]) -> dict[tuple[str, str, str], dic
     return lookup
 
 
+def metric_lookup(metrics: list[dict[str, Any]]) -> dict[tuple[str, str, str], dict[str, Any]]:
+    lookup: dict[tuple[str, str, str], dict[str, Any]] = {}
+    for row in metrics:
+        key = group_key(row)
+        paper = paper_id(row)
+        if key and paper:
+            lookup[(key[0], key[1], paper)] = row
+    return lookup
+
+
+def ordered_papers_for_plot(metrics: list[dict[str, Any]], scores: list[dict[str, Any]]) -> list[str]:
+    papers = {
+        paper
+        for row in metrics + scores
+        if (paper := paper_id(row)) is not None
+    }
+    return sorted(papers)
+
+
 def papers_for_group(key: GroupKey, metric_rows: list[dict[str, Any]], score_rows: list[dict[str, Any]]) -> list[str]:
     papers = {
         paper
@@ -620,6 +644,122 @@ def save_figure(fig: plt.Figure, output_dir: Path, stem: str, image_format: str,
     return path
 
 
+def group_display_label(key: GroupKey, model_labels: dict[str, str]) -> str:
+    model = model_labels.get(key[1], key[1])
+    model = model.removeprefix("gemini-")
+    model = model.replace("-preview", " prev")
+    model = model.replace("-", " ")
+    pipeline = PIPELINE_SHORT_LABELS.get(key[0], pipeline_label(key[0]))
+    return f"{pipeline}\n{model}"
+
+
+def paper_metric_matrix(
+    papers: list[str],
+    groups: list[GroupKey],
+    score_by_key: dict[tuple[str, str, str], dict[str, Any]],
+    metric_by_key: dict[tuple[str, str, str], dict[str, Any]],
+    page_counts: dict[str, float],
+    metric_name: str,
+) -> list[list[float]]:
+    matrix: list[list[float]] = []
+    for paper in papers:
+        row_values: list[float] = []
+        for pipeline, model_id in groups:
+            score = score_by_key.get((pipeline, model_id, paper))
+            metric = metric_by_key.get((pipeline, model_id, paper))
+            value: float | None = None
+
+            if metric_name in {"reference_f1", "reference_precision", "reference_recall", "reference_count_error"}:
+                value = numeric(score.get(metric_name)) if score else None
+            elif metric_name == "wall_clock_seconds_per_page":
+                seconds = numeric(metric.get("wall_clock_seconds")) if metric else None
+                pages = page_counts.get(paper)
+                value = seconds / pages if seconds is not None and pages else None
+            elif metric_name == "total_tokens_per_page":
+                input_tokens = numeric(metric.get("input_tokens")) if metric else None
+                output_tokens = numeric(metric.get("output_tokens")) if metric else None
+                pages = page_counts.get(paper)
+                if input_tokens is not None and output_tokens is not None and pages:
+                    value = (input_tokens + output_tokens) / pages
+            elif metric_name == "estimated_cost_usd_per_page":
+                cost = numeric(metric.get("estimated_cost_usd")) if metric else None
+                pages = page_counts.get(paper)
+                value = cost / pages if cost is not None and pages else None
+            elif metric_name == "error":
+                value = 1.0 if metric and metric.get("error") else 0.0 if metric else None
+
+            row_values.append(value if value is not None else float("nan"))
+        matrix.append(row_values)
+    return matrix
+
+
+def finite_values(matrix: list[list[float]]) -> list[float]:
+    values: list[float] = []
+    for row in matrix:
+        for value in row:
+            if not math.isnan(value):
+                values.append(value)
+    return values
+
+
+def format_heatmap_value(value: float, fmt: str) -> str:
+    if math.isnan(value):
+        return ""
+    if fmt == "currency":
+        return f"{value:.4f}"
+    if fmt == "signed_int":
+        return f"{value:+.0f}"
+    if fmt == "int":
+        return f"{value:.0f}"
+    if fmt == "one_decimal":
+        return f"{value:.1f}"
+    return f"{value:.2f}"
+
+
+def draw_heatmap(
+    ax: plt.Axes,
+    fig: plt.Figure,
+    matrix: list[list[float]],
+    row_labels: list[str],
+    column_labels: list[str],
+    title: str,
+    cmap_name: str,
+    fmt: str,
+    vmin: float | None = None,
+    vmax: float | None = None,
+) -> None:
+    cmap = plt.get_cmap(cmap_name).copy()
+    cmap.set_bad("#E6E6E6")
+    image = ax.imshow(matrix, aspect="auto", cmap=cmap, vmin=vmin, vmax=vmax)
+    ax.set_title(title, fontsize=10)
+    ax.set_xticks(range(len(column_labels)))
+    ax.set_xticklabels(column_labels, rotation=45, ha="right", fontsize=7)
+    ax.set_yticks(range(len(row_labels)))
+    ax.set_yticklabels(row_labels, fontsize=7)
+    ax.tick_params(length=0)
+
+    values = finite_values(matrix)
+    annotate = len(row_labels) * max(len(column_labels), 1) <= 36
+    if annotate:
+        midpoint = (min(values) + max(values)) / 2 if values else 0
+        for row_index, row in enumerate(matrix):
+            for column_index, value in enumerate(row):
+                if math.isnan(value):
+                    continue
+                text_color = "white" if value > midpoint else "black"
+                ax.text(
+                    column_index,
+                    row_index,
+                    format_heatmap_value(value, fmt),
+                    ha="center",
+                    va="center",
+                    fontsize=6,
+                    color=text_color,
+                )
+
+    fig.colorbar(image, ax=ax, fraction=0.046, pad=0.04)
+
+
 def model_color(model_id: str, models: list[str]) -> str:
     return MODEL_COLORS[models.index(model_id) % len(MODEL_COLORS)]
 
@@ -753,6 +893,151 @@ def plot_tokens_per_page(
     ax.grid(axis="y", alpha=0.25)
     fig.tight_layout()
     return save_figure(fig, output_dir, "average_input_output_tokens_per_page", image_format, dpi)
+
+
+def plot_paper_heatmaps(
+    output_dir: Path,
+    image_format: str,
+    dpi: int,
+    papers: list[str],
+    groups: list[GroupKey],
+    model_labels: dict[str, str],
+    score_by_key: dict[tuple[str, str, str], dict[str, Any]],
+    metric_by_key: dict[tuple[str, str, str], dict[str, Any]],
+    page_counts: dict[str, float],
+) -> Path:
+    column_labels = [group_display_label(group, model_labels) for group in groups]
+    heatmaps = [
+        ("reference_f1", "Reference F1", "viridis", "default", 0.0, 1.0),
+        ("reference_precision", "Reference Precision", "viridis", "default", 0.0, 1.0),
+        ("reference_recall", "Reference Recall", "viridis", "default", 0.0, 1.0),
+        ("reference_count_error", "Reference Count Error", "coolwarm", "signed_int", None, None),
+        ("wall_clock_seconds_per_page", "Seconds/Page", "magma", "one_decimal", None, None),
+        ("total_tokens_per_page", "Tokens/Page", "plasma", "int", None, None),
+        ("estimated_cost_usd_per_page", "Cost/Page USD", "cividis", "currency", None, None),
+        ("error", "Run Error", "Reds", "int", 0.0, 1.0),
+    ]
+    fig_width = max(18.0, 1.1 * len(groups) + 7.0)
+    fig_height = max(13.5, 0.42 * len(papers) + 11.0)
+    fig, axes = plt.subplots(4, 2, figsize=(fig_width, fig_height), squeeze=False)
+
+    for index, (metric_name, title, cmap_name, fmt, vmin, vmax) in enumerate(heatmaps):
+        row_index = index // 2
+        column_index = index % 2
+        matrix = paper_metric_matrix(
+            papers,
+            groups,
+            score_by_key,
+            metric_by_key,
+            page_counts,
+            metric_name,
+        )
+        draw_heatmap(
+            axes[row_index][column_index],
+            fig,
+            matrix,
+            papers,
+            column_labels,
+            title,
+            cmap_name,
+            fmt,
+            vmin=vmin,
+            vmax=vmax,
+        )
+
+    fig.suptitle("Per-Paper Benchmark Metrics", fontsize=14)
+    fig.tight_layout(rect=(0, 0, 1, 0.97))
+    return save_figure(fig, output_dir, "paper_heatmaps", image_format, dpi)
+
+
+def plot_single_paper_dashboard(
+    output_dir: Path,
+    image_format: str,
+    dpi: int,
+    paper: str,
+    groups: list[GroupKey],
+    model_labels: dict[str, str],
+    score_by_key: dict[tuple[str, str, str], dict[str, Any]],
+    metric_by_key: dict[tuple[str, str, str], dict[str, Any]],
+    page_counts: dict[str, float],
+) -> Path:
+    labels = [group_display_label(group, model_labels) for group in groups]
+    metrics = [
+        ("reference_f1", "Reference F1", "F1", "{:.2f}", (0, 1.05)),
+        ("reference_precision", "Reference Precision", "Precision", "{:.2f}", (0, 1.05)),
+        ("reference_recall", "Reference Recall", "Recall", "{:.2f}", (0, 1.05)),
+        ("wall_clock_seconds_per_page", "Seconds/Page", "Seconds/page", "{:.1f}", None),
+        ("total_tokens_per_page", "Tokens/Page", "Tokens/page", "{:.0f}", None),
+        ("estimated_cost_usd_per_page", "Cost/Page", "USD/page", "${:.4f}", None),
+    ]
+    fig, axes = plt.subplots(2, 3, figsize=(16, 8.5), squeeze=False)
+
+    for index, (metric_name, title, ylabel, value_format, ylim) in enumerate(metrics):
+        ax = axes[index // 3][index % 3]
+        matrix = paper_metric_matrix(
+            [paper],
+            groups,
+            score_by_key,
+            metric_by_key,
+            page_counts,
+            metric_name,
+        )
+        values = matrix[0] if matrix else []
+        numeric_values = [0.0 if math.isnan(value) else value for value in values]
+        bars = ax.bar(range(len(groups)), numeric_values, color="#4C78A8")
+        for bar, value in zip(bars, values, strict=False):
+            if math.isnan(value):
+                bar.set_alpha(0.25)
+                bar.set_hatch("//")
+                continue
+            ax.annotate(
+                value_format.format(value),
+                xy=(bar.get_x() + bar.get_width() / 2, bar.get_height()),
+                xytext=(0, 4),
+                textcoords="offset points",
+                ha="center",
+                va="bottom",
+                fontsize=7,
+            )
+        ax.set_title(title)
+        ax.set_ylabel(ylabel)
+        ax.set_xticks(range(len(groups)))
+        ax.set_xticklabels(labels, rotation=45, ha="right", fontsize=7)
+        if ylim:
+            ax.set_ylim(*ylim)
+        ax.grid(axis="y", alpha=0.25)
+
+    fig.suptitle(f"Per-Paper Dashboard: {paper}", fontsize=14)
+    fig.tight_layout(rect=(0, 0, 1, 0.96))
+    paper_dir = output_dir / "papers"
+    return save_figure(fig, paper_dir, slug(paper), image_format, dpi)
+
+
+def plot_paper_dashboards(
+    output_dir: Path,
+    image_format: str,
+    dpi: int,
+    papers: list[str],
+    groups: list[GroupKey],
+    model_labels: dict[str, str],
+    score_by_key: dict[tuple[str, str, str], dict[str, Any]],
+    metric_by_key: dict[tuple[str, str, str], dict[str, Any]],
+    page_counts: dict[str, float],
+) -> list[Path]:
+    return [
+        plot_single_paper_dashboard(
+            output_dir,
+            image_format,
+            dpi,
+            paper,
+            groups,
+            model_labels,
+            score_by_key,
+            metric_by_key,
+            page_counts,
+        )
+        for paper in papers
+    ]
 
 
 def reference_count_breakdown(sets_by_name: dict[str, set[str]]) -> dict[str, dict[str, int]]:
@@ -1005,6 +1290,11 @@ def cleanup_legacy_plots(output_dir: Path, image_format: str) -> list[str]:
         for path in output_dir.glob(pattern):
             path.unlink()
             removed.append(str(path))
+    paper_dir = output_dir / "papers"
+    if paper_dir.exists():
+        for path in paper_dir.glob(f"*.{image_format}"):
+            path.unlink()
+            removed.append(str(path))
     return removed
 
 
@@ -1014,6 +1304,7 @@ def create_manifest(
     image_format: str,
     pipelines: list[str],
     models: list[str],
+    papers: list[str],
     model_labels: dict[str, str],
     title_threshold: float,
     raw_threshold: float,
@@ -1029,6 +1320,7 @@ def create_manifest(
         "format": image_format,
         "pipelines": pipelines,
         "models": models,
+        "papers": papers,
         "model_labels": model_labels,
         "matching_thresholds": {
             "title_threshold": title_threshold,
@@ -1097,6 +1389,11 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         default=DEFAULT_RAW_THRESHOLD,
         help="Raw-reference similarity threshold for recomputing correct-reference count plots.",
     )
+    parser.add_argument(
+        "--paper-plots",
+        action="store_true",
+        help="Also generate one per-paper dashboard PNG under plots/papers/.",
+    )
     return parser.parse_args(argv)
 
 
@@ -1133,6 +1430,9 @@ def main(argv: list[str] | None = None) -> int:
         metrics_by_group = rows_by_group(metrics)
         scores_by_group = rows_by_group(scores)
         groups = [(pipeline, model_id) for pipeline in pipelines for model_id in models]
+        papers = ordered_papers_for_plot(metrics, scores)
+        score_by_key = score_lookup(scores)
+        metric_by_key = metric_lookup(metrics)
         reference_sets = collect_correct_reference_sets(
             run_dir,
             scores,
@@ -1252,6 +1552,33 @@ def main(argv: list[str] | None = None) -> int:
                 "${:.4f}",
             ),
         ]
+        plot_paths.append(
+            plot_paper_heatmaps(
+                output_dir,
+                args.format,
+                args.dpi,
+                papers,
+                groups,
+                model_labels,
+                score_by_key,
+                metric_by_key,
+                page_counts,
+            )
+        )
+        if args.paper_plots:
+            plot_paths.extend(
+                plot_paper_dashboards(
+                    output_dir,
+                    args.format,
+                    args.dpi,
+                    papers,
+                    groups,
+                    model_labels,
+                    score_by_key,
+                    metric_by_key,
+                    page_counts,
+                )
+            )
         reference_count_plot_paths, reference_count_summary = plot_reference_count_breakdowns(
             output_dir,
             args.format,
@@ -1279,6 +1606,7 @@ def main(argv: list[str] | None = None) -> int:
             args.format,
             pipelines,
             models,
+            papers,
             model_labels,
             args.title_threshold,
             args.raw_threshold,

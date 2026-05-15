@@ -1,2066 +1,1488 @@
 {
   "pdf": "pdfs/2020.acl-main.704.pdf",
   "queryId": "DOI:10.18653/v1/2020.acl-main.704",
-  "referenceCount": 52,
+  "referenceCount": 49,
   "references": [
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2544049",
-            "name": "Ondrej Dusek"
-          },
-          {
-            "authorId": "1388166580",
-            "name": "Karin Sevegnani"
-          },
-          {
-            "authorId": "2621022",
-            "name": "Ioannis Konstas"
-          },
-          {
-            "authorId": "1681799",
-            "name": "Verena Rieser"
-          }
-        ],
-        "citationCount": 10,
-        "externalIds": {
-          "ACL": "W19-8644",
-          "ArXiv": "1910.04731",
-          "CorpusId": 204009111,
-          "DBLP": "journals/corr/abs-1910-04731",
-          "DOI": "10.18653/v1/W19-8644",
-          "MAG": "2979827194"
-        },
-        "paperId": "c424857515fc0538ba93c14652c291e2ffc9d3c4",
-        "publicationDate": "2019-10-10",
-        "referenceCount": null,
-        "title": "Automatic Quality Estimation for Natural Language Generation: Ranting (Jointly Rating and Ranking)",
-        "url": "https://www.semanticscholar.org/paper/c424857515fc0538ba93c14652c291e2ffc9d3c4",
-        "venue": "International Conference on Natural Language Generation",
-        "year": 2019
-      },
-      "index": 0,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2066087250",
-            "name": "Ran Tian"
-          },
-          {
-            "authorId": null,
-            "name": "Shashi Narayan"
-          },
-          {
-            "authorId": "145450400",
-            "name": "Thibault Sellam"
-          },
-          {
-            "authorId": "144729897",
-            "name": "Ankur P. Parikh"
-          }
-        ],
-        "citationCount": 102,
-        "externalIds": {
-          "ArXiv": "1910.08684",
-          "CorpusId": 204800468,
-          "DBLP": "journals/corr/abs-1910-08684",
-          "MAG": "2981259322"
-        },
-        "paperId": "80c65cac35a43f7e88917cb6d517554c7b175259",
-        "publicationDate": "2019-09-25",
-        "referenceCount": null,
-        "title": "Sticking to the Facts: Confident Decoding for Faithful Data-to-Text Generation",
-        "url": "https://www.semanticscholar.org/paper/80c65cac35a43f7e88917cb6d517554c7b175259",
-        "venue": "arXiv.org",
-        "year": 2019
-      },
-      "index": 1,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1388392995",
-            "name": "Stratos Xenouleas"
-          },
-          {
-            "authorId": "1950133",
-            "name": "Prodromos Malakasiotis"
-          },
-          {
-            "authorId": "2817917",
-            "name": "Marianna Apidianaki"
-          },
-          {
-            "authorId": "1752430",
-            "name": "Ion Androutsopoulos"
-          }
-        ],
-        "citationCount": 39,
-        "externalIds": {
-          "ACL": "D19-1618",
-          "ArXiv": "1909.00578",
-          "CorpusId": 202538070,
-          "DBLP": "journals/corr/abs-1909-00578",
-          "DOI": "10.18653/v1/d19-1618",
-          "MAG": "2970886762"
-        },
-        "paperId": "674da43a0df0d9a0ca8e5ba47a024cefbc1917dc",
-        "publicationDate": "2019-09-02",
-        "referenceCount": null,
-        "title": "SUM-QE: a BERT-based Summary Quality Estimation Model",
-        "url": "https://www.semanticscholar.org/paper/674da43a0df0d9a0ca8e5ba47a024cefbc1917dc",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2019
-      },
-      "index": 2,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "47748857",
-            "name": "Wei Zhao"
-          },
-          {
-            "authorId": "35512303",
-            "name": "Maxime Peyrard"
-          },
-          {
-            "authorId": "144544919",
-            "name": "Fei Liu"
-          },
-          {
-            "authorId": "152128108",
-            "name": "Yang Gao"
-          },
-          {
-            "authorId": "145575695",
-            "name": "Christian M. Meyer"
-          },
-          {
-            "authorId": "2620186",
-            "name": "Steffen Eger"
-          }
-        ],
-        "citationCount": 709,
-        "externalIds": {
-          "ACL": "D19-1053",
-          "ArXiv": "1909.02622",
-          "CorpusId": 202540033,
-          "DBLP": "journals/corr/abs-1909-02622",
-          "DOI": "10.18653/v1/D19-1053",
-          "MAG": "2971753232"
-        },
-        "paperId": "635cb6fb865e86c108c5d1d895aeac0e759eb199",
-        "publicationDate": "2019-08-14",
-        "referenceCount": null,
-        "title": "MoverScore: Text Generation Evaluating with Contextualized Embeddings and Earth Mover Distance",
-        "url": "https://www.semanticscholar.org/paper/635cb6fb865e86c108c5d1d895aeac0e759eb199",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2019
-      },
-      "index": 3,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2100621107",
-            "name": "Qingsong Ma"
-          },
-          {
-            "authorId": "6145196",
-            "name": "Johnny Tian-Zheng Wei"
-          },
-          {
-            "authorId": "143832874",
-            "name": "Ondrej Bojar"
-          },
-          {
-            "authorId": "2285122899",
-            "name": "Yvette Graham"
-          }
-        ],
-        "citationCount": 187,
-        "externalIds": {
-          "ACL": "W19-5302",
-          "CorpusId": 201742578,
-          "DBLP": "conf/wmt/MaWBG19",
-          "DOI": "10.18653/v1/W19-5302",
-          "MAG": "2970791445"
-        },
-        "paperId": "37c035a8e6ad1da2a8b22d5f2951f01f1f309632",
-        "publicationDate": "2019-08-01",
-        "referenceCount": null,
-        "title": "Results of the WMT19 Metrics Shared Task: Segment-Level and Strong MT Systems Pose Big Challenges",
-        "url": "https://www.semanticscholar.org/paper/37c035a8e6ad1da2a8b22d5f2951f01f1f309632",
-        "venue": "Conference on Machine Translation",
-        "year": 2019
-      },
-      "index": 4,
-      "intents": [
-        "background",
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "11323179",
-            "name": "Yinhan Liu"
-          },
-          {
-            "authorId": "40511414",
-            "name": "Myle Ott"
-          },
-          {
-            "authorId": "39589154",
-            "name": "Naman Goyal"
-          },
-          {
-            "authorId": "3048577",
-            "name": "Jingfei Du"
-          },
-          {
-            "authorId": "144863691",
-            "name": "Mandar Joshi"
-          },
-          {
-            "authorId": "50536468",
-            "name": "Danqi Chen"
-          },
-          {
-            "authorId": "39455775",
-            "name": "Omer Levy"
-          },
-          {
-            "authorId": "35084211",
-            "name": "M. Lewis"
-          },
-          {
-            "authorId": "1982950",
-            "name": "Luke Zettlemoyer"
-          },
-          {
-            "authorId": "1759422",
-            "name": "Veselin Stoyanov"
-          }
-        ],
-        "citationCount": 29503,
-        "externalIds": {
-          "ArXiv": "1907.11692",
-          "CorpusId": 198953378,
-          "DBLP": "journals/corr/abs-1907-11692",
-          "MAG": "2965373594"
-        },
-        "paperId": "077f8329a7b6fa3b7c877a57b81eb6c18b5f87de",
-        "publicationDate": "2019-07-26",
-        "referenceCount": null,
-        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
-        "url": "https://www.semanticscholar.org/paper/077f8329a7b6fa3b7c877a57b81eb6c18b5f87de",
-        "venue": "arXiv.org",
-        "year": 2019
-      },
-      "index": 5,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2615454",
-            "name": "Nitika Mathur"
-          },
-          {
-            "authorId": "145465286",
-            "name": "Timothy Baldwin"
-          },
-          {
-            "authorId": "143620680",
-            "name": "Trevor Cohn"
-          }
-        ],
-        "citationCount": 66,
-        "externalIds": {
-          "ACL": "P19-1269",
-          "CorpusId": 196185246,
-          "DBLP": "conf/acl/MathurBC19",
-          "DOI": "10.18653/v1/P19-1269",
-          "MAG": "2953287808"
-        },
-        "paperId": "dce91eb862d19a646b8f5171ec66e61a987f3b3c",
-        "publicationDate": "2019-07-01",
-        "referenceCount": null,
-        "title": "Putting Evaluation in Context: Contextual Embeddings Improve Machine Translation Evaluation",
-        "url": "https://www.semanticscholar.org/paper/dce91eb862d19a646b8f5171ec66e61a987f3b3c",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2019
-      },
-      "index": 6,
-      "intents": [
-        "background",
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "35298844",
-            "name": "Matan Eyal"
-          },
-          {
-            "authorId": "3171055",
-            "name": "Tal Baumel"
-          },
-          {
-            "authorId": "1754680",
-            "name": "Michael Elhadad"
-          }
-        ],
-        "citationCount": 125,
-        "externalIds": {
-          "ACL": "N19-1395",
-          "ArXiv": "1906.00318",
-          "CorpusId": 173990261,
-          "DBLP": "conf/naacl/EyalBE19",
-          "DOI": "10.18653/v1/N19-1395",
-          "MAG": "2949468471"
-        },
-        "paperId": "d5fdc7aa21ec15d6cb6d7b0798d4f5191642297c",
-        "publicationDate": "2019-06-01",
-        "referenceCount": null,
-        "title": "Question Answering as an Automatic Evaluation Metric for News Article Summarization",
-        "url": "https://www.semanticscholar.org/paper/d5fdc7aa21ec15d6cb6d7b0798d4f5191642297c",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2019
-      },
-      "index": 7,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "123437034",
-            "name": "Tianyi Zhang"
-          },
-          {
-            "authorId": "145461044",
-            "name": "Varsha Kishore"
-          },
-          {
-            "authorId": "24277779",
-            "name": "Felix Wu"
-          },
-          {
-            "authorId": "7446832",
-            "name": "Kilian Q. Weinberger"
-          },
-          {
-            "authorId": "3167681",
-            "name": "Yoav Artzi"
-          }
-        ],
-        "citationCount": 8463,
-        "externalIds": {
-          "ArXiv": "1904.09675",
-          "CorpusId": 127986044,
-          "DBLP": "journals/corr/abs-1904-09675",
-          "MAG": "2936695845"
-        },
-        "paperId": "295065d942abca0711300b2b4c39829551060578",
-        "publicationDate": "2019-04-21",
-        "referenceCount": null,
-        "title": "BERTScore: Evaluating Text Generation with BERT",
-        "url": "https://www.semanticscholar.org/paper/295065d942abca0711300b2b4c39829551060578",
-        "venue": "International Conference on Learning Representations",
-        "year": 2019
-      },
-      "index": 8,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2100621107",
-            "name": "Qingsong Ma"
-          },
-          {
-            "authorId": "143832874",
-            "name": "Ondrej Bojar"
-          },
-          {
-            "authorId": "2000709",
-            "name": "Yvette Graham"
-          }
-        ],
-        "citationCount": 105,
-        "externalIds": {
-          "ACL": "W18-6450",
-          "CorpusId": 53246643,
-          "DBLP": "conf/wmt/MaBG18",
-          "DOI": "10.18653/v1/W18-6450",
-          "MAG": "2903188467"
-        },
-        "paperId": "b4e59a9926362fd18ce39c64bb42fe874b4de8f9",
-        "publicationDate": "2018-10-01",
-        "referenceCount": null,
-        "title": "Results of the WMT18 Metrics Shared Task: Both characters and embeddings achieve good performance",
-        "url": "https://www.semanticscholar.org/paper/b4e59a9926362fd18ce39c64bb42fe874b4de8f9",
-        "venue": "Conference on Machine Translation",
-        "year": 2018
-      },
-      "index": 9,
-      "intents": [
-        "background",
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "46184455",
-            "name": "Hiroki Shimanaka"
-          },
-          {
-            "authorId": "1981103",
-            "name": "Tomoyuki Kajiwara"
-          },
-          {
-            "authorId": "2936411",
-            "name": "Mamoru Komachi"
-          }
-        ],
-        "citationCount": 106,
-        "externalIds": {
-          "ACL": "W18-6456",
-          "CorpusId": 53246676,
-          "DBLP": "conf/wmt/ShimanakaKK18",
-          "DOI": "10.18653/v1/W18-6456",
-          "MAG": "2903376039"
-        },
-        "paperId": "01e96a94b155be1bfde39aae92ab340b8cb8a0ba",
-        "publicationDate": "2018-10-01",
-        "referenceCount": null,
-        "title": "RUSE: Regressor Using Sentence Embeddings for Automatic Machine Translation Evaluation",
-        "url": "https://www.semanticscholar.org/paper/01e96a94b155be1bfde39aae92ab340b8cb8a0ba",
-        "venue": "Conference on Machine Translation",
-        "year": 2018
-      },
-      "index": 10,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "78846919",
-            "name": "Marco Tulio Ribeiro"
-          },
-          {
-            "authorId": "34650964",
-            "name": "Sameer Singh"
-          },
-          {
-            "authorId": "1730156",
-            "name": "Carlos Guestrin"
-          }
-        ],
-        "citationCount": 547,
-        "externalIds": {
-          "ACL": "P18-1079",
-          "CorpusId": 21740766,
-          "DBLP": "conf/acl/SinghGR18",
-          "DOI": "10.18653/v1/P18-1079",
-          "MAG": "2799007037"
-        },
-        "paperId": "472644c5f4155635cf9e9e37540bfa53c20e7610",
-        "publicationDate": "2018-07-01",
-        "referenceCount": null,
-        "title": "Semantically Equivalent Adversarial Rules for Debugging NLP models",
-        "url": "https://www.semanticscholar.org/paper/472644c5f4155635cf9e9e37540bfa53c20e7610",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2018
-      },
-      "index": 11,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2719924",
-            "name": "Arun Tejasvi Chaganty"
-          },
-          {
-            "authorId": "1776721",
-            "name": "Stephen O. Mussmann"
-          },
-          {
-            "authorId": "145419642",
-            "name": "Percy Liang"
-          }
-        ],
-        "citationCount": 132,
-        "externalIds": {
-          "ACL": "P18-1060",
-          "ArXiv": "1807.02202",
-          "CorpusId": 49568810,
-          "DBLP": "journals/corr/abs-1807-02202",
-          "DOI": "10.18653/v1/P18-1060",
-          "MAG": "2950446064"
-        },
-        "paperId": "92f44bfc47dbe6b377bc5f4981697cb18c50efdf",
-        "publicationDate": "2018-07-01",
-        "referenceCount": null,
-        "title": "The price of debiasing automatic metrics in natural language evalaution",
-        "url": "https://www.semanticscholar.org/paper/92f44bfc47dbe6b377bc5f4981697cb18c50efdf",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2018
-      },
-      "index": 12,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "144906624",
-            "name": "Alex Wang"
-          },
-          {
-            "authorId": "50286460",
-            "name": "Amanpreet Singh"
-          },
-          {
-            "authorId": "38614754",
-            "name": "Julian Michael"
-          },
-          {
-            "authorId": "145783676",
-            "name": "Felix Hill"
-          },
-          {
-            "authorId": "39455775",
-            "name": "Omer Levy"
-          },
-          {
-            "authorId": "3644767",
-            "name": "Samuel R. Bowman"
-          }
-        ],
-        "citationCount": 8480,
-        "externalIds": {
-          "ACL": "W18-5446",
-          "ArXiv": "1804.07461",
-          "CorpusId": 5034059,
-          "DBLP": "conf/emnlp/WangSMHLB18",
-          "DOI": "10.18653/v1/W18-5446",
-          "MAG": "2963310665"
-        },
-        "paperId": "451d4a16e425ecbf38c4b1cca0dcf5d9bec8255c",
-        "publicationDate": "2018-04-20",
-        "referenceCount": null,
-        "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
-        "url": "https://www.semanticscholar.org/paper/451d4a16e425ecbf38c4b1cca0dcf5d9bec8255c",
-        "venue": "BlackboxNLP@EMNLP",
-        "year": 2018
-      },
-      "index": 13,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2136562",
-            "name": "Mohit Iyyer"
-          },
-          {
-            "authorId": "1771118",
-            "name": "J. Wieting"
-          },
-          {
-            "authorId": "1700980",
-            "name": "Kevin Gimpel"
-          },
-          {
-            "authorId": "1982950",
-            "name": "Luke Zettlemoyer"
-          }
-        ],
-        "citationCount": 779,
-        "externalIds": {
-          "ACL": "N18-1170",
-          "ArXiv": "1804.06059",
-          "CorpusId": 4956100,
-          "DBLP": "journals/corr/abs-1804-06059",
-          "DOI": "10.18653/v1/N18-1170",
-          "MAG": "2963126845"
-        },
-        "paperId": "2b110fce160468eb179b6c43ea27e098757a56dd",
-        "publicationDate": "2018-04-17",
-        "referenceCount": null,
-        "title": "Adversarial Example Generation with Syntactically Controlled Paraphrase Networks",
-        "url": "https://www.semanticscholar.org/paper/2b110fce160468eb179b6c43ea27e098757a56dd",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2018
-      },
-      "index": 14,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2181869",
-            "name": "Anastasia Shimorina"
-          },
-          {
-            "authorId": "1794075",
-            "name": "Claire Gardent"
-          },
-          {
-            "authorId": "143790499",
-            "name": "Shashi Narayan"
-          },
-          {
-            "authorId": "1400959575",
-            "name": "Laura Perez-Beltrachini"
-          }
-        ],
-        "citationCount": 20,
-        "externalIds": {
-          "CorpusId": 227193024,
-          "MAG": "3101030450"
-        },
-        "paperId": "20bafb628ded1750671b5d04f9a3ce1b9ee3f426",
-        "publicationDate": "2018-01-15",
-        "referenceCount": null,
-        "title": "WebNLG Challenge: Human Evaluation Results",
-        "url": "https://www.semanticscholar.org/paper/20bafb628ded1750671b5d04f9a3ce1b9ee3f426",
-        "venue": "",
-        "year": 2018
-      },
-      "index": 15,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2083259",
-            "name": "Yonatan Belinkov"
-          },
-          {
-            "authorId": "3312309",
-            "name": "Yonatan Bisk"
-          }
-        ],
-        "citationCount": 798,
-        "externalIds": {
-          "ArXiv": "1711.02173",
-          "CorpusId": 3513372,
-          "DBLP": "conf/iclr/BelinkovB18",
-          "MAG": "2767899794"
-        },
-        "paperId": "765bdcf27ebc1eb03a14f1e47aefa4dda1e03073",
-        "publicationDate": "2017-11-06",
-        "referenceCount": null,
-        "title": "Synthetic and Natural Noise Both Break Neural Machine Translation",
-        "url": "https://www.semanticscholar.org/paper/765bdcf27ebc1eb03a14f1e47aefa4dda1e03073",
-        "venue": "International Conference on Learning Representations",
-        "year": 2017
-      },
-      "index": 16,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "143925074",
-            "name": "Hany Hassan"
-          },
-          {
-            "authorId": "143758717",
-            "name": "Kareem Darwish"
-          }
-        ],
-        "citationCount": 1699,
-        "externalIds": {
-          "ACL": "2007.mtsummit-tutorials.1",
-          "CorpusId": 7721910,
-          "DBLP": "reference/ml/Osborne10",
-          "DOI": "10.1007/978-0-387-30164-8_783",
-          "MAG": "2775205810"
-        },
-        "paperId": "7bbc1c2c2216169c2e9ecdc8b4f1978138c34650",
-        "publicationDate": "2017-10-01",
-        "referenceCount": null,
-        "title": "Statistical machine translation",
-        "url": "https://www.semanticscholar.org/paper/7bbc1c2c2216169c2e9ecdc8b4f1978138c34650",
-        "venue": "Machine Translation Summit",
-        "year": 2017
-      },
-      "index": 17,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "143832874",
-            "name": "Ondrej Bojar"
-          },
-          {
-            "authorId": "2000709",
-            "name": "Yvette Graham"
-          },
-          {
-            "authorId": "35132887",
-            "name": "Amir Kamran"
-          }
-        ],
-        "citationCount": 141,
-        "externalIds": {
-          "ACL": "W17-4755",
-          "CorpusId": 133306280,
-          "DBLP": "conf/wmt/BojarGK17",
-          "DOI": "10.18653/v1/W17-4755",
-          "MAG": "2915756181"
-        },
-        "paperId": "dc4b3112000e151583da2532b63e0b1e59cbff8a",
-        "publicationDate": "2017-09-01",
-        "referenceCount": null,
-        "title": "Results of the WMT17 Metrics Shared Task",
-        "url": "https://www.semanticscholar.org/paper/dc4b3112000e151583da2532b63e0b1e59cbff8a",
-        "venue": "Conference on Machine Translation",
-        "year": 2017
-      },
-      "index": 18,
-      "intents": [
-        "background",
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1794075",
-            "name": "Claire Gardent"
-          },
-          {
-            "authorId": "2181869",
-            "name": "Anastasia Shimorina"
-          },
-          {
-            "authorId": "143790499",
-            "name": "Shashi Narayan"
-          },
-          {
-            "authorId": "1400959575",
-            "name": "Laura Perez-Beltrachini"
-          }
-        ],
-        "citationCount": 436,
-        "externalIds": {
-          "ACL": "W17-3518",
-          "CorpusId": 28193461,
-          "DBLP": "conf/inlg/GardentSNP17",
-          "DOI": "10.18653/v1/W17-3518",
-          "MAG": "2786660442"
-        },
-        "paperId": "a4c40532e68728fbeab5d9415f6ad8e9530db360",
-        "publicationDate": "2017-09-01",
-        "referenceCount": null,
-        "title": "The WebNLG Challenge: Generating Text from RDF Data",
-        "url": "https://www.semanticscholar.org/paper/a4c40532e68728fbeab5d9415f6ad8e9530db360",
-        "venue": "International Conference on Natural Language Generation",
-        "year": 2017
-      },
-      "index": 19,
-      "intents": [
-        "background",
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "3422908",
-            "name": "Robin Jia"
-          },
-          {
-            "authorId": "145419642",
-            "name": "Percy Liang"
-          }
-        ],
-        "citationCount": 1703,
-        "externalIds": {
-          "ACL": "D17-1215",
-          "ArXiv": "1707.07328",
-          "CorpusId": 7228830,
-          "DBLP": "conf/emnlp/JiaL17",
-          "DOI": "10.18653/v1/D17-1215",
-          "MAG": "2738015883"
-        },
-        "paperId": "ffb949d3493c3b2f3c9acf9c75cb03938933ddf0",
-        "publicationDate": "2017-07-23",
-        "referenceCount": null,
-        "title": "Adversarial Examples for Evaluating Reading Comprehension Systems",
-        "url": "https://www.semanticscholar.org/paper/ffb949d3493c3b2f3c9acf9c75cb03938933ddf0",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2017
-      },
-      "index": 20,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2848048",
-            "name": "Jekaterina Novikova"
-          },
-          {
-            "authorId": "2544049",
-            "name": "Ondrej Dusek"
-          },
-          {
-            "authorId": "3451318",
-            "name": "A. C. Curry"
-          },
-          {
-            "authorId": "1681799",
-            "name": "Verena Rieser"
-          }
-        ],
-        "citationCount": 509,
-        "externalIds": {
-          "ACL": "D17-1238",
-          "ArXiv": "1707.06875",
-          "CorpusId": 1929239,
-          "DBLP": "journals/corr/NovikovaDCR17",
-          "DOI": "10.18653/v1/D17-1238",
-          "MAG": "2963672599"
-        },
-        "paperId": "0d441ab58a1027cb64084ad065cfea5e15b8e74c",
-        "publicationDate": "2017-07-21",
-        "referenceCount": null,
-        "title": "Why We Need New Evaluation Metrics for NLG",
-        "url": "https://www.semanticscholar.org/paper/0d441ab58a1027cb64084ad065cfea5e15b8e74c",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2017
-      },
-      "index": 21,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2844243",
-            "name": "Sam Wiseman"
-          },
-          {
-            "authorId": "1692491",
-            "name": "Stuart M. Shieber"
-          },
-          {
-            "authorId": "2531268",
-            "name": "Alexander M. Rush"
-          }
-        ],
-        "citationCount": 639,
-        "externalIds": {
-          "ACL": "D17-1239",
-          "ArXiv": "1707.08052",
-          "CorpusId": 23892230,
-          "DBLP": "journals/corr/WisemanSR17",
-          "DOI": "10.18653/v1/D17-1239",
-          "MAG": "2739046565"
-        },
-        "paperId": "13395213d47f78672ab4e81573f2b0fa0cfc8c6d",
-        "publicationDate": "2017-07-01",
-        "referenceCount": null,
-        "title": "Challenges in Data-to-Document Generation",
-        "url": "https://www.semanticscholar.org/paper/13395213d47f78672ab4e81573f2b0fa0cfc8c6d",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2017
-      },
-      "index": 22,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "40348417",
-            "name": "Ashish Vaswani"
-          },
-          {
-            "authorId": "1846258",
-            "name": "Noam Shazeer"
-          },
-          {
-            "authorId": "3877127",
-            "name": "Niki Parmar"
-          },
-          {
-            "authorId": "39328010",
-            "name": "Jakob Uszkoreit"
-          },
-          {
-            "authorId": "145024664",
-            "name": "Llion Jones"
-          },
-          {
-            "authorId": "19177000",
-            "name": "Aidan N. Gomez"
-          },
-          {
-            "authorId": "40527594",
-            "name": "Lukasz Kaiser"
-          },
-          {
-            "authorId": "3443442",
-            "name": "I. Polosukhin"
-          }
-        ],
-        "citationCount": 175735,
-        "externalIds": {
-          "ArXiv": "1706.03762",
-          "CorpusId": 13756489,
-          "DBLP": "journals/corr/VaswaniSPUJGKP17",
-          "MAG": "2963403868"
-        },
-        "paperId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
-        "publicationDate": "2017-06-12",
-        "referenceCount": null,
-        "title": "Attention is All you Need",
-        "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776",
-        "venue": "Neural Information Processing Systems",
-        "year": 2017
-      },
-      "index": 23,
-      "intents": [
-        "background",
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "81840293",
-            "name": "Adina Williams"
-          },
-          {
-            "authorId": "10666396",
-            "name": "Nikita Nangia"
-          },
-          {
-            "authorId": "3644767",
-            "name": "Samuel R. Bowman"
-          }
-        ],
-        "citationCount": 5001,
-        "externalIds": {
-          "ACL": "N18-1101",
-          "ArXiv": "1704.05426",
-          "CorpusId": 3432876,
-          "DBLP": "journals/corr/WilliamsNB17",
-          "DOI": "10.18653/v1/N18-1101",
-          "MAG": "2963846996"
-        },
-        "paperId": "5ded2b8c64491b4a67f6d39ce473d4b9347a672e",
-        "publicationDate": "2017-04-18",
-        "referenceCount": null,
-        "title": "A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference",
-        "url": "https://www.semanticscholar.org/paper/5ded2b8c64491b4a67f6d39ce473d4b9347a672e",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2017
-      },
-      "index": 24,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "32012022",
-            "name": "Gaurav Singh Tomar"
-          },
-          {
-            "authorId": "1914352",
-            "name": "Thyago Duque"
-          },
-          {
-            "authorId": "2556289",
-            "name": "Oscar Täckström"
-          },
-          {
-            "authorId": "39328010",
-            "name": "Jakob Uszkoreit"
-          },
-          {
-            "authorId": "143790066",
-            "name": "Dipanjan Das"
-          }
-        ],
-        "citationCount": 81,
-        "externalIds": {
-          "ACL": "W17-4121",
-          "ArXiv": "1704.04565",
-          "CorpusId": 9767487,
-          "DBLP": "journals/corr/TomarDTU017",
-          "DOI": "10.18653/v1/W17-4121",
-          "MAG": "2612867916"
-        },
-        "paperId": "f056fb8cca0c30f59c22513d0dcd444f53cfa151",
-        "publicationDate": "2017-04-15",
-        "referenceCount": null,
-        "title": "Neural Paraphrase Identification of Questions with Noisy Pretraining",
-        "url": "https://www.semanticscholar.org/paper/f056fb8cca0c30f59c22513d0dcd444f53cfa151",
-        "venue": "SWCN@EMNLP",
-        "year": 2017
-      },
-      "index": 25,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "47261124",
-            "name": "Qian Chen"
-          },
-          {
-            "authorId": "1854999",
-            "name": "Xiao-Dan Zhu"
-          },
-          {
-            "authorId": "1749989",
-            "name": "Zhenhua Ling"
-          },
-          {
-            "authorId": "144572674",
-            "name": "Si Wei"
-          },
-          {
-            "authorId": "36357862",
-            "name": "Hui Jiang"
-          },
-          {
-            "authorId": "1697366",
-            "name": "Diana Inkpen"
-          }
-        ],
-        "citationCount": 1179,
-        "externalIds": {
-          "ACL": "P17-1152",
-          "ArXiv": "1609.06038",
-          "CorpusId": 34032948,
-          "DBLP": "conf/acl/ChenZLWJI17",
-          "DOI": "10.18653/v1/P17-1152",
-          "MAG": "2962726955"
-        },
-        "paperId": "83e7654d545fbbaaf2328df365a781fb67b841b4",
-        "publicationDate": "2016-09-20",
-        "referenceCount": null,
-        "title": "Enhanced LSTM for Natural Language Inference",
-        "url": "https://www.semanticscholar.org/paper/83e7654d545fbbaaf2328df365a781fb67b841b4",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2016
-      },
-      "index": 26,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "143832874",
-            "name": "Ondrej Bojar"
-          },
-          {
-            "authorId": "1562121827",
-            "name": "Yvette Graham"
-          },
-          {
-            "authorId": "35132887",
-            "name": "Amir Kamran"
-          },
-          {
-            "authorId": "2741066",
-            "name": "Miloš Stanojević"
-          }
-        ],
-        "citationCount": 127,
-        "externalIds": {
-          "ACL": "W16-2302",
-          "CorpusId": 219309091,
-          "DBLP": "conf/wmt/BojarGKS16",
-          "DOI": "10.18653/v1/W16-2302",
-          "MAG": "2508316494"
-        },
-        "paperId": "6316c4fbfca99aa6c9b7ff6489d3597dedbbb211",
-        "publicationDate": "2016-08-01",
-        "referenceCount": null,
-        "title": "Results of the WMT16 Metrics Shared Task",
-        "url": "https://www.semanticscholar.org/paper/6316c4fbfca99aa6c9b7ff6489d3597dedbbb211",
-        "venue": "Conference on Machine Translation",
-        "year": 2016
-      },
-      "index": 27,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "3295092",
-            "name": "S. Chopra"
-          },
-          {
-            "authorId": "2325985",
-            "name": "Michael Auli"
-          },
-          {
-            "authorId": "2531268",
-            "name": "Alexander M. Rush"
-          }
-        ],
-        "citationCount": 928,
-        "externalIds": {
-          "ACL": "N16-1012",
-          "CorpusId": 133195,
-          "DBLP": "conf/naacl/ChopraAR16",
-          "DOI": "10.18653/v1/N16-1012",
-          "MAG": "2467173223"
-        },
-        "paperId": "7a67159fc7bc76d0b37930b55005a69b51241635",
-        "publicationDate": "2016-06-01",
-        "referenceCount": null,
-        "title": "Abstractive Sentence Summarization with Attentive Recurrent Neural Networks",
-        "url": "https://www.semanticscholar.org/paper/7a67159fc7bc76d0b37930b55005a69b51241635",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2016
-      },
-      "index": 28,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2144634184",
-            "name": "Chia-Wei Liu"
-          },
-          {
-            "authorId": "2054294",
-            "name": "Ryan Lowe"
-          },
-          {
-            "authorId": "35224828",
-            "name": "Iulian Serban"
-          },
-          {
-            "authorId": "38107789",
-            "name": "Michael Noseworthy"
-          },
-          {
-            "authorId": "1778839",
-            "name": "Laurent Charlin"
-          },
-          {
-            "authorId": "145134886",
-            "name": "Joelle Pineau"
-          }
-        ],
-        "citationCount": 1385,
-        "externalIds": {
-          "ACL": "D16-1230",
-          "ArXiv": "1603.08023",
-          "CorpusId": 9197196,
-          "DBLP": "conf/emnlp/LiuLSNCP16",
-          "DOI": "10.18653/v1/D16-1230",
-          "MAG": "2963903950"
-        },
-        "paperId": "129cbad01be98ee88a930e31898cb76be79c41c1",
-        "publicationDate": "2016-03-25",
-        "referenceCount": null,
-        "title": "How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation",
-        "url": "https://www.semanticscholar.org/paper/129cbad01be98ee88a930e31898cb76be79c41c1",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2016
-      },
-      "index": 29,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1771118",
-            "name": "J. Wieting"
-          },
-          {
-            "authorId": "143977268",
-            "name": "Mohit Bansal"
-          },
-          {
-            "authorId": "1700980",
-            "name": "Kevin Gimpel"
-          },
-          {
-            "authorId": "2924113",
-            "name": "Karen Livescu"
-          }
-        ],
-        "citationCount": 572,
-        "externalIds": {
-          "ArXiv": "1511.08198",
-          "CorpusId": 5882977,
-          "DBLP": "journals/corr/WietingBGL15a",
-          "MAG": "2953171575"
-        },
-        "paperId": "395044a2e3f5624b2471fb28826e7dbb1009356e",
-        "publicationDate": "2015-11-25",
-        "referenceCount": null,
-        "title": "Towards Universal Paraphrastic Sentence Embeddings",
-        "url": "https://www.semanticscholar.org/paper/395044a2e3f5624b2471fb28826e7dbb1009356e",
-        "venue": "International Conference on Learning Representations",
-        "year": 2015
-      },
-      "index": 30,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2082372",
-            "name": "Rico Sennrich"
-          },
-          {
-            "authorId": "2259100",
-            "name": "B. Haddow"
-          },
-          {
-            "authorId": "2539211",
-            "name": "Alexandra Birch"
-          }
-        ],
-        "citationCount": 2931,
-        "externalIds": {
-          "ACL": "P16-1009",
-          "ArXiv": "1511.06709",
-          "CorpusId": 15600925,
-          "DBLP": "journals/corr/SennrichHB15a",
-          "DOI": "10.18653/v1/P16-1009",
-          "MAG": "2284660317"
-        },
-        "paperId": "f3b96ef2dc1fc5e14982f1b963db8db6a54183bb",
-        "publicationDate": "2015-11-20",
-        "referenceCount": null,
-        "title": "Improving Neural Machine Translation Models with Monolingual Data",
-        "url": "https://www.semanticscholar.org/paper/f3b96ef2dc1fc5e14982f1b963db8db6a54183bb",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2015
-      },
-      "index": 31,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "3644767",
-            "name": "Samuel R. Bowman"
-          },
-          {
-            "authorId": "32301760",
-            "name": "Gabor Angeli"
-          },
-          {
-            "authorId": "144922861",
-            "name": "Christopher Potts"
-          },
-          {
-            "authorId": "144783904",
-            "name": "Christopher D. Manning"
-          }
-        ],
-        "citationCount": 4660,
-        "externalIds": {
-          "ACL": "D15-1075",
-          "ArXiv": "1508.05326",
-          "CorpusId": 14604520,
-          "DBLP": "conf/emnlp/BowmanAPM15",
-          "DOI": "10.18653/v1/D15-1075",
-          "MAG": "2953084091"
-        },
-        "paperId": "f04df4e20a18358ea2f689b4c129781628ef7fc1",
-        "publicationDate": "2015-08-21",
-        "referenceCount": null,
-        "title": "A large annotated corpus for learning natural language inference",
-        "url": "https://www.semanticscholar.org/paper/f04df4e20a18358ea2f689b4c129781628ef7fc1",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2015
-      },
-      "index": 32,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1689108",
-            "name": "O. Vinyals"
-          },
-          {
-            "authorId": "2827616",
-            "name": "Quoc V. Le"
-          }
-        ],
-        "citationCount": 1812,
-        "externalIds": {
-          "ArXiv": "1506.05869",
-          "CorpusId": 12300158,
-          "DBLP": "journals/corr/VinyalsL15",
-          "MAG": "1591706642"
-        },
-        "paperId": "86311b182786bfde19446f6ded0854de973d4060",
-        "publicationDate": "2015-06-19",
-        "referenceCount": null,
-        "title": "A Neural Conversational Model",
-        "url": "https://www.semanticscholar.org/paper/86311b182786bfde19446f6ded0854de973d4060",
-        "venue": "arXiv.org",
-        "year": 2015
-      },
-      "index": 33,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2113484216",
-            "name": "Hao Fang"
-          },
-          {
-            "authorId": "144157872",
-            "name": "Saurabh Gupta"
-          },
-          {
-            "authorId": "3346186",
-            "name": "F. Iandola"
-          },
-          {
-            "authorId": "2100612",
-            "name": "R. Srivastava"
-          },
-          {
-            "authorId": "144718788",
-            "name": "L. Deng"
-          },
-          {
-            "authorId": "3127283",
-            "name": "Piotr Dollár"
-          },
-          {
-            "authorId": "1800422",
-            "name": "Jianfeng Gao"
-          },
-          {
-            "authorId": "144137069",
-            "name": "Xiaodong He"
-          },
-          {
-            "authorId": "49501003",
-            "name": "Margaret Mitchell"
-          },
-          {
-            "authorId": "144189092",
-            "name": "John C. Platt"
-          },
-          {
-            "authorId": "1699161",
-            "name": "C. L. Zitnick"
-          },
-          {
-            "authorId": "1681543",
-            "name": "G. Zweig"
-          }
-        ],
-        "citationCount": 1354,
-        "externalIds": {
-          "ArXiv": "1411.4952",
-          "CorpusId": 9254582,
-          "DBLP": "journals/corr/FangGISDDGHMPZZ14",
-          "DOI": "10.1109/CVPR.2015.7298754",
-          "MAG": "1931639407"
-        },
-        "paperId": "15f102c3c9f4d4fe6ba105e221df48c6e8902b3b",
-        "publicationDate": "2014-11-18",
-        "referenceCount": null,
-        "title": "From captions to visual concepts and back",
-        "url": "https://www.semanticscholar.org/paper/15f102c3c9f4d4fe6ba105e221df48c6e8902b3b",
-        "venue": "Computer Vision and Pattern Recognition",
-        "year": 2014
-      },
-      "index": 34,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1701686",
-            "name": "I. Sutskever"
-          },
-          {
-            "authorId": "1689108",
-            "name": "O. Vinyals"
-          },
-          {
-            "authorId": "2827616",
-            "name": "Quoc V. Le"
-          }
-        ],
-        "citationCount": 21989,
-        "externalIds": {
-          "ArXiv": "1409.3215",
-          "CorpusId": 7961699,
-          "DBLP": "conf/nips/SutskeverVL14",
-          "MAG": "2130942839"
-        },
-        "paperId": "cea967b59209c6be22829699f05b8b1ac4dc092d",
-        "publicationDate": "2014-09-10",
-        "referenceCount": null,
-        "title": "Sequence to Sequence Learning with Neural Networks",
-        "url": "https://www.semanticscholar.org/paper/cea967b59209c6be22829699f05b8b1ac4dc092d",
-        "venue": "Neural Information Processing Systems",
-        "year": 2014
-      },
-      "index": 35,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "3335364",
             "name": "Dzmitry Bahdanau"
           },
           {
-            "authorId": "1979489",
             "name": "Kyunghyun Cho"
           },
           {
-            "authorId": "1751762",
             "name": "Yoshua Bengio"
           }
         ],
-        "citationCount": 29333,
-        "externalIds": {
-          "ArXiv": "1409.0473",
-          "CorpusId": 11212020,
-          "DBLP": "journals/corr/BahdanauCB14",
-          "MAG": "2133564696"
-        },
-        "paperId": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
-        "publicationDate": "2014-09-01",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
-        "url": "https://www.semanticscholar.org/paper/fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5",
-        "venue": "International Conference on Learning Representations",
-        "year": 2014
+        "title": "Neural machine translation by jointly learning to align and translate",
+        "url": null,
+        "venue": "Proceedings of ICLR",
+        "year": 2015
       },
-      "index": 36,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "index": 0,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Ben- gio. 2015. Neural machine translation by jointly learning to align and translate. In Proceedings of ICLR."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2741066",
-            "name": "Miloš Stanojević"
-          },
-          {
-            "authorId": "3540477",
-            "name": "K. Sima'an"
-          }
-        ],
-        "citationCount": 119,
-        "externalIds": {
-          "ACL": "W14-3354",
-          "CorpusId": 17807266,
-          "DBLP": "conf/wmt/StanojevicS14",
-          "DOI": "10.3115/v1/W14-3354",
-          "MAG": "2974203819"
-        },
-        "paperId": "41ae4078cc698edd8dbb510dbfbb0f14b998d132",
-        "publicationDate": "2014-06-01",
-        "referenceCount": null,
-        "title": "BEER: BEtter Evaluation as Ranking",
-        "url": "https://www.semanticscholar.org/paper/41ae4078cc698edd8dbb510dbfbb0f14b998d132",
-        "venue": "WMT@ACL",
-        "year": 2014
-      },
-      "index": 37,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2267212",
-            "name": "Juri Ganitkevitch"
-          },
-          {
-            "authorId": "7536576",
-            "name": "Benjamin Van Durme"
-          },
-          {
-            "authorId": "1763608",
-            "name": "Chris Callison-Burch"
-          }
-        ],
-        "citationCount": 802,
-        "externalIds": {
-          "ACL": "N13-1092",
-          "CorpusId": 6067240,
-          "DBLP": "conf/naacl/GanitkevitchDC13",
-          "MAG": "2251044566"
-        },
-        "paperId": "ef12383f516840ec1ec998cd5921dfc6e197c9b2",
-        "publicationDate": "2013-06-01",
-        "referenceCount": null,
-        "title": "PPDB: The Paraphrase Database",
-        "url": "https://www.semanticscholar.org/paper/ef12383f516840ec1ec998cd5921dfc6e197c9b2",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2013
-      },
-      "index": 38,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "47473549",
             "name": "Colin Bannard"
           },
           {
-            "authorId": "1763608",
             "name": "Chris Callison-Burch"
           }
         ],
-        "citationCount": 644,
-        "externalIds": {
-          "ACL": "P05-1074",
-          "CorpusId": 15728911,
-          "DBLP": "conf/acl/BannardC05",
-          "DOI": "10.3115/1219840.1219914",
-          "MAG": "2143927888"
-        },
-        "paperId": "36e8b8b35e51e5b39fcafdb5c2bc763796d0672e",
-        "publicationDate": "2005-06-25",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Paraphrasing with Bilingual Parallel Corpora",
-        "url": "https://www.semanticscholar.org/paper/36e8b8b35e51e5b39fcafdb5c2bc763796d0672e",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "title": "Paraphrasing with bilingual parallel corpora",
+        "url": null,
+        "venue": "Proceedings of ACL",
         "year": 2005
       },
-      "index": 39,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
+      "index": 1,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Colin Bannard and Chris Callison-Burch. 2005. Para- phrasing with bilingual parallel corpora. In Pro- ceedings of ACL."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1781574",
-            "name": "Chin-Yew Lin"
+            "name": "Yonatan Belinkov"
+          },
+          {
+            "name": "Yonatan Bisk"
           }
         ],
-        "citationCount": 20250,
-        "externalIds": {
-          "ACL": "W04-1013",
-          "CorpusId": 964287,
-          "MAG": "2154652894"
-        },
-        "paperId": "60b05f32c32519a809f21642ef1eb3eaf3848008",
-        "publicationDate": "2004-07-25",
-        "referenceCount": null,
-        "title": "ROUGE: A Package for Automatic Evaluation of Summaries",
-        "url": "https://www.semanticscholar.org/paper/60b05f32c32519a809f21642ef1eb3eaf3848008",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2004
-      },
-      "index": 40,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "3323275",
-            "name": "Kishore Papineni"
-          },
-          {
-            "authorId": "46924970",
-            "name": "Salim Roukos"
-          },
-          {
-            "authorId": "144582029",
-            "name": "T. Ward"
-          },
-          {
-            "authorId": "2587983",
-            "name": "Wei-Jing Zhu"
-          }
-        ],
-        "citationCount": 32986,
-        "externalIds": {
-          "ACL": "P02-1040",
-          "CorpusId": 11080756,
-          "DBLP": "conf/acl/PapineniRWZ02",
-          "DOI": "10.3115/1073083.1073135",
-          "MAG": "2101105183"
-        },
-        "paperId": "d7da009f457917aa381619facfa5ffae9329a6e9",
-        "publicationDate": "2002-07-06",
-        "referenceCount": null,
-        "title": "Bleu: a Method for Automatic Evaluation of Machine Translation",
-        "url": "https://www.semanticscholar.org/paper/d7da009f457917aa381619facfa5ffae9329a6e9",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2002
-      },
-      "index": 41,
-      "intents": [
-        "background",
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2752514",
-            "name": "E. Liddy"
-          }
-        ],
-        "citationCount": 638,
-        "externalIds": {
-          "CorpusId": 29804836,
-          "DBLP": "journals/ir/Liddy01",
-          "DOI": "10.1023/A:1011476409104",
-          "MAG": "1577877742"
-        },
-        "paperId": "dd5641e798d97077ab49818448c64bfa494b29da",
-        "publicationDate": "2001-04-01",
-        "referenceCount": null,
-        "title": "Advances in Automatic Text Summarization",
-        "url": "https://www.semanticscholar.org/paper/dd5641e798d97077ab49818448c64bfa494b29da",
-        "venue": "Information retrieval (Boston)",
-        "year": 2001
-      },
-      "index": 42,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "46683413",
-            "name": "Michel Boyer"
-          },
-          {
-            "authorId": "1806207",
-            "name": "G. Lapalme"
-          }
-        ],
-        "citationCount": 270,
-        "externalIds": {
-          "CorpusId": 5053249,
-          "DOI": "10.1007/springerreference_63531",
-          "MAG": "2914518246"
-        },
-        "paperId": "bda499c853d6351b168cb7999286f3c7d81ac184",
-        "publicationDate": "1990-06-01",
-        "referenceCount": null,
-        "title": "Text generation",
-        "url": "https://www.semanticscholar.org/paper/bda499c853d6351b168cb7999286f3c7d81ac184",
-        "venue": "",
-        "year": 1990
-      },
-      "index": 43,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1952749",
-            "name": "K. Kukich"
-          }
-        ],
-        "citationCount": 207,
-        "externalIds": {
-          "ACL": "P83-1022",
-          "CorpusId": 10056961,
-          "DBLP": "conf/acl/Kukich83",
-          "DOI": "10.3115/981311.981340",
-          "MAG": "2164079290"
-        },
-        "paperId": "c94e2841531c8a43b4dd172897a93af01e89421e",
-        "publicationDate": "1983-06-15",
-        "referenceCount": null,
-        "title": "Design of a Knowledge-Based Report Generator",
-        "url": "https://www.semanticscholar.org/paper/c94e2841531c8a43b4dd172897a93af01e89421e",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 1983
-      },
-      "index": 44,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "39172707",
-            "name": "Jacob Devlin"
-          },
-          {
-            "authorId": "1744179",
-            "name": "Ming-Wei Chang"
-          },
-          {
-            "authorId": "2544107",
-            "name": "Kenton Lee"
-          },
-          {
-            "authorId": "3259253",
-            "name": "Kristina Toutanova"
-          }
-        ],
-        "citationCount": 114270,
-        "externalIds": {
-          "ACL": "N19-1423",
-          "ArXiv": "1810.04805",
-          "CorpusId": 52967399,
-          "DBLP": "journals/corr/abs-1810-04805",
-          "DOI": "10.18653/v1/N19-1423",
-          "MAG": "2951055169"
-        },
-        "paperId": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-        "url": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2019
+        "title": "Synthetic and natural noise both break neural machine translation",
+        "url": null,
+        "venue": "Proceedings of ICLR",
+        "year": 2018
       },
-      "index": 45,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": true
+      "index": 2,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Yonatan Belinkov and Yonatan Bisk. 2018. Synthetic and natural noise both break neural machine transla- tion. In Proceedings of ICLR."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2065067542",
-            "name": "Ben Goodrich"
+            "name": "Ondřej Bojar"
           },
           {
-            "authorId": "144413479",
-            "name": "Mohammad Saleh"
-          },
-          {
-            "authorId": "35025299",
-            "name": "Peter J. Liu"
-          },
-          {
-            "authorId": "2066757989",
-            "name": "Vinay Rao"
-          }
-        ],
-        "citationCount": 3,
-        "externalIds": {
-          "CorpusId": 190147356,
-          "MAG": "2947120937"
-        },
-        "paperId": "a23027ce273a3431923e9e1d1a09d3180a10f168",
-        "publicationDate": null,
-        "referenceCount": null,
-        "title": "Assessing The Factual Accuracy of Text Generation",
-        "url": "https://www.semanticscholar.org/paper/a23027ce273a3431923e9e1d1a09d3180a10f168",
-        "venue": "",
-        "year": 2019
-      },
-      "index": 46,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2100621107",
-            "name": "Qingsong Ma"
-          },
-          {
-            "authorId": "2000709",
             "name": "Yvette Graham"
           },
           {
-            "authorId": "7488953",
-            "name": "Shugen Wang"
-          },
-          {
-            "authorId": "1688015",
-            "name": "Qun Liu"
+            "name": "Amir Kamran"
           }
         ],
-        "citationCount": 53,
-        "externalIds": {
-          "ACL": "W17-4768",
-          "CorpusId": 32823111,
-          "DBLP": "conf/wmt/MaGWL17",
-          "DOI": "10.18653/v1/W17-4768",
-          "MAG": "2756675635"
-        },
-        "paperId": "ac96104f106aa89c7b4dfe5b898dd375a835cfc9",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "Blend: a Novel Combined MT Metric Based on Direct Assessment — CASICT-DCU submission to WMT17 Metrics Task",
-        "url": "https://www.semanticscholar.org/paper/ac96104f106aa89c7b4dfe5b898dd375a835cfc9",
-        "venue": "Conference on Machine Translation",
+        "title": "Results of the wmt17 metrics shared task",
+        "url": null,
+        "venue": "Proceedings of WMT",
         "year": 2017
       },
-      "index": 47,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "index": 3,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ondřej Bojar, Yvette Graham, and Amir Kamran. 2017. Results of the wmt17 metrics shared task. In Proceedings of WMT."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2108972595",
-            "name": "Ronnie W. Smith"
+            "name": "Ondřej Bojar"
           },
           {
-            "authorId": "144261308",
-            "name": "D. R. Hipp"
+            "name": "Yvette Graham"
+          },
+          {
+            "name": "Amir Kamran"
+          },
+          {
+            "name": "Miloš Stanojević"
           }
         ],
-        "citationCount": 116,
-        "externalIds": {
-          "CorpusId": 227287781,
-          "MAG": "1562973825"
-        },
-        "paperId": "24b634b4981c29e989a4005dd64fc85588f76d89",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "Spoken Natural Language Dialog Systems: A Practical Approach",
-        "url": "https://www.semanticscholar.org/paper/24b634b4981c29e989a4005dd64fc85588f76d89",
-        "venue": "",
+        "title": "Results of the wmt16 metrics shared task",
+        "url": null,
+        "venue": "Proceedings of WMT",
+        "year": 2016
+      },
+      "index": 4,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ondřej Bojar, Yvette Graham, Amir Kamran, and Miloš Stanojević. 2016. Results of the wmt16 met- rics shared task. In Proceedings of WMT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Samuel R Bowman"
+          },
+          {
+            "name": "Gabor Angeli"
+          },
+          {
+            "name": "Christopher Potts"
+          },
+          {
+            "name": "Christopher D Manning"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "A large annotated corpus for learning natural language inference",
+        "url": null,
+        "venue": "Proceedings of EMNLP",
+        "year": 2015
+      },
+      "index": 5,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Samuel R Bowman, Gabor Angeli, Christopher Potts, and Christopher D Manning. 2015. A large anno- tated corpus for learning natural language inference. Proceedings of EMNLP."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Arun Tejasvi Chaganty"
+          },
+          {
+            "name": "Stephen Mussman"
+          },
+          {
+            "name": "Percy Liang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The price of debiasing automatic metrics in natural language evaluation",
+        "url": null,
+        "venue": "Proceedings of ACL",
+        "year": 2018
+      },
+      "index": 6,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Arun Tejasvi Chaganty, Stephen Mussman, and Percy Liang. 2018. The price of debiasing automatic met- rics in natural language evaluation. Proceedings of ACL."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Qian Chen"
+          },
+          {
+            "name": "Xiaodan Zhu"
+          },
+          {
+            "name": "Zhenhua Ling"
+          },
+          {
+            "name": "Si Wei"
+          },
+          {
+            "name": "Hui Jiang"
+          },
+          {
+            "name": "Diana Inkpen"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Enhanced lstm for natural language inference",
+        "url": null,
+        "venue": "Proceedings of ACL",
+        "year": 2017
+      },
+      "index": 7,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Qian Chen, Xiaodan Zhu, Zhenhua Ling, Si Wei, Hui Jiang, and Diana Inkpen. 2017. Enhanced lstm for natural language inference. Proceedings of ACL."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Sumit Chopra"
+          },
+          {
+            "name": "Michael Auli"
+          },
+          {
+            "name": "Alexander M Rush"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Abstractive sentence summarization with attentive recurrent neural networks",
+        "url": null,
+        "venue": "Proceedings of NAACL HLT",
+        "year": 2016
+      },
+      "index": 8,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Sumit Chopra, Michael Auli, and Alexander M Rush. 2016. Abstractive sentence summarization with at- tentive recurrent neural networks. In Proceedings of NAACL HLT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Jacob Devlin"
+          },
+          {
+            "name": "Ming-Wei Chang"
+          },
+          {
+            "name": "Kenton Lee"
+          },
+          {
+            "name": "Kristina Toutanova"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+        "url": null,
+        "venue": "Proceedings of NAACL HLT",
+        "year": 2019
+      },
+      "index": 9,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. Bert: Pre-training of deep bidirectional transformers for language understand- ing. In Proceedings of NAACL HLT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Ondřej Dušek"
+          },
+          {
+            "name": "Karin Sevegnani"
+          },
+          {
+            "name": "Ioannis Konstas"
+          },
+          {
+            "name": "Verena Rieser"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Automatic quality estimation for natural language generation: Ranting (jointly rating and ranking)",
+        "url": null,
+        "venue": "Proceedings of INLG",
+        "year": 2019
+      },
+      "index": 10,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ondřej Dušek, Karin Sevegnani, Ioannis Konstas, and Verena Rieser. 2019. Automatic quality estimation for natural language generation: Ranting (jointly rat- ing and ranking). Proceedings of INLG."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Matan Eyal"
+          },
+          {
+            "name": "Tal Baumel"
+          },
+          {
+            "name": "Michael Elhadad"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Question answering as an automatic evaluation metric for news article summarization",
+        "url": null,
+        "venue": "Proceedings of NAACL HLT",
+        "year": 2019
+      },
+      "index": 11,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Matan Eyal, Tal Baumel, and Michael Elhadad. 2019. Question answering as an automatic evaluation met- ric for news article summarization. In Proceedings of NAACL HLT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Hao Fang"
+          },
+          {
+            "name": "Saurabh Gupta"
+          },
+          {
+            "name": "Forrest Iandola"
+          },
+          {
+            "name": "Rupesh K Srivastava"
+          },
+          {
+            "name": "Li Deng"
+          },
+          {
+            "name": "Piotr Dollár"
+          },
+          {
+            "name": "Jianfeng Gao"
+          },
+          {
+            "name": "Xiaodong He"
+          },
+          {
+            "name": "Margaret Mitchell"
+          },
+          {
+            "name": "John C Platt"
+          },
+          {
+            "name": "et al."
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "From captions to visual concepts and back",
+        "url": null,
+        "venue": "Proceedings of CVPR",
+        "year": 2015
+      },
+      "index": 12,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Hao Fang, Saurabh Gupta, Forrest Iandola, Rupesh K Srivastava, Li Deng, Piotr Dollár, Jianfeng Gao, Xi- aodong He, Margaret Mitchell, John C Platt, et al. 2015. From captions to visual concepts and back. In Proceedings of CVPR."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Juri Ganitkevitch"
+          },
+          {
+            "name": "Benjamin Van Durme"
+          },
+          {
+            "name": "Chris Callison-Burch"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Ppdb: The paraphrase database",
+        "url": null,
+        "venue": "Proceedings NAACL HLT",
+        "year": 2013
+      },
+      "index": 13,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Juri Ganitkevitch, Benjamin Van Durme, and Chris Callison-Burch. 2013. Ppdb: The paraphrase database. In Proceedings NAACL HLT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Claire Gardent"
+          },
+          {
+            "name": "Anastasia Shimorina"
+          },
+          {
+            "name": "Shashi Narayan"
+          },
+          {
+            "name": "Laura Perez-Beltrachini"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The webnlg challenge: Generating text from rdf data",
+        "url": null,
+        "venue": "Proceedings of INLG",
+        "year": 2017
+      },
+      "index": 14,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Claire Gardent, Anastasia Shimorina, Shashi Narayan, and Laura Perez-Beltrachini. 2017. The webnlg challenge: Generating text from rdf data. In Pro- ceedings of INLG."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Ben Goodrich"
+          },
+          {
+            "name": "Mohammad Ahmad Saleh"
+          },
+          {
+            "name": "Peter Liu"
+          },
+          {
+            "name": "Vinay Rao"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Assessing the factual accuracy of text generation",
+        "url": null,
+        "venue": "Proceedings of ACM SIGKDD",
+        "year": 2019
+      },
+      "index": 15,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ben Goodrich, Mohammad Ahmad Saleh, Peter Liu, and Vinay Rao. 2019. Assessing the factual ac- curacy of text generation. In Proceedings of ACM SIGKDD."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Mohit Iyyer"
+          },
+          {
+            "name": "John Wieting"
+          },
+          {
+            "name": "Kevin Gimpel"
+          },
+          {
+            "name": "Luke Zettlemoyer"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Adversarial example generation with syntactically controlled paraphrase networks",
+        "url": null,
+        "venue": "Proceedings of NAACL HLT",
+        "year": 2018
+      },
+      "index": 16,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Mohit Iyyer, John Wieting, Kevin Gimpel, and Luke Zettlemoyer. 2018. Adversarial example generation with syntactically controlled paraphrase networks. Proceedings of NAACL HLT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Robin Jia"
+          },
+          {
+            "name": "Percy Liang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Adversarial examples for evaluating reading comprehension systems",
+        "url": null,
+        "venue": "Proceedings of EMNLP",
+        "year": 2017
+      },
+      "index": 17,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Robin Jia and Percy Liang. 2017. Adversarial exam- ples for evaluating reading comprehension systems. Proceedings of EMNLP."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Philipp Koehn"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Statistical machine translation",
+        "url": null,
+        "venue": "Cambridge University Press",
+        "year": 2009
+      },
+      "index": 18,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Philipp Koehn. 2009. Statistical machine translation. Cambridge University Press."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Karen Kukich"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Design of a knowledge-based report generator",
+        "url": null,
+        "venue": "Proceedings of ACL",
+        "year": 1983
+      },
+      "index": 19,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Karen Kukich. 1983. Design of a knowledge-based re- port generator. In Proceedings of ACL."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Chin-Yew Lin"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Rouge: A package for automatic evaluation of summaries",
+        "url": null,
+        "venue": "Workshop on Text Summarization Branches Out",
+        "year": 2004
+      },
+      "index": 20,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Chin-Yew Lin. 2004. Rouge: A package for automatic evaluation of summaries. In Workshop on Text Sum- marization Branches Out."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Chia-Wei Liu"
+          },
+          {
+            "name": "Ryan Lowe"
+          },
+          {
+            "name": "Iulian V Serban"
+          },
+          {
+            "name": "Michael Noseworthy"
+          },
+          {
+            "name": "Laurent Charlin"
+          },
+          {
+            "name": "Joelle Pineau"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "How not to evaluate your dialogue system: An empirical study of unsupervised evaluation metrics for dialogue response generation",
+        "url": null,
+        "venue": "Proceedings of EMNLP",
+        "year": 2016
+      },
+      "index": 21,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Chia-Wei Liu, Ryan Lowe, Iulian V Serban, Michael Noseworthy, Laurent Charlin, and Joelle Pineau. 2016. How not to evaluate your dialogue system: An empirical study of unsupervised evaluation met- rics for dialogue response generation. Proceedings of EMNLP."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Yinhan Liu"
+          },
+          {
+            "name": "Myle Ott"
+          },
+          {
+            "name": "Naman Goyal"
+          },
+          {
+            "name": "Jingfei Du"
+          },
+          {
+            "name": "Mandar Joshi"
+          },
+          {
+            "name": "Danqi Chen"
+          },
+          {
+            "name": "Omer Levy"
+          },
+          {
+            "name": "Mike Lewis"
+          },
+          {
+            "name": "Luke Zettlemoyer"
+          },
+          {
+            "name": "Veselin Stoyanov"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1907.11692"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Roberta: A robustly optimized bert pretraining approach",
+        "url": null,
+        "venue": null,
+        "year": 2019
+      },
+      "index": 22,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Man- dar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. 2019. Roberta: A robustly optimized bert pretraining ap- proach. arXiv:1907.11692."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Qingsong Ma"
+          },
+          {
+            "name": "Ondřej Bojar"
+          },
+          {
+            "name": "Yvette Graham"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Results of the wmt18 metrics shared task: Both characters and embeddings achieve good performance",
+        "url": null,
+        "venue": "Proceedings of WMT",
+        "year": 2018
+      },
+      "index": 23,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Qingsong Ma, Ondřej Bojar, and Yvette Graham. 2018. Results of the wmt18 metrics shared task: Both char- acters and embeddings achieve good performance. In Proceedings of WMT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Qingsong Ma"
+          },
+          {
+            "name": "Yvette Graham"
+          },
+          {
+            "name": "Shugen Wang"
+          },
+          {
+            "name": "Qun Liu"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Blend: a novel combined mt metric based on direct assessment-casict-dcu submission to wmt17 metrics task",
+        "url": null,
+        "venue": "Proceedings of WMT",
+        "year": 2017
+      },
+      "index": 24,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Qingsong Ma, Yvette Graham, Shugen Wang, and Qun Liu. 2017. Blend: a novel combined mt metric based on direct assessment-casict-dcu submission to wmt17 metrics task. In Proceedings of WMT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Qingsong Ma"
+          },
+          {
+            "name": "Johnny Wei"
+          },
+          {
+            "name": "Ondřej Bojar"
+          },
+          {
+            "name": "Yvette Graham"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Results of the wmt19 metrics shared task: Segment-level and strong mt systems pose big challenges",
+        "url": null,
+        "venue": "Proceedings of WMT",
+        "year": 2019
+      },
+      "index": 25,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Qingsong Ma, Johnny Wei, Ondřej Bojar, and Yvette Graham. 2019. Results of the wmt19 metrics shared task: Segment-level and strong mt systems pose big challenges. In Proceedings of WMT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Inderjeet Mani"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Advances in automatic text summarization",
+        "url": null,
+        "venue": "MIT press",
+        "year": 1999
+      },
+      "index": 26,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Inderjeet Mani. 1999. Advances in automatic text sum- marization. MIT press."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Nitika Mathur"
+          },
+          {
+            "name": "Timothy Baldwin"
+          },
+          {
+            "name": "Trevor Cohn"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Putting evaluation in context: Contextual embeddings improve machine translation evaluation",
+        "url": null,
+        "venue": "Proceedings of ACL",
+        "year": 2019
+      },
+      "index": 27,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Nitika Mathur, Timothy Baldwin, and Trevor Cohn. 2019. Putting evaluation in context: Contextual em- beddings improve machine translation evaluation. In Proceedings of ACL."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Kathleen McKeown"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Text generation",
+        "url": null,
+        "venue": "Cambridge University Press",
+        "year": 1992
+      },
+      "index": 28,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Kathleen McKeown. 1992. Text generation. Cam- bridge University Press."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Jekaterina Novikova"
+          },
+          {
+            "name": "Ondřej Dušek"
+          },
+          {
+            "name": "Amanda Cercas Curry"
+          },
+          {
+            "name": "Verena Rieser"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Why we need new evaluation metrics for nlg",
+        "url": null,
+        "venue": "Proceedings of EMNLP",
+        "year": 2017
+      },
+      "index": 29,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jekaterina Novikova, Ondřej Dušek, Amanda Cercas Curry, and Verena Rieser. 2017. Why we need new evaluation metrics for nlg. Proceedings of EMNLP."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Kishore Papineni"
+          },
+          {
+            "name": "Salim Roukos"
+          },
+          {
+            "name": "Todd Ward"
+          },
+          {
+            "name": "Wei-Jing Zhu"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Bleu: a method for automatic evaluation of machine translation",
+        "url": null,
+        "venue": "Proceedings of ACL",
+        "year": 2002
+      },
+      "index": 30,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Kishore Papineni, Salim Roukos, Todd Ward, and Wei- Jing Zhu. 2002. Bleu: a method for automatic eval- uation of machine translation. In Proceedings of ACL."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Marco Tulio Ribeiro"
+          },
+          {
+            "name": "Sameer Singh"
+          },
+          {
+            "name": "Carlos Guestrin"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Semantically equivalent adversarial rules for debugging nlp models",
+        "url": null,
+        "venue": "Proceedings of ACL",
+        "year": 2018
+      },
+      "index": 31,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Marco Tulio Ribeiro, Sameer Singh, and Carlos Guestrin. 2018. Semantically equivalent adversar- ial rules for debugging nlp models. In Proceedings of ACL."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Rico Sennrich"
+          },
+          {
+            "name": "Barry Haddow"
+          },
+          {
+            "name": "Alexandra Birch"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Improving neural machine translation models with monolingual data",
+        "url": null,
+        "venue": "Proceedings of ACL",
+        "year": 2016
+      },
+      "index": 32,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Rico Sennrich, Barry Haddow, and Alexandra Birch. 2016. Improving neural machine translation models with monolingual data. Proceedings of ACL."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Hiroki Shimanaka"
+          },
+          {
+            "name": "Tomoyuki Kajiwara"
+          },
+          {
+            "name": "Mamoru Komachi"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Ruse: Regressor using sentence embeddings for automatic machine translation evaluation",
+        "url": null,
+        "venue": "Proceedings of WMT",
+        "year": 2018
+      },
+      "index": 33,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Hiroki Shimanaka, Tomoyuki Kajiwara, and Mamoru Komachi. 2018. Ruse: Regressor using sentence embeddings for automatic machine translation eval- uation. In Proceedings of WMT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Anastasia Shimorina"
+          },
+          {
+            "name": "Claire Gardent"
+          },
+          {
+            "name": "Shashi Narayan"
+          },
+          {
+            "name": "Laura Perez-Beltrachini"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Webnlg challenge: Human evaluation results",
+        "url": null,
+        "venue": null,
+        "year": 2019
+      },
+      "index": 34,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Anastasia Shimorina, Claire Gardent, Shashi Narayan, and Laura Perez-Beltrachini. 2019. Webnlg chal- lenge: Human evaluation results. Technical report."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Ronnie W Smith"
+          },
+          {
+            "name": "D Richard Hipp"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Spoken natural language dialog systems: A practical approach",
+        "url": null,
+        "venue": "Oxford University Press",
         "year": 1994
       },
+      "index": 35,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ronnie W Smith and D Richard Hipp. 1994. Spoken natural language dialog systems: A practical ap- proach. Oxford University Press."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Milos Stanojevic"
+          },
+          {
+            "name": "Khalil Sima'an"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Beer: Better evaluation as ranking",
+        "url": null,
+        "venue": "Proceedings of WMT",
+        "year": 2014
+      },
+      "index": 36,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Milos Stanojevic and Khalil Sima'an. 2014. Beer: Bet- ter evaluation as ranking. In Proceedings of WMT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Ilya Sutskever"
+          },
+          {
+            "name": "Oriol Vinyals"
+          },
+          {
+            "name": "Quoc V Le"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Sequence to sequence learning with neural networks",
+        "url": null,
+        "venue": "Proceedings of NIPS",
+        "year": 2014
+      },
+      "index": 37,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ilya Sutskever, Oriol Vinyals, and Quoc V Le. 2014. Sequence to sequence learning with neural net- works. In Proceedings of NIPS."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Ran Tian"
+          },
+          {
+            "name": "Shashi Narayan"
+          },
+          {
+            "name": "Thibault Sellam"
+          },
+          {
+            "name": "Ankur P Parikh"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1910.08684"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Sticking to the facts: Confident decoding for faithful data-to-text generation",
+        "url": null,
+        "venue": null,
+        "year": 2019
+      },
+      "index": 38,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ran Tian, Shashi Narayan, Thibault Sellam, and Ankur P Parikh. 2019. Sticking to the facts: Con- fident decoding for faithful data-to-text generation. arXiv:1910.08684."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Gaurav Singh Tomar"
+          },
+          {
+            "name": "Thyago Duque"
+          },
+          {
+            "name": "Oscar Täckström"
+          },
+          {
+            "name": "Jakob Uszkoreit"
+          },
+          {
+            "name": "Dipanjan Das"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Neural paraphrase identification of questions with noisy pretraining",
+        "url": null,
+        "venue": "Proceedings of the First Workshop on Subword and Character Level Models in NLP",
+        "year": 2017
+      },
+      "index": 39,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Gaurav Singh Tomar, Thyago Duque, Oscar Täckström, Jakob Uszkoreit, and Dipanjan Das. 2017. Neural paraphrase identification of questions with noisy pretraining. Proceedings of the First Workshop on Subword and Character Level Models in NLP."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Ashish Vaswani"
+          },
+          {
+            "name": "Noam Shazeer"
+          },
+          {
+            "name": "Niki Parmar"
+          },
+          {
+            "name": "Jakob Uszkoreit"
+          },
+          {
+            "name": "Llion Jones"
+          },
+          {
+            "name": "Aidan N Gomez"
+          },
+          {
+            "name": "Łukasz Kaiser"
+          },
+          {
+            "name": "Illia Polosukhin"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Attention is all you need",
+        "url": null,
+        "venue": "Proceedings of NIPS",
+        "year": 2017
+      },
+      "index": 40,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. Attention is all you need. In Proceedings of NIPS."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Oriol Vinyals"
+          },
+          {
+            "name": "Quoc Le"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "A neural conversational model",
+        "url": null,
+        "venue": "Proceedings of ICML",
+        "year": 2015
+      },
+      "index": 41,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Oriol Vinyals and Quoc Le. 2015. A neural conversa- tional model. Proceedings of ICML."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Alex Wang"
+          },
+          {
+            "name": "Amanpreet Singh"
+          },
+          {
+            "name": "Julian Michael"
+          },
+          {
+            "name": "Felix Hill"
+          },
+          {
+            "name": "Omer Levy"
+          },
+          {
+            "name": "Samuel R Bowman"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Glue: A multi-task benchmark and analysis platform for natural language understanding",
+        "url": null,
+        "venue": "Proceedings of ICLR",
+        "year": 2019
+      },
+      "index": 42,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R Bowman. 2019. Glue: A multi-task benchmark and analysis platform for natural language understanding. Proceedings of ICLR."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "John Wieting"
+          },
+          {
+            "name": "Mohit Bansal"
+          },
+          {
+            "name": "Kevin Gimpel"
+          },
+          {
+            "name": "Karen Livescu"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Towards universal paraphrastic sentence embeddings",
+        "url": null,
+        "venue": "Proceedings of ICLR",
+        "year": 2016
+      },
+      "index": 43,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "John Wieting, Mohit Bansal, Kevin Gimpel, and Karen Livescu. 2016. Towards universal paraphrastic sen- tence embeddings. Proceedings of ICLR."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Adina Williams"
+          },
+          {
+            "name": "Nikita Nangia"
+          },
+          {
+            "name": "Samuel R Bowman"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "A broad-coverage challenge corpus for sentence understanding through inference",
+        "url": null,
+        "venue": "Proceedings of NAACL HLT",
+        "year": 2018
+      },
+      "index": 44,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Adina Williams, Nikita Nangia, and Samuel R Bow- man. 2018. A broad-coverage challenge corpus for sentence understanding through inference. Proceed- ings of NAACL HLT."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Sam Wiseman"
+          },
+          {
+            "name": "Stuart M Shieber"
+          },
+          {
+            "name": "Alexander M Rush"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Challenges in data-to-document generation",
+        "url": null,
+        "venue": "Proceedings of EMNLP",
+        "year": 2017
+      },
+      "index": 45,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Sam Wiseman, Stuart M Shieber, and Alexander M Rush. 2017. Challenges in data-to-document gen- eration. Proceedings of EMNLP."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Stratos Xenouleas"
+          },
+          {
+            "name": "Prodromos Malakasiotis"
+          },
+          {
+            "name": "Marianna Apidianaki"
+          },
+          {
+            "name": "Ion Androutsopoulos"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Sum-qe: a bert-based summary quality estimation model supplementary material",
+        "url": null,
+        "venue": "Proceedings of EMNLP",
+        "year": 2019
+      },
+      "index": 46,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Stratos Xenouleas, Prodromos Malakasiotis, Marianna Apidianaki, and Ion Androutsopoulos. 2019. Sum- qe: a bert-based summary quality estimation model supplementary material. In Proceedings of EMNLP."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Tianyi Zhang"
+          },
+          {
+            "name": "Varsha Kishore"
+          },
+          {
+            "name": "Felix Wu"
+          },
+          {
+            "name": "Kilian Q Weinberger"
+          },
+          {
+            "name": "Yoav Artzi"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Bertscore: Evaluating text generation with bert",
+        "url": null,
+        "venue": "Proceedings of ICLR",
+        "year": 2020
+      },
+      "index": 47,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q Weinberger, and Yoav Artzi. 2020. Bertscore: Eval- uating text generation with bert. Proceedings of ICLR."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Wei Zhao"
+          },
+          {
+            "name": "Maxime Peyrard"
+          },
+          {
+            "name": "Fei Liu"
+          },
+          {
+            "name": "Yang Gao"
+          },
+          {
+            "name": "Christian M Meyer"
+          },
+          {
+            "name": "Steffen Eger"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Moverscore: Text generation evaluating with contextualized embeddings and earth mover distance",
+        "url": null,
+        "venue": "Proceedings of EMNLP",
+        "year": 2019
+      },
       "index": 48,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [],
-        "citationCount": null,
-        "externalIds": {},
-        "paperId": null,
-        "publicationDate": null,
-        "referenceCount": null,
-        "title": "some of the pre-training techniques described in the main paper",
-        "url": null,
-        "venue": "",
-        "year": null
-      },
-      "index": 49,
       "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [],
-        "citationCount": null,
-        "externalIds": {},
-        "paperId": null,
-        "publicationDate": null,
-        "referenceCount": null,
-        "title": "A Implementation Details of the Pre-Training Phase",
-        "url": null,
-        "venue": "",
-        "year": null
-      },
-      "index": 50,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [],
-        "citationCount": null,
-        "externalIds": {},
-        "paperId": null,
-        "publicationDate": null,
-        "referenceCount": null,
-        "title": "A.1 Data Generation Random Masking: We use two masking strategies. The ﬁrst strategy samples random words",
-        "url": null,
-        "venue": "",
-        "year": null
-      },
-      "index": 51,
-      "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Wei Zhao, Maxime Peyrard, Fei Liu, Yang Gao, Chris- tian M Meyer, and Steffen Eger. 2019. Moverscore: Text generation evaluating with contextualized em- beddings and earth mover distance. Proceedings of EMNLP."
     }
   ],
   "source": {
@@ -2089,7 +1511,7 @@
     },
     "paperId": "4ae52766028e69186052ea8f33a137fbbbdb986a",
     "publicationDate": "2020-04-09",
-    "referenceCount": 52,
+    "referenceCount": 49,
     "title": "BLEURT: Learning Robust Metrics for Text Generation",
     "url": "https://www.semanticscholar.org/paper/4ae52766028e69186052ea8f33a137fbbbdb986a",
     "venue": "Annual Meeting of the Association for Computational Linguistics",

@@ -1,2339 +1,1637 @@
 {
   "pdf": "pdfs/2020.emnlp-main.550.pdf",
   "queryId": "DOI:10.18653/v1/2020.emnlp-main.550",
-  "referenceCount": 55,
+  "referenceCount": 48,
   "references": [
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1410231361",
-            "name": "Gautier Izacard"
-          },
-          {
-            "authorId": "3024698",
-            "name": "Edouard Grave"
-          }
-        ],
-        "citationCount": 1704,
-        "externalIds": {
-          "ACL": "2021.eacl-main.74",
-          "ArXiv": "2007.01282",
-          "CorpusId": 220302360,
-          "DBLP": "conf/eacl/IzacardG21",
-          "DOI": "10.18653/v1/2021.eacl-main.74",
-          "MAG": "3039017601"
-        },
-        "paperId": "ea8c46e193d5121e440daf96edfd15a47151c293",
-        "publicationDate": "2020-07-02",
-        "referenceCount": null,
-        "title": "Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering",
-        "url": "https://www.semanticscholar.org/paper/ea8c46e193d5121e440daf96edfd15a47151c293",
-        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
-        "year": 2020
-      },
-      "index": 0,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "101655391",
-            "name": "Lee Xiong"
-          },
-          {
-            "authorId": "144628574",
-            "name": "Chenyan Xiong"
-          },
-          {
-            "authorId": "2110766301",
-            "name": "Ye Li"
-          },
-          {
-            "authorId": "1785396874",
-            "name": "Kwok-Fung Tang"
-          },
-          {
-            "authorId": "2108415378",
-            "name": "Jialin Liu"
-          },
-          {
-            "authorId": "144609235",
-            "name": "Paul N. Bennett"
-          },
-          {
-            "authorId": "144643947",
-            "name": "Junaid Ahmed"
-          },
-          {
-            "authorId": "2734525",
-            "name": "Arnold Overwijk"
-          }
-        ],
-        "citationCount": 1550,
-        "externalIds": {
-          "ArXiv": "2007.00808",
-          "CorpusId": 220302524,
-          "DBLP": "conf/iclr/XiongXLTLBAO21",
-          "MAG": "3038572442"
-        },
-        "paperId": "c9b8593db099869fe7254aa1fa53f3c9073b0176",
-        "publicationDate": "2020-07-01",
-        "referenceCount": null,
-        "title": "Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval",
-        "url": "https://www.semanticscholar.org/paper/c9b8593db099869fe7254aa1fa53f3c9073b0176",
-        "venue": "International Conference on Learning Representations",
-        "year": 2020
-      },
-      "index": 1,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "145222654",
-            "name": "Patrick Lewis"
-          },
-          {
-            "authorId": "3439053",
-            "name": "Ethan Perez"
-          },
-          {
-            "authorId": "1716179427",
-            "name": "Aleksandara Piktus"
-          },
-          {
-            "authorId": "40052301",
-            "name": "F. Petroni"
-          },
-          {
-            "authorId": "2067091563",
-            "name": "Vladimir Karpukhin"
-          },
-          {
-            "authorId": "39589154",
-            "name": "Naman Goyal"
-          },
-          {
-            "authorId": "103131985",
-            "name": "Heinrich Kuttler"
-          },
-          {
-            "authorId": "35084211",
-            "name": "M. Lewis"
-          },
-          {
-            "authorId": "144105277",
-            "name": "Wen-tau Yih"
-          },
-          {
-            "authorId": "2620211",
-            "name": "Tim Rocktäschel"
-          },
-          {
-            "authorId": "48662861",
-            "name": "Sebastian Riedel"
-          },
-          {
-            "authorId": "1743722",
-            "name": "Douwe Kiela"
-          }
-        ],
-        "citationCount": 13610,
-        "externalIds": {
-          "ArXiv": "2005.11401",
-          "CorpusId": 218869575,
-          "DBLP": "conf/nips/LewisPPPKGKLYR020",
-          "MAG": "3027879771"
-        },
-        "paperId": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
-        "publicationDate": "2020-05-22",
-        "referenceCount": null,
-        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
-        "url": "https://www.semanticscholar.org/paper/659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
-        "venue": "Neural Information Processing Systems",
-        "year": 2020
-      },
-      "index": 2,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "144112155",
-            "name": "O. Khattab"
-          },
-          {
-            "authorId": "143834867",
-            "name": "M. Zaharia"
-          }
-        ],
-        "citationCount": 2067,
-        "externalIds": {
-          "ArXiv": "2004.12832",
-          "CorpusId": 216553223,
-          "DBLP": "conf/sigir/KhattabZ20",
-          "DOI": "10.1145/3397271.3401075",
-          "MAG": "3021397474"
-        },
-        "paperId": "60b8ad6177230ad5402af409a6edb5af441baeb4",
-        "publicationDate": "2020-04-27",
-        "referenceCount": null,
-        "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
-        "url": "https://www.semanticscholar.org/paper/60b8ad6177230ad5402af409a6edb5af441baeb4",
-        "venue": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
-        "year": 2020
-      },
-      "index": 3,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "22253126",
-            "name": "Wenhan Xiong"
-          },
-          {
-            "authorId": "46507182",
-            "name": "Hong Wang"
-          },
-          {
-            "authorId": "152876475",
-            "name": "W. Wang"
-          }
-        ],
-        "citationCount": 18,
-        "externalIds": {
-          "ACL": "2021.eacl-main.244",
-          "ArXiv": "2005.00038",
-          "CorpusId": 218470043,
-          "DBLP": "conf/eacl/XiongWW21",
-          "DOI": "10.18653/v1/2021.eacl-main.244",
-          "MAG": "3156359583"
-        },
-        "paperId": "469d92f195aebfa09e9b411ad92b3c879bcd1eba",
-        "publicationDate": "2020-04-01",
-        "referenceCount": null,
-        "title": "Progressively Pretrained Dense Corpus Index for Open-Domain Question Answering",
-        "url": "https://www.semanticscholar.org/paper/469d92f195aebfa09e9b411ad92b3c879bcd1eba",
-        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
-        "year": 2020
-      },
-      "index": 4,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2091768",
-            "name": "Kelvin Guu"
-          },
-          {
-            "authorId": "2544107",
-            "name": "Kenton Lee"
-          },
-          {
-            "authorId": "9941702",
-            "name": "Zora Tung"
-          },
-          {
-            "authorId": "2616463",
-            "name": "Panupong Pasupat"
-          },
-          {
-            "authorId": "1744179",
-            "name": "Ming-Wei Chang"
-          }
-        ],
-        "citationCount": 2953,
-        "externalIds": {
-          "ArXiv": "2002.08909",
-          "CorpusId": 211204736,
-          "DBLP": "conf/icml/GuuLTPC20",
-          "MAG": "3034671305"
-        },
-        "paperId": "832fff14d2ed50eb7969c4c4b976c35776548f56",
-        "publicationDate": "2020-02-10",
-        "referenceCount": null,
-        "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
-        "url": "https://www.semanticscholar.org/paper/832fff14d2ed50eb7969c4c4b976c35776548f56",
-        "venue": "International Conference on Machine Learning",
-        "year": 2020
-      },
-      "index": 5,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "145625142",
-            "name": "Adam Roberts"
-          },
-          {
-            "authorId": "2402716",
-            "name": "Colin Raffel"
-          },
-          {
-            "authorId": "1846258",
-            "name": "Noam Shazeer"
-          }
-        ],
-        "citationCount": 1041,
-        "externalIds": {
-          "ACL": "2020.emnlp-main.437",
-          "ArXiv": "2002.08910",
-          "CorpusId": 211205183,
-          "DBLP": "journals/corr/abs-2002-08910",
-          "DOI": "10.18653/v1/2020.emnlp-main.437",
-          "MAG": "3102659883"
-        },
-        "paperId": "80376bdec5f534be78ba82821f540590ebce5559",
-        "publicationDate": "2020-02-10",
-        "referenceCount": null,
-        "title": "How Much Knowledge Can You Pack into the Parameters of a Language Model?",
-        "url": "https://www.semanticscholar.org/paper/80376bdec5f534be78ba82821f540590ebce5559",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2020
-      },
-      "index": 6,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "51174907",
-            "name": "Tomer Wolfson"
-          },
-          {
-            "authorId": "22245981",
-            "name": "Mor Geva"
-          },
-          {
-            "authorId": "145520321",
-            "name": "Ankit Gupta"
-          },
-          {
-            "authorId": "40642935",
-            "name": "Matt Gardner"
-          },
-          {
-            "authorId": "79775260",
-            "name": "Yoav Goldberg"
-          },
-          {
-            "authorId": "1682639",
-            "name": "Daniel Deutch"
-          },
-          {
-            "authorId": "1750652",
-            "name": "Jonathan Berant"
-          }
-        ],
-        "citationCount": 217,
-        "externalIds": {
-          "ACL": "2020.tacl-1.13",
-          "ArXiv": "2001.11770",
-          "CorpusId": 211003735,
-          "DBLP": "journals/tacl/WolfsonGGGGDB20",
-          "DOI": "10.1162/tacl_a_00309",
-          "MAG": "3016828850"
-        },
-        "paperId": "71c908529b12ef6ee8d735127a63d48b1fc5c43c",
-        "publicationDate": "2020-01-31",
-        "referenceCount": null,
-        "title": "Break It Down: A Question Understanding Benchmark",
-        "url": "https://www.semanticscholar.org/paper/71c908529b12ef6ee8d735127a63d48b1fc5c43c",
-        "venue": "Transactions of the Association for Computational Linguistics",
-        "year": 2020
-      },
-      "index": 7,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "35584853",
             "name": "Akari Asai"
           },
           {
-            "authorId": "20851195",
             "name": "Kazuma Hashimoto"
           },
           {
-            "authorId": "2548384",
             "name": "Hannaneh Hajishirzi"
           },
           {
-            "authorId": "2166511",
-            "name": "R. Socher"
+            "name": "Richard Socher"
           },
           {
-            "authorId": "2228109",
             "name": "Caiming Xiong"
           }
         ],
-        "citationCount": 322,
-        "externalIds": {
-          "ArXiv": "1911.10470",
-          "CorpusId": 208267807,
-          "DBLP": "conf/iclr/AsaiHHSX20",
-          "MAG": "2990928880"
-        },
-        "paperId": "521b4e26df0f1cf5763dece14cbb218df152dc59",
-        "publicationDate": "2019-11-24",
-        "referenceCount": null,
-        "title": "Learning to Retrieve Reasoning Paths over Wikipedia Graph for Question Answering",
-        "url": "https://www.semanticscholar.org/paper/521b4e26df0f1cf5763dece14cbb218df152dc59",
-        "venue": "International Conference on Learning Representations",
-        "year": 2019
-      },
-      "index": 8,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "48872685",
-            "name": "Sewon Min"
-          },
-          {
-            "authorId": "50536468",
-            "name": "Danqi Chen"
-          },
-          {
-            "authorId": "1982950",
-            "name": "Luke Zettlemoyer"
-          },
-          {
-            "authorId": "2548384",
-            "name": "Hannaneh Hajishirzi"
-          }
-        ],
-        "citationCount": 111,
-        "externalIds": {
-          "ArXiv": "1911.03868",
-          "CorpusId": 207852944,
-          "DBLP": "journals/corr/abs-1911-03868",
-          "MAG": "2989312920"
-        },
-        "paperId": "1715aa36ccc851310308630d4db61dcecf49a50d",
-        "publicationDate": "2019-11-10",
-        "referenceCount": null,
-        "title": "Knowledge Guided Text Retrieval and Reading for Open Domain Question Answering",
-        "url": "https://www.semanticscholar.org/paper/1715aa36ccc851310308630d4db61dcecf49a50d",
-        "venue": "arXiv.org",
-        "year": 2019
-      },
-      "index": 9,
-      "intents": [
-        "methodology",
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "35084211",
-            "name": "M. Lewis"
-          },
-          {
-            "authorId": "11323179",
-            "name": "Yinhan Liu"
-          },
-          {
-            "authorId": "39589154",
-            "name": "Naman Goyal"
-          },
-          {
-            "authorId": "2320509",
-            "name": "Marjan Ghazvininejad"
-          },
-          {
-            "authorId": "113947684",
-            "name": "Abdel-rahman Mohamed"
-          },
-          {
-            "authorId": "39455775",
-            "name": "Omer Levy"
-          },
-          {
-            "authorId": "1759422",
-            "name": "Veselin Stoyanov"
-          },
-          {
-            "authorId": "1982950",
-            "name": "Luke Zettlemoyer"
-          }
-        ],
-        "citationCount": 12717,
-        "externalIds": {
-          "ACL": "2020.acl-main.703",
-          "ArXiv": "1910.13461",
-          "CorpusId": 204960716,
-          "DBLP": "journals/corr/abs-1910-13461",
-          "DOI": "10.18653/v1/2020.acl-main.703",
-          "MAG": "2982399380"
-        },
-        "paperId": "395de0bd3837fdf4b4b5e5f04835bcc69c279481",
-        "publicationDate": "2019-10-29",
-        "referenceCount": null,
-        "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
-        "url": "https://www.semanticscholar.org/paper/395de0bd3837fdf4b4b5e5f04835bcc69c279481",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2019
-      },
-      "index": 10,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2402716",
-            "name": "Colin Raffel"
-          },
-          {
-            "authorId": "1846258",
-            "name": "Noam Shazeer"
-          },
-          {
-            "authorId": "145625142",
-            "name": "Adam Roberts"
-          },
-          {
-            "authorId": "3844009",
-            "name": "Katherine Lee"
-          },
-          {
-            "authorId": "46617804",
-            "name": "Sharan Narang"
-          },
-          {
-            "authorId": "1380243217",
-            "name": "Michael Matena"
-          },
-          {
-            "authorId": "2389316",
-            "name": "Yanqi Zhou"
-          },
-          {
-            "authorId": "2157338362",
-            "name": "Wei Li"
-          },
-          {
-            "authorId": "35025299",
-            "name": "Peter J. Liu"
-          }
-        ],
-        "citationCount": 25522,
-        "externalIds": {
-          "ArXiv": "1910.10683",
-          "CorpusId": 204838007,
-          "DBLP": "journals/corr/abs-1910-10683",
-          "MAG": "2981852735"
-        },
-        "paperId": "6c4b76232bb72897685d19b3d264c6ee3005bc2b",
-        "publicationDate": "2019-10-23",
-        "referenceCount": null,
-        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
-        "url": "https://www.semanticscholar.org/paper/6c4b76232bb72897685d19b3d264c6ee3005bc2b",
-        "venue": "Journal of machine learning research",
-        "year": 2019
-      },
-      "index": 11,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "48872685",
-            "name": "Sewon Min"
-          },
-          {
-            "authorId": "50536468",
-            "name": "Danqi Chen"
-          },
-          {
-            "authorId": "2548384",
-            "name": "Hannaneh Hajishirzi"
-          },
-          {
-            "authorId": "1982950",
-            "name": "Luke Zettlemoyer"
-          }
-        ],
-        "citationCount": 170,
-        "externalIds": {
-          "ACL": "D19-1284",
-          "ArXiv": "1909.04849",
-          "CorpusId": 202558815,
-          "DBLP": "conf/emnlp/MinCHZ19",
-          "DOI": "10.18653/v1/D19-1284",
-          "MAG": "2973123473"
-        },
-        "paperId": "30eff53e981695c7296d258b8dc44b4c7b482a0c",
-        "publicationDate": "2019-09-11",
-        "referenceCount": null,
-        "title": "A Discrete Hard EM Approach for Weakly Supervised Question Answering",
-        "url": "https://www.semanticscholar.org/paper/30eff53e981695c7296d258b8dc44b4c7b482a0c",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2019
-      },
-      "index": 12,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "40383658",
-            "name": "Yixin Nie"
-          },
-          {
-            "authorId": "2143256250",
-            "name": "Songhe Wang"
-          },
-          {
-            "authorId": "143977268",
-            "name": "Mohit Bansal"
-          }
-        ],
-        "citationCount": 147,
-        "externalIds": {
-          "ACL": "D19-1258",
-          "ArXiv": "1909.08041",
-          "CorpusId": 202660724,
-          "DBLP": "conf/emnlp/NieWB19",
-          "DOI": "10.18653/v1/D19-1258",
-          "MAG": "2973311042"
-        },
-        "paperId": "4bf61dab8ad195e87b6f0496ec7bada5d37c476f",
-        "publicationDate": "2019-09-01",
-        "referenceCount": null,
-        "title": "Revealing the Importance of Semantic Retrieval for Machine Reading at Scale",
-        "url": "https://www.semanticscholar.org/paper/4bf61dab8ad195e87b6f0496ec7bada5d37c476f",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2019
-      },
-      "index": 13,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2396669",
-            "name": "D. Gillick"
-          },
-          {
-            "authorId": "144423003",
-            "name": "Sayali Kulkarni"
-          },
-          {
-            "authorId": "117867510",
-            "name": "L. Lansing"
-          },
-          {
-            "authorId": "3377551",
-            "name": "Alessandro Presta"
-          },
-          {
-            "authorId": "1387994164",
-            "name": "Jason Baldridge"
-          },
-          {
-            "authorId": "2042413",
-            "name": "Eugene Ie"
-          },
-          {
-            "authorId": "1405390891",
-            "name": "Diego Garcia-Olano"
-          }
-        ],
-        "citationCount": 227,
-        "externalIds": {
-          "ACL": "K19-1049",
-          "ArXiv": "1909.10506",
-          "CorpusId": 202718954,
-          "DBLP": "conf/conll/GillickKLPBIG19",
-          "DOI": "10.18653/v1/K19-1049",
-          "MAG": "2973870197"
-        },
-        "paperId": "6b5cb3b85fb247256b264c2732916cf129015a92",
-        "publicationDate": "2019-09-01",
-        "referenceCount": null,
-        "title": "Learning Dense Representations for Entity Retrieval",
-        "url": "https://www.semanticscholar.org/paper/6b5cb3b85fb247256b264c2732916cf129015a92",
-        "venue": "Conference on Computational Natural Language Learning",
-        "year": 2019
-      },
-      "index": 14,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "40296541",
-            "name": "Zhiguo Wang"
-          },
-          {
-            "authorId": "145878390",
-            "name": "Patrick Ng"
-          },
-          {
-            "authorId": "47646605",
-            "name": "Xiaofei Ma"
-          },
-          {
-            "authorId": "1701451",
-            "name": "Ramesh Nallapati"
-          },
-          {
-            "authorId": "144028698",
-            "name": "Bing Xiang"
-          }
-        ],
-        "citationCount": 261,
-        "externalIds": {
-          "ACL": "D19-1599",
-          "ArXiv": "1908.08167",
-          "CorpusId": 201307832,
-          "DBLP": "journals/corr/abs-1908-08167",
-          "DOI": "10.18653/v1/D19-1599",
-          "MAG": "2971105107"
-        },
-        "paperId": "0cf535110808d33fdf4db3ffa1621dea16e29c0d",
-        "publicationDate": "2019-08-22",
-        "referenceCount": null,
-        "title": "Multi-passage BERT: A Globally Normalized BERT Model for Open-domain Question Answering",
-        "url": "https://www.semanticscholar.org/paper/0cf535110808d33fdf4db3ffa1621dea16e29c0d",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2019
-      },
-      "index": 15,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "15652489",
-            "name": "T. Kwiatkowski"
-          },
-          {
-            "authorId": "52578817",
-            "name": "J. Palomaki"
-          },
-          {
-            "authorId": "90784578",
-            "name": "Olivia Redfield"
-          },
-          {
-            "authorId": "123052390",
-            "name": "Michael Collins"
-          },
-          {
-            "authorId": "144729897",
-            "name": "Ankur P. Parikh"
-          },
-          {
-            "authorId": "114577307",
-            "name": "Chris Alberti"
-          },
-          {
-            "authorId": "153215783",
-            "name": "D. Epstein"
-          },
-          {
-            "authorId": "3443442",
-            "name": "I. Polosukhin"
-          },
-          {
-            "authorId": "39172707",
-            "name": "Jacob Devlin"
-          },
-          {
-            "authorId": "2544107",
-            "name": "Kenton Lee"
-          },
-          {
-            "authorId": "3259253",
-            "name": "Kristina Toutanova"
-          },
-          {
-            "authorId": "145024664",
-            "name": "Llion Jones"
-          },
-          {
-            "authorId": "2554321",
-            "name": "Matthew Kelcey"
-          },
-          {
-            "authorId": "1744179",
-            "name": "Ming-Wei Chang"
-          },
-          {
-            "authorId": "2555924",
-            "name": "Andrew M. Dai"
-          },
-          {
-            "authorId": "39328010",
-            "name": "Jakob Uszkoreit"
-          },
-          {
-            "authorId": "2827616",
-            "name": "Quoc V. Le"
-          },
-          {
-            "authorId": "1754497",
-            "name": "Slav Petrov"
-          }
-        ],
-        "citationCount": 4613,
-        "externalIds": {
-          "ACL": "Q19-1026",
-          "CorpusId": 86611921,
-          "DBLP": "journals/tacl/KwiatkowskiPRCP19",
-          "DOI": "10.1162/tacl_a_00276",
-          "MAG": "2912924812"
-        },
-        "paperId": "17dbd7b72029181327732e4d11b52a08ed4630d0",
-        "publicationDate": "2019-08-01",
-        "referenceCount": null,
-        "title": "Natural Questions: A Benchmark for Question Answering Research",
-        "url": "https://www.semanticscholar.org/paper/17dbd7b72029181327732e4d11b52a08ed4630d0",
-        "venue": "Transactions of the Association for Computational Linguistics",
-        "year": 2019
-      },
-      "index": 16,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "4418074",
-            "name": "Minjoon Seo"
-          },
-          {
-            "authorId": "46664096",
-            "name": "Jinhyuk Lee"
-          },
-          {
-            "authorId": "15652489",
-            "name": "T. Kwiatkowski"
-          },
-          {
-            "authorId": "144729897",
-            "name": "Ankur P. Parikh"
-          },
-          {
-            "authorId": "143787583",
-            "name": "Ali Farhadi"
-          },
-          {
-            "authorId": "2548384",
-            "name": "Hannaneh Hajishirzi"
-          }
-        ],
-        "citationCount": 164,
-        "externalIds": {
-          "ACL": "P19-1436",
-          "ArXiv": "1906.05807",
-          "CorpusId": 189762341,
-          "DBLP": "journals/corr/abs-1906-05807",
-          "DOI": "10.18653/v1/P19-1436",
-          "MAG": "2950729111"
-        },
-        "paperId": "b29db655a18e7417e1188ba392a06b6314f0cb87",
-        "publicationDate": "2019-06-13",
-        "referenceCount": null,
-        "title": "Real-Time Open-Domain Question Answering with Dense-Sparse Phrase Index",
-        "url": "https://www.semanticscholar.org/paper/b29db655a18e7417e1188ba392a06b6314f0cb87",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2019
-      },
-      "index": 17,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2544107",
-            "name": "Kenton Lee"
-          },
-          {
-            "authorId": "1744179",
-            "name": "Ming-Wei Chang"
-          },
-          {
-            "authorId": "3259253",
-            "name": "Kristina Toutanova"
-          }
-        ],
-        "citationCount": 1150,
-        "externalIds": {
-          "ACL": "P19-1612",
-          "ArXiv": "1906.00300",
-          "CorpusId": 173990818,
-          "DBLP": "conf/acl/LeeCT19",
-          "DOI": "10.18653/v1/P19-1612",
-          "MAG": "2947497897"
-        },
-        "paperId": "a81874b4a651a740fffbfc47ef96515e8c7f782f",
-        "publicationDate": "2019-06-01",
-        "referenceCount": null,
-        "title": "Latent Retrieval for Weakly Supervised Open Domain Question Answering",
-        "url": "https://www.semanticscholar.org/paper/a81874b4a651a740fffbfc47ef96515e8c7f782f",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2019
-      },
-      "index": 18,
-      "intents": [
-        "methodology",
-        "result",
-        "background"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "143863023",
-            "name": "Rajarshi Das"
-          },
-          {
-            "authorId": "3448411",
-            "name": "S. Dhuliawala"
-          },
-          {
-            "authorId": "1771307",
-            "name": "M. Zaheer"
-          },
-          {
-            "authorId": "143753639",
-            "name": "A. McCallum"
-          }
-        ],
-        "citationCount": 171,
-        "externalIds": {
-          "ArXiv": "1905.05733",
-          "CorpusId": 85449634,
-          "DBLP": "conf/iclr/DasDZM19",
-          "MAG": "2916846408"
-        },
-        "paperId": "e7512b84e923372ae410d7614e71224d573ed2ef",
-        "publicationDate": "2019-05-14",
-        "referenceCount": null,
-        "title": "Multi-step Retriever-Reader Interaction for Scalable Open-domain Question Answering",
-        "url": "https://www.semanticscholar.org/paper/e7512b84e923372ae410d7614e71224d573ed2ef",
-        "venue": "International Conference on Learning Representations",
-        "year": 2019
-      },
-      "index": 19,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2795882",
-            "name": "Samuel Humeau"
-          },
-          {
-            "authorId": "35752280",
-            "name": "Kurt Shuster"
-          },
-          {
-            "authorId": "114952298",
-            "name": "M. Lachaux"
-          },
-          {
-            "authorId": "145183709",
-            "name": "J. Weston"
-          }
-        ],
-        "citationCount": 316,
-        "externalIds": {
-          "ArXiv": "1905.01969",
-          "CorpusId": 210063976,
-          "DBLP": "conf/iclr/HumeauSLW20",
-          "MAG": "2995289474"
-        },
-        "paperId": "301e13f3df8f9dfb79ea782da3693e2942392279",
-        "publicationDate": "2019-04-22",
-        "referenceCount": null,
-        "title": "Poly-encoders: Architectures and Pre-training Strategies for Fast and Accurate Multi-sentence Scoring",
-        "url": "https://www.semanticscholar.org/paper/301e13f3df8f9dfb79ea782da3693e2942392279",
-        "venue": "International Conference on Learning Representations",
-        "year": 2019
-      },
-      "index": 20,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2795882",
-            "name": "Samuel Humeau"
-          },
-          {
-            "authorId": "35752280",
-            "name": "Kurt Shuster"
-          },
-          {
-            "authorId": "114952298",
-            "name": "M. Lachaux"
-          },
-          {
-            "authorId": "145183709",
-            "name": "J. Weston"
-          }
-        ],
-        "citationCount": 42,
-        "externalIds": {
-          "CorpusId": 146121063,
-          "DBLP": "journals/corr/abs-1905-01969",
-          "MAG": "2942580297"
-        },
-        "paperId": "bb2afd8172469fef7276e9789b306e085ed6e650",
-        "publicationDate": "2019-04-22",
-        "referenceCount": null,
-        "title": "Real-time Inference in Multi-sentence Tasks with Deep Pretrained Transformers",
-        "url": "https://www.semanticscholar.org/paper/bb2afd8172469fef7276e9789b306e085ed6e650",
-        "venue": "arXiv.org",
-        "year": 2019
-      },
-      "index": 21,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "144205297",
-            "name": "Wei Yang"
-          },
-          {
-            "authorId": "49291108",
-            "name": "Yuqing Xie"
-          },
-          {
-            "authorId": "40379164",
-            "name": "Luchen Tan"
-          },
-          {
-            "authorId": "50033756",
-            "name": "Kun Xiong"
-          },
-          {
-            "authorId": "2150652992",
-            "name": "Ming Li"
-          },
-          {
-            "authorId": "145580839",
-            "name": "Jimmy J. Lin"
-          }
-        ],
-        "citationCount": 69,
-        "externalIds": {
-          "ArXiv": "1904.06652",
-          "CorpusId": 118645976,
-          "DBLP": "journals/corr/abs-1904-06652",
-          "MAG": "2938205538"
-        },
-        "paperId": "f5eaf727b80240a13e9f631211c9ecec7e3b9feb",
-        "publicationDate": "2019-04-14",
-        "referenceCount": null,
-        "title": "Data Augmentation for BERT Fine-Tuning in Open-Domain Question Answering",
-        "url": "https://www.semanticscholar.org/paper/f5eaf727b80240a13e9f631211c9ecec7e3b9feb",
-        "venue": "arXiv.org",
-        "year": 2019
-      },
-      "index": 22,
-      "intents": [
-        "methodology",
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "144205297",
-            "name": "Wei Yang"
-          },
-          {
-            "authorId": "49291108",
-            "name": "Yuqing Xie"
-          },
-          {
-            "authorId": "2054897807",
-            "name": "Aileen Lin"
-          },
-          {
-            "authorId": "2155446753",
-            "name": "Xingyu Li"
-          },
-          {
-            "authorId": "40379164",
-            "name": "Luchen Tan"
-          },
-          {
-            "authorId": "50033756",
-            "name": "Kun Xiong"
-          },
-          {
-            "authorId": "2150652992",
-            "name": "Ming Li"
-          },
-          {
-            "authorId": "145580839",
-            "name": "Jimmy J. Lin"
-          }
-        ],
-        "citationCount": 524,
-        "externalIds": {
-          "ACL": "N19-4013",
-          "ArXiv": "1902.01718",
-          "CorpusId": 59604492,
-          "DBLP": "conf/naacl/YangXLLTXLL19",
-          "DOI": "10.18653/v1/N19-4013",
-          "MAG": "2912817604"
-        },
-        "paperId": "2fe7dba5a58aee5156594b4d78634ecd6c7dcabd",
-        "publicationDate": "2019-02-01",
-        "referenceCount": null,
-        "title": "End-to-End Open-Domain Question Answering with BERTserini",
-        "url": "https://www.semanticscholar.org/paper/2fe7dba5a58aee5156594b4d78634ecd6c7dcabd",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2019
-      },
-      "index": 23,
-      "intents": [
-        "methodology",
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "143744603",
-            "name": "Rodrigo Nogueira"
-          },
-          {
-            "authorId": "1979489",
-            "name": "Kyunghyun Cho"
-          }
-        ],
-        "citationCount": 1369,
-        "externalIds": {
-          "ArXiv": "1901.04085",
-          "CorpusId": 58004692,
-          "DBLP": "journals/corr/abs-1901-04085",
-          "MAG": "2909544278"
-        },
-        "paperId": "85e07116316e686bf787114ba10ca60f4ea7c5b2",
-        "publicationDate": "2019-01-13",
-        "referenceCount": null,
-        "title": "Passage Re-ranking with BERT",
-        "url": "https://www.semanticscholar.org/paper/85e07116316e686bf787114ba10ca60f4ea7c5b2",
-        "venue": "arXiv.org",
-        "year": 2019
-      },
-      "index": 24,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2427350",
-            "name": "Yankai Lin"
-          },
-          {
-            "authorId": "51111817",
-            "name": "Haozhe Ji"
-          },
-          {
-            "authorId": "49293587",
-            "name": "Zhiyuan Liu"
-          },
-          {
-            "authorId": "1753344",
-            "name": "Maosong Sun"
-          }
-        ],
-        "citationCount": 150,
-        "externalIds": {
-          "ACL": "P18-1161",
-          "CorpusId": 51875405,
-          "DBLP": "conf/acl/SunLLJ18",
-          "DOI": "10.18653/v1/P18-1161",
-          "MAG": "2799081691"
-        },
-        "paperId": "ba1382a0574baa0345fd727f259bc86797fe1381",
-        "publicationDate": "2018-07-01",
-        "referenceCount": null,
-        "title": "Denoising Distantly Supervised Open-Domain Question Answering",
-        "url": "https://www.semanticscholar.org/paper/ba1382a0574baa0345fd727f259bc86797fe1381",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2018
-      },
-      "index": 25,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "5262209",
-            "name": "R. Perelberg"
-          }
-        ],
-        "citationCount": 3006,
-        "externalIds": {
-          "CorpusId": 242039703,
-          "DOI": "10.4324/9780429475269-1"
-        },
-        "paperId": "818821fc65b33a4035d37637fe48a1638fe28ec2",
-        "publicationDate": "2018-06-04",
-        "referenceCount": null,
-        "title": "Introduction I",
-        "url": "https://www.semanticscholar.org/paper/818821fc65b33a4035d37637fe48a1638fe28ec2",
-        "venue": "Gender and Power in Families",
-        "year": 2018
-      },
-      "index": 26,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2992833",
-            "name": "Shuohang Wang"
-          },
-          {
-            "authorId": "2482533",
-            "name": "Mo Yu"
-          },
-          {
-            "authorId": "1955964",
-            "name": "Xiaoxiao Guo"
-          },
-          {
-            "authorId": "40296541",
-            "name": "Zhiguo Wang"
-          },
-          {
-            "authorId": "2652016",
-            "name": "Tim Klinger"
-          },
-          {
-            "authorId": null,
-            "name": "Wei Zhang"
-          },
-          {
-            "authorId": "3307026",
-            "name": "Shiyu Chang"
-          },
-          {
-            "authorId": "1699108",
-            "name": "G. Tesauro"
-          },
-          {
-            "authorId": "145218984",
-            "name": "Bowen Zhou"
-          },
-          {
-            "authorId": "144924150",
-            "name": "Jing Jiang"
-          }
-        ],
-        "citationCount": 200,
-        "externalIds": {
-          "CorpusId": 19178620,
-          "DBLP": "conf/aaai/WangYGWKZCTZJ18",
-          "DOI": "10.1609/aaai.v32i1.12053",
-          "MAG": "2788448041"
-        },
-        "paperId": "f7df82c5417b9ec7582def05b79ca080a07c4f3b",
-        "publicationDate": "2018-04-26",
-        "referenceCount": null,
-        "title": "R3: Reinforced Ranker-Reader for Open-Domain Question Answering",
-        "url": "https://www.semanticscholar.org/paper/f7df82c5417b9ec7582def05b79ca080a07c4f3b",
-        "venue": "AAAI Conference on Artificial Intelligence",
-        "year": 2018
-      },
-      "index": 27,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "145133553",
-            "name": "Matthew Henderson"
-          },
-          {
-            "authorId": "1388360943",
-            "name": "Rami Al-Rfou"
-          },
-          {
-            "authorId": "2704071",
-            "name": "B. Strope"
-          },
-          {
-            "authorId": "2305450",
-            "name": "Yun-Hsuan Sung"
-          },
-          {
-            "authorId": "2066492098",
-            "name": "László Lukács"
-          },
-          {
-            "authorId": "37495246",
-            "name": "Ruiqi Guo"
-          },
-          {
-            "authorId": "152663162",
-            "name": "Sanjiv Kumar"
-          },
-          {
-            "authorId": "2065065528",
-            "name": "Balint Miklos"
-          },
-          {
-            "authorId": "2186634",
-            "name": "R. Kurzweil"
-          }
-        ],
-        "citationCount": 499,
-        "externalIds": {
-          "ArXiv": "1705.00652",
-          "CorpusId": 2449317,
-          "DBLP": "journals/corr/HendersonASSLGK17",
-          "MAG": "2611029872"
-        },
-        "paperId": "435553998fbef790b5bed3491a8f634d9ec5cfa2",
-        "publicationDate": "2017-05-01",
-        "referenceCount": null,
-        "title": "Efficient Natural Language Response Suggestion for Smart Reply",
-        "url": "https://www.semanticscholar.org/paper/435553998fbef790b5bed3491a8f634d9ec5cfa2",
-        "venue": "arXiv.org",
-        "year": 2017
-      },
-      "index": 28,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "144863691",
-            "name": "Mandar Joshi"
-          },
-          {
-            "authorId": "2890423",
-            "name": "Eunsol Choi"
-          },
-          {
-            "authorId": "1780531",
-            "name": "Daniel S. Weld"
-          },
-          {
-            "authorId": "1982950",
-            "name": "Luke Zettlemoyer"
-          }
-        ],
-        "citationCount": 3743,
-        "externalIds": {
-          "ACL": "P17-1147",
-          "ArXiv": "1705.03551",
-          "CorpusId": 26501419,
-          "DBLP": "journals/corr/JoshiCWZ17",
-          "DOI": "10.18653/v1/P17-1147",
-          "MAG": "2612431505"
-        },
-        "paperId": "f010affab57b5fcf1cd6be23df79d8ec98c7289c",
-        "publicationDate": "2017-05-01",
-        "referenceCount": null,
-        "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
-        "url": "https://www.semanticscholar.org/paper/f010affab57b5fcf1cd6be23df79d8ec98c7289c",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2017
-      },
-      "index": 29,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "50536468",
-            "name": "Danqi Chen"
-          },
-          {
-            "authorId": "2064150446",
-            "name": "Adam Fisch"
-          },
-          {
-            "authorId": "145183709",
-            "name": "J. Weston"
-          },
-          {
-            "authorId": "1713934",
-            "name": "Antoine Bordes"
-          }
-        ],
-        "citationCount": 2199,
-        "externalIds": {
-          "ACL": "P17-1171",
-          "ArXiv": "1704.00051",
-          "CorpusId": 3618568,
-          "DBLP": "journals/corr/ChenFWB17",
-          "DOI": "10.18653/v1/P17-1171",
-          "MAG": "2953170340"
-        },
-        "paperId": "104715e1097b7ebee436058bfd9f45540f269845",
-        "publicationDate": "2017-03-31",
-        "referenceCount": null,
-        "title": "Reading Wikipedia to Answer Open-Domain Questions",
-        "url": "https://www.semanticscholar.org/paper/104715e1097b7ebee436058bfd9f45540f269845",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2017
-      },
-      "index": 30,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2115354049",
-            "name": "Jeff Johnson"
-          },
-          {
-            "authorId": "3271933",
-            "name": "Matthijs Douze"
-          },
-          {
-            "authorId": "1681054",
-            "name": "H. Jégou"
-          }
-        ],
-        "citationCount": 5104,
-        "externalIds": {
-          "ArXiv": "1702.08734",
-          "CorpusId": 926364,
-          "DBLP": "journals/tbd/JohnsonDJ21",
-          "DOI": "10.1109/tbdata.2019.2921572",
-          "MAG": "2998702515"
-        },
-        "paperId": "2cbb8de53759e75411bc528518947a3094fbce3a",
-        "publicationDate": "2017-02-28",
-        "referenceCount": null,
-        "title": "Billion-Scale Similarity Search with GPUs",
-        "url": "https://www.semanticscholar.org/paper/2cbb8de53759e75411bc528518947a3094fbce3a",
-        "venue": "IEEE Transactions on Big Data",
-        "year": 2017
-      },
-      "index": 31,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1776721",
-            "name": "Stephen O. Mussmann"
-          },
-          {
-            "authorId": "2490652",
-            "name": "Stefano Ermon"
-          }
-        ],
-        "citationCount": 61,
-        "externalIds": {
-          "CorpusId": 16464483,
-          "DBLP": "conf/icml/MussmannE16",
-          "MAG": "2468625129"
-        },
-        "paperId": "2040c5de2344b9b14f1bbfff372f708639cca739",
-        "publicationDate": "2016-06-19",
-        "referenceCount": null,
-        "title": "Learning and Inference via Maximum Inner Product Search",
-        "url": "https://www.semanticscholar.org/paper/2040c5de2344b9b14f1bbfff372f708639cca739",
-        "venue": "International Conference on Machine Learning",
-        "year": 2016
-      },
-      "index": 32,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2706258",
-            "name": "Pranav Rajpurkar"
-          },
-          {
-            "authorId": "2151810148",
-            "name": "Jian Zhang"
-          },
-          {
-            "authorId": "2787620",
-            "name": "Konstantin Lopyrev"
-          },
-          {
-            "authorId": "145419642",
-            "name": "Percy Liang"
-          }
-        ],
-        "citationCount": 9308,
-        "externalIds": {
-          "ACL": "D16-1264",
-          "ArXiv": "1606.05250",
-          "CorpusId": 11816014,
-          "DBLP": "journals/corr/RajpurkarZLL16",
-          "DOI": "10.18653/v1/D16-1264",
-          "MAG": "2963748441"
-        },
-        "paperId": "05dd7254b632376973f3a1b4d39485da17814df5",
-        "publicationDate": "2016-06-16",
-        "referenceCount": null,
-        "title": "SQuAD: 100,000+ Questions for Machine Comprehension of Text",
-        "url": "https://www.semanticscholar.org/paper/05dd7254b632376973f3a1b4d39485da17814df5",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2016
-      },
-      "index": 33,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "35219266",
-            "name": "P. Baudis"
-          },
-          {
-            "authorId": "38523098",
-            "name": "J. Sedivý"
-          }
-        ],
-        "citationCount": 172,
-        "externalIds": {
-          "CorpusId": 17723267,
-          "DBLP": "conf/clef/BaudisS15",
-          "DOI": "10.1007/978-3-319-24027-5_20",
-          "MAG": "1801866228"
-        },
-        "paperId": "7e5955481e9d197cc1cd1b64a90fbd245b88c886",
-        "publicationDate": "2015-09-08",
-        "referenceCount": null,
-        "title": "Modeling of the Question Answering Task in the YodaQA System",
-        "url": "https://www.semanticscholar.org/paper/7e5955481e9d197cc1cd1b64a90fbd245b88c886",
-        "venue": "Conference and Labs of the Evaluation Forum",
-        "year": 2015
-      },
-      "index": 34,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "37495246",
-            "name": "Ruiqi Guo"
-          },
-          {
-            "authorId": "152663162",
-            "name": "Sanjiv Kumar"
-          },
-          {
-            "authorId": "1805203",
-            "name": "K. Choromanski"
-          },
-          {
-            "authorId": "2031456",
-            "name": "David Simcha"
-          }
-        ],
-        "citationCount": 117,
-        "externalIds": {
-          "ArXiv": "1509.01469",
-          "CorpusId": 14163648,
-          "DBLP": "conf/aistats/GuoKCS16",
-          "MAG": "2949243585"
-        },
-        "paperId": "e15fdad9f7d160e11e9a313bd80ebe99952eff08",
-        "publicationDate": "2015-09-04",
-        "referenceCount": null,
-        "title": "Quantization based Fast Inner Product Search",
-        "url": "https://www.semanticscholar.org/paper/e15fdad9f7d160e11e9a313bd80ebe99952eff08",
-        "venue": "International Conference on Artificial Intelligence and Statistics",
-        "year": 2015
-      },
-      "index": 35,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "4260659",
-            "name": "Anshumali Shrivastava"
-          },
-          {
-            "authorId": "144785135",
-            "name": "Ping Li"
-          }
-        ],
-        "citationCount": 500,
-        "externalIds": {
-          "ArXiv": "1405.5869",
-          "CorpusId": 1653222,
-          "DBLP": "journals/corr/Shrivastava014b",
-          "MAG": "2169054943"
-        },
-        "paperId": "6dbffa57b3c6c5645cf701b9b444984a4b61bb57",
-        "publicationDate": "2014-05-22",
-        "referenceCount": null,
-        "title": "Asymmetric LSH (ALSH) for Sublinear Time Maximum Inner Product Search (MIPS)",
-        "url": "https://www.semanticscholar.org/paper/6dbffa57b3c6c5645cf701b9b444984a4b61bb57",
-        "venue": "Neural Information Processing Systems",
-        "year": 2014
-      },
-      "index": 36,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2421691",
-            "name": "Po-Sen Huang"
-          },
-          {
-            "authorId": "144137069",
-            "name": "Xiaodong He"
-          },
-          {
-            "authorId": "1800422",
-            "name": "Jianfeng Gao"
-          },
-          {
-            "authorId": "144718788",
-            "name": "L. Deng"
-          },
-          {
-            "authorId": "1723644",
-            "name": "A. Acero"
-          },
-          {
-            "authorId": "46819684",
-            "name": "Larry Heck"
-          }
-        ],
-        "citationCount": 2246,
-        "externalIds": {
-          "CorpusId": 8384258,
-          "DBLP": "conf/cikm/HuangHGDAH13",
-          "DOI": "10.1145/2505515.2505665",
-          "MAG": "2136189984"
-        },
-        "paperId": "fdb813d8b927bdd21ae1858cafa6c34b66a36268",
-        "publicationDate": "2013-10-27",
-        "referenceCount": null,
-        "title": "Learning deep structured semantic models for web search using clickthrough data",
-        "url": "https://www.semanticscholar.org/paper/fdb813d8b927bdd21ae1858cafa6c34b66a36268",
-        "venue": "International Conference on Information and Knowledge Management",
-        "year": 2013
-      },
-      "index": 37,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1750652",
-            "name": "Jonathan Berant"
-          },
-          {
-            "authorId": "2059149862",
-            "name": "A. Chou"
-          },
-          {
-            "authorId": "34765463",
-            "name": "Roy Frostig"
-          },
-          {
-            "authorId": "145419642",
-            "name": "Percy Liang"
-          }
-        ],
-        "citationCount": 2193,
-        "externalIds": {
-          "ACL": "D13-1160",
-          "CorpusId": 6401679,
-          "DBLP": "conf/emnlp/BerantCFL13",
-          "DOI": "10.18653/v1/d13-1160",
-          "MAG": "2252136820"
-        },
-        "paperId": "b29447ba499507a259ae9d8f685d60cc1597d7d3",
-        "publicationDate": "2013-10-01",
-        "referenceCount": null,
-        "title": "Semantic Parsing on Freebase from Question-Answer Pairs",
-        "url": "https://www.semanticscholar.org/paper/b29447ba499507a259ae9d8f685d60cc1597d7d3",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2013
-      },
-      "index": 38,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1692670",
-            "name": "Brian Kulis"
-          }
-        ],
-        "citationCount": 988,
-        "externalIds": {
-          "CorpusId": 55485900,
-          "DBLP": "journals/ftml/Kulis13",
-          "DOI": "10.1561/2200000019",
-          "MAG": "2121949863"
-        },
-        "paperId": "8916521f7d4c97befa30b06e17a7a39cda274552",
-        "publicationDate": "2013-08-15",
-        "referenceCount": null,
-        "title": "Metric Learning: A Survey",
-        "url": "https://www.semanticscholar.org/paper/8916521f7d4c97befa30b06e17a7a39cda274552",
-        "venue": "Found. Trends Mach. Learn.",
-        "year": 2013
-      },
-      "index": 39,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2295799",
-            "name": "D. Ferrucci"
-          }
-        ],
-        "citationCount": 515,
-        "externalIds": {
-          "CorpusId": 22647967,
-          "DBLP": "journals/ibmrd/Ferrucci12",
-          "DOI": "10.1147/JRD.2012.2184356",
-          "MAG": "160318044"
-        },
-        "paperId": "bde2d81eaf6086e664af87c04241d4ce4e1bd01b",
-        "publicationDate": "2012-05-01",
-        "referenceCount": null,
-        "title": "Introduction to \"This is Watson\"",
-        "url": "https://www.semanticscholar.org/paper/bde2d81eaf6086e664af87c04241d4ce4e1bd01b",
-        "venue": "IBM Journal of Research and Development",
-        "year": 2012
-      },
-      "index": 40,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2944292",
-            "name": "Parikshit Ram"
-          },
-          {
-            "authorId": "1703070",
-            "name": "Alexander G. Gray"
-          }
-        ],
-        "citationCount": 192,
-        "externalIds": {
-          "ArXiv": "1202.6101",
-          "CorpusId": 514516,
-          "DBLP": "journals/corr/abs-1202-6101",
-          "DOI": "10.1145/2339530.2339677",
-          "MAG": "2010416066"
-        },
-        "paperId": "dcd2755f4e7b5ed96571ec6a741b172a217cabe2",
-        "publicationDate": "2012-02-28",
-        "referenceCount": null,
-        "title": "Maximum inner-product search using cone trees",
-        "url": "https://www.semanticscholar.org/paper/dcd2755f4e7b5ed96571ec6a741b172a217cabe2",
-        "venue": "Knowledge Discovery and Data Mining",
-        "year": 2012
-      },
-      "index": 41,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "144105277",
-            "name": "Wen-tau Yih"
-          },
-          {
-            "authorId": "3259253",
-            "name": "Kristina Toutanova"
-          },
-          {
-            "authorId": "144189092",
-            "name": "John C. Platt"
-          },
-          {
-            "authorId": "50004012",
-            "name": "Christopher Meek"
-          }
-        ],
-        "citationCount": 264,
-        "externalIds": {
-          "ACL": "W11-0329",
-          "CorpusId": 1965270,
-          "DBLP": "conf/conll/YihTPM11",
-          "MAG": "1610356397"
-        },
-        "paperId": "d5b034176d6021bc965fca9aa02f17864d1ccf67",
-        "publicationDate": "2011-06-23",
-        "referenceCount": null,
-        "title": "Learning Discriminative Projections for Text Similarity Measures",
-        "url": "https://www.semanticscholar.org/paper/d5b034176d6021bc965fca9aa02f17864d1ccf67",
-        "venue": "Conference on Computational Natural Language Learning",
-        "year": 2011
-      },
-      "index": 42,
-      "intents": [
-        "background",
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "144430625",
-            "name": "S. Robertson"
-          },
-          {
-            "authorId": "2833561",
-            "name": "H. Zaragoza"
-          }
-        ],
-        "citationCount": 5183,
-        "externalIds": {
-          "CorpusId": 207178704,
-          "DBLP": "journals/ftir/RobertsonZ09",
-          "DOI": "10.1561/1500000019",
-          "MAG": "2155482025"
-        },
-        "paperId": "47ced790a563344efae66588b5fb7fe6cca29ed3",
-        "publicationDate": "2009-04-01",
-        "referenceCount": null,
-        "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
-        "url": "https://www.semanticscholar.org/paper/47ced790a563344efae66588b5fb7fe6cca29ed3",
-        "venue": "Foundations and Trends in Information Retrieval",
-        "year": 2009
-      },
-      "index": 43,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1836606",
-            "name": "T. Landauer"
-          },
-          {
-            "authorId": "1728602",
-            "name": "S. Dumais"
-          }
-        ],
-        "citationCount": 11424,
-        "externalIds": {
-          "CorpusId": 3252915,
-          "DBLP": "journals/scholarpedia/LandauerD08",
-          "DOI": "10.4249/scholarpedia.4356",
-          "MAG": "2556575288"
-        },
-        "paperId": "164125a65d42a791d2c1e108559344caef96d08b",
-        "publicationDate": "2008-11-13",
-        "referenceCount": null,
-        "title": "Latent semantic analysis",
-        "url": "https://www.semanticscholar.org/paper/164125a65d42a791d2c1e108559344caef96d08b",
-        "venue": "Scholarpedia",
-        "year": 2008
-      },
-      "index": 44,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2676309",
-            "name": "C. Burges"
-          },
-          {
-            "authorId": "3296031",
-            "name": "T. Shaked"
-          },
-          {
-            "authorId": "1859813",
-            "name": "Erin Renshaw"
-          },
-          {
-            "authorId": "2078999999",
-            "name": "Ari Lazier"
-          },
-          {
-            "authorId": "1398663319",
-            "name": "Matt Deeds"
-          },
-          {
-            "authorId": "2281701583",
-            "name": "Nicole Hamilton"
-          },
-          {
-            "authorId": "2095493",
-            "name": "Gregory N. Hullender"
-          }
-        ],
-        "citationCount": 3171,
-        "externalIds": {
-          "CorpusId": 11168734,
-          "DBLP": "conf/icml/BurgesSRLDHH05",
-          "DOI": "10.1145/1102351.1102363",
-          "MAG": "2143331230"
-        },
-        "paperId": "63aaf12163fe9735dfe9a69114937c4fa34f303a",
-        "publicationDate": "2005-08-07",
-        "referenceCount": null,
-        "title": "Learning to rank using gradient descent",
-        "url": "https://www.semanticscholar.org/paper/63aaf12163fe9735dfe9a69114937c4fa34f303a",
-        "venue": "International Conference on Machine Learning",
-        "year": 2005
-      },
-      "index": 45,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "3295092",
-            "name": "S. Chopra"
-          },
-          {
-            "authorId": "2315504",
-            "name": "R. Hadsell"
-          },
-          {
-            "authorId": "1688882",
-            "name": "Yann LeCun"
-          }
-        ],
-        "citationCount": 4536,
-        "externalIds": {
-          "CorpusId": 5555257,
-          "DBLP": "conf/cvpr/ChopraHL05",
-          "DOI": "10.1109/CVPR.2005.202",
-          "MAG": "2157364932"
-        },
-        "paperId": "cfaae9b6857b834043606df3342d8dc97524aa9d",
-        "publicationDate": "2005-06-20",
-        "referenceCount": null,
-        "title": "Learning a similarity metric discriminatively, with application to face verification",
-        "url": "https://www.semanticscholar.org/paper/cfaae9b6857b834043606df3342d8dc97524aa9d",
-        "venue": "Computer Vision and Pattern Recognition",
-        "year": 2005
-      },
-      "index": 46,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "145022783",
-            "name": "Eric Brill"
-          },
-          {
-            "authorId": "1728602",
-            "name": "S. Dumais"
-          },
-          {
-            "authorId": "2339397",
-            "name": "Michele Banko"
-          }
-        ],
-        "citationCount": 365,
-        "externalIds": {
-          "ACL": "W02-1033",
-          "CorpusId": 5541486,
-          "DBLP": "conf/emnlp/BrillDB02",
-          "DOI": "10.3115/1118693.1118726",
-          "MAG": "2115758952"
-        },
-        "paperId": "9c99620d7511c83a402ff3b4b3a2348a669e61e3",
-        "publicationDate": "2002-07-06",
-        "referenceCount": null,
-        "title": "An Analysis of the AskMSR Question-Answering System",
-        "url": "https://www.semanticscholar.org/paper/9c99620d7511c83a402ff3b4b3a2348a669e61e3",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2002
-      },
-      "index": 47,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "40497400",
-            "name": "D. Moldovan"
-          },
-          {
-            "authorId": "1724629",
-            "name": "Marius Pasca"
-          },
-          {
-            "authorId": "1713428",
-            "name": "S. Harabagiu"
-          },
-          {
-            "authorId": "1760868",
-            "name": "M. Surdeanu"
-          }
-        ],
-        "citationCount": 358,
-        "externalIds": {
-          "ACL": "P02-1005",
-          "CorpusId": 62173535,
-          "DBLP": "conf/acl/MoldovanPHS02",
-          "DOI": "10.1145/763693.763694",
-          "MAG": "2029118765"
-        },
-        "paperId": "9d0776666d8c7da0f6c40950563687f8ba5b6f7f",
-        "publicationDate": "2002-07-06",
-        "referenceCount": null,
-        "title": "Performance Issues and Error Analysis in an Open-Domain Question Answering System",
-        "url": "https://www.semanticscholar.org/paper/9d0776666d8c7da0f6c40950563687f8ba5b6f7f",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2002
-      },
-      "index": 48,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1983124",
-            "name": "Cody C. T. Kwok"
-          },
-          {
-            "authorId": "1741101",
-            "name": "Oren Etzioni"
-          },
-          {
-            "authorId": "1780531",
-            "name": "Daniel S. Weld"
-          }
-        ],
-        "citationCount": 608,
-        "externalIds": {
-          "CorpusId": 5456456,
-          "DBLP": "conf/www/KwokEW01",
-          "DOI": "10.1145/371920.371973",
-          "MAG": "2055354597"
-        },
-        "paperId": "016e9cc85c658c6a69710b4c617609ad2a5d3a74",
-        "publicationDate": "2001-05-01",
-        "referenceCount": null,
-        "title": "Scaling question answering to the Web",
-        "url": "https://www.semanticscholar.org/paper/016e9cc85c658c6a69710b4c617609ad2a5d3a74",
-        "venue": "The Web Conference",
-        "year": 2001
-      },
-      "index": 49,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "120242409",
-            "name": "J. Bromley"
-          },
-          {
-            "authorId": "2058232056",
-            "name": "James W. Bentz"
-          },
-          {
-            "authorId": "52184096",
-            "name": "L. Bottou"
-          },
-          {
-            "authorId": "1743797",
-            "name": "Isabelle M Guyon"
-          },
-          {
-            "authorId": "1688882",
-            "name": "Yann LeCun"
-          },
-          {
-            "authorId": "49015421",
-            "name": "Cliff Moore"
-          },
-          {
-            "authorId": "1776424",
-            "name": "Eduard Säckinger"
-          },
-          {
-            "authorId": "2105573840",
-            "name": "Roopak Shah"
-          }
-        ],
-        "citationCount": 4127,
-        "externalIds": {
-          "CorpusId": 16394033,
-          "DBLP": "journals/ijprai/BromleyBBGLMSS93",
-          "DOI": "10.1142/S0218001493000339",
-          "MAG": "2171590421"
-        },
-        "paperId": "997dc5d9a058753f034422afe7bd0cc0b8ad808b",
-        "publicationDate": "1993-08-01",
-        "referenceCount": null,
-        "title": "Signature Verification Using A \"Siamese\" Time Delay Neural Network",
-        "url": "https://www.semanticscholar.org/paper/997dc5d9a058753f034422afe7bd0cc0b8ad808b",
-        "venue": "International journal of pattern recognition and artificial intelligence",
-        "year": 1993
-      },
-      "index": 50,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "39172707",
-            "name": "Jacob Devlin"
-          },
-          {
-            "authorId": "1744179",
-            "name": "Ming-Wei Chang"
-          },
-          {
-            "authorId": "2544107",
-            "name": "Kenton Lee"
-          },
-          {
-            "authorId": "3259253",
-            "name": "Kristina Toutanova"
-          }
-        ],
-        "citationCount": 114270,
-        "externalIds": {
-          "ACL": "N19-1423",
-          "ArXiv": "1810.04805",
-          "CorpusId": 52967399,
-          "DBLP": "journals/corr/abs-1810-04805",
-          "DOI": "10.18653/v1/N19-1423",
-          "MAG": "2951055169"
-        },
-        "paperId": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
-        "publicationDate": null,
-        "referenceCount": null,
-        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-        "url": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2019
-      },
-      "index": 51,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [],
         "citationCount": null,
         "externalIds": {},
         "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "born 6 November 1980) is a Norwegian stage and screen actor. He appeared in the Norwegian film ”Max Manus” and played Thor Heyerdahl in the Oscar-nominated 2012 film ”Kon-Tiki",
+        "title": "Learning to retrieve reasoning paths over Wikipedia graph for question answering.",
         "url": null,
-        "venue": "Pl Hagen was born in Stavanger, Norway, the son of Roar Hagen,",
+        "venue": "International Conference on Learning Representations (ICLR)",
+        "year": 2020
+      },
+      "index": 0,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Akari Asai, Kazuma Hashimoto, Hannaneh Hajishirzi, Richard Socher, and Caiming Xiong. 2020. Learning to retrieve reasoning paths over Wikipedia graph for question answering. In International Conference on Learning Representations (ICLR)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Petr Baudiš"
+          },
+          {
+            "name": "Jan Šedivỳ"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Modeling of the question answering task in the yodaqa system.",
+        "url": null,
+        "venue": "International Conference of the Cross-Language Evaluation Forum for European Languages",
+        "year": 2015
+      },
+      "index": 1,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Petr Baudiš and Jan Šedivỳ. 2015. Modeling of the question answering task in the yodaqa system. In International Conference of the Cross-Language Evaluation Forum for European Languages, pages 222-228. Springer."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Jonathan Berant"
+          },
+          {
+            "name": "Andrew Chou"
+          },
+          {
+            "name": "Roy Frostig"
+          },
+          {
+            "name": "Percy Liang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Semantic parsing on Freebase from question-answer pairs.",
+        "url": null,
+        "venue": "Empirical Methods in Natural Language Processing (EMNLP)",
+        "year": 2013
+      },
+      "index": 2,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jonathan Berant, Andrew Chou, Roy Frostig, and Percy Liang. 2013. Semantic parsing on Freebase from question-answer pairs. In Empirical Methods in Natural Language Processing (EMNLP)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Jane Bromley"
+          },
+          {
+            "name": "Isabelle Guyon"
+          },
+          {
+            "name": "Yann LeCun"
+          },
+          {
+            "name": "Eduard Säckinger"
+          },
+          {
+            "name": "Roopak Shah"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Signature verification using a \"Siamese\" time delay neural network.",
+        "url": null,
+        "venue": "NIPS",
+        "year": 1994
+      },
+      "index": 3,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jane Bromley, Isabelle Guyon, Yann LeCun, Eduard Säckinger, and Roopak Shah. 1994. Signature verification using a \"Siamese\" time delay neural network. In NIPS, pages 737–744."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Chris Burges"
+          },
+          {
+            "name": "Tal Shaked"
+          },
+          {
+            "name": "Erin Renshaw"
+          },
+          {
+            "name": "Ari Lazier"
+          },
+          {
+            "name": "Matt Deeds"
+          },
+          {
+            "name": "Nicole Hamilton"
+          },
+          {
+            "name": "Greg Hullender"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Learning to rank using gradient descent.",
+        "url": null,
+        "venue": "Proceedings of the 22nd international conference on Machine learning",
+        "year": 2005
+      },
+      "index": 4,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Chris Burges, Tal Shaked, Erin Renshaw, Ari Lazier, Matt Deeds, Nicole Hamilton, and Greg Hullender. 2005. Learning to rank using gradient descent. In Proceedings of the 22nd international conference on Machine learning, pages 89–96."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Danqi Chen"
+          },
+          {
+            "name": "Adam Fisch"
+          },
+          {
+            "name": "Jason Weston"
+          },
+          {
+            "name": "Antoine Bordes"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Reading Wikipedia to answer open-domain questions.",
+        "url": null,
+        "venue": "Association for Computational Linguistics (ACL)",
+        "year": 2017
+      },
+      "index": 5,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Danqi Chen, Adam Fisch, Jason Weston, and Antoine Bordes. 2017. Reading Wikipedia to answer open-domain questions. In Association for Computational Linguistics (ACL), pages 1870-1879."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Rajarshi Das"
+          },
+          {
+            "name": "Shehzaad Dhuliawala"
+          },
+          {
+            "name": "Manzil Zaheer"
+          },
+          {
+            "name": "Andrew McCallum"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Multi-step retriever-reader interaction for scalable open-domain question answering.",
+        "url": null,
+        "venue": "International Conference on Learning Representations (ICLR)",
+        "year": 2019
+      },
+      "index": 6,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Rajarshi Das, Shehzaad Dhuliawala, Manzil Zaheer, and Andrew McCallum. 2019. Multi-step retriever-reader interaction for scalable open-domain question answering. In International Conference on Learning Representations (ICLR)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Scott Deerwester"
+          },
+          {
+            "name": "Susan T Dumais"
+          },
+          {
+            "name": "George W Furnas"
+          },
+          {
+            "name": "Thomas K Landauer"
+          },
+          {
+            "name": "Richard Harshman"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Indexing by latent semantic analysis.",
+        "url": null,
+        "venue": "Journal of the American society for information science",
+        "year": 1990
+      },
+      "index": 7,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Scott Deerwester, Susan T Dumais, George W Furnas, Thomas K Landauer, and Richard Harshman. 1990. Indexing by latent semantic analysis. Journal of the American society for information science, 41(6):391-407."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Jacob Devlin"
+          },
+          {
+            "name": "Ming-Wei Chang"
+          },
+          {
+            "name": "Kenton Lee"
+          },
+          {
+            "name": "Kristina Toutanova"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "BERT: Pre-training of deep bidirectional transformers for language understanding.",
+        "url": null,
+        "venue": "North American Association for Computational Linguistics (NAACL)",
+        "year": 2019
+      },
+      "index": 8,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. BERT: Pre-training of deep bidirectional transformers for language understanding. In North American Association for Computational Linguistics (NAACL)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "David A Ferrucci"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Introduction to \"This is Watson\".",
+        "url": null,
+        "venue": "IBM Journal of Research and Development",
         "year": 2012
       },
-      "index": 52,
+      "index": 9,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "David A Ferrucci. 2012. Introduction to \"This is Watson\". IBM Journal of Research and Development, 56(3.4):1-1."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "144550612",
-            "name": "W. Koehler"
+            "name": "Daniel Gillick"
+          },
+          {
+            "name": "Sayali Kulkarni"
+          },
+          {
+            "name": "Larry Lansing"
+          },
+          {
+            "name": "Alessandro Presta"
+          },
+          {
+            "name": "Jason Baldridge"
+          },
+          {
+            "name": "Eugene Ie"
+          },
+          {
+            "name": "Diego Garcia-Olano"
           }
         ],
-        "citationCount": 143,
-        "externalIds": {
-          "CorpusId": 68390317,
-          "MAG": "2124825429"
-        },
-        "paperId": "135501b7d3033c6da2a649fba19ff1745948ab24",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "A Profile in Statistics of Journal Articles: Fifty Years of American Documentation and the Journal of the American Society for Information Science",
-        "url": "https://www.semanticscholar.org/paper/135501b7d3033c6da2a649fba19ff1745948ab24",
-        "venue": "",
-        "year": 2000
+        "title": "Learning dense representations for entity retrieval.",
+        "url": null,
+        "venue": "Computational Natural Language Learning (CoNLL)",
+        "year": 2019
       },
-      "index": 53,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "index": 10,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Daniel Gillick, Sayali Kulkarni, Larry Lansing, Alessandro Presta, Jason Baldridge, Eugene Ie, and Diego Garcia-Olano. 2019. Learning dense representations for entity retrieval. In Computational Natural Language Learning (CoNLL)."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1746656",
-            "name": "E. Voorhees"
+            "name": "Ruiqi Guo"
+          },
+          {
+            "name": "Sanjiv Kumar"
+          },
+          {
+            "name": "Krzysztof Choromanski"
+          },
+          {
+            "name": "David Simcha"
           }
         ],
-        "citationCount": 1236,
-        "externalIds": {
-          "CorpusId": 16944215,
-          "DBLP": "conf/trec/Voorhees99",
-          "MAG": "2086511124"
-        },
-        "paperId": "646d4888871aca2a25111eb2520e4c47e253b014",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "The TREC-8 Question Answering Track Report",
-        "url": "https://www.semanticscholar.org/paper/646d4888871aca2a25111eb2520e4c47e253b014",
-        "venue": "Text Retrieval Conference",
+        "title": "Quantization based fast inner product search.",
+        "url": null,
+        "venue": "Artificial Intelligence and Statistics",
+        "year": 2016
+      },
+      "index": 11,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ruiqi Guo, Sanjiv Kumar, Krzysztof Choromanski, and David Simcha. 2016. Quantization based fast inner product search. In Artificial Intelligence and Statistics, pages 482-490."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Kelvin Guu"
+          },
+          {
+            "name": "Kenton Lee"
+          },
+          {
+            "name": "Zora Tung"
+          },
+          {
+            "name": "Panupong Pasupat"
+          },
+          {
+            "name": "Ming-Wei Chang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "2002.08909"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "REALM: Retrieval-augmented language model pre-training.",
+        "url": null,
+        "venue": null,
+        "year": 2020
+      },
+      "index": 12,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. 2020. REALM: Retrieval-augmented language model pre-training. ArXiv, abs/2002.08909."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Matthew Henderson"
+          },
+          {
+            "name": "Rami Al-Rfou"
+          },
+          {
+            "name": "Brian Strope"
+          },
+          {
+            "name": "Yun-hsuan Sung"
+          },
+          {
+            "name": "László Lukács"
+          },
+          {
+            "name": "Ruiqi Guo"
+          },
+          {
+            "name": "Sanjiv Kumar"
+          },
+          {
+            "name": "Balint Miklos"
+          },
+          {
+            "name": "Ray Kurzweil"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1705.00652"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Efficient natural language response suggestion for smart reply.",
+        "url": null,
+        "venue": null,
+        "year": 2017
+      },
+      "index": 13,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Matthew Henderson, Rami Al-Rfou, Brian Strope, Yun-hsuan Sung, László Lukács, Ruiqi Guo, Sanjiv Ku-mar, Balint Miklos, and Ray Kurzweil. 2017. Effi-cient natural language response suggestion for smart reply. ArXiv, abs/1705.00652."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Po-Sen Huang"
+          },
+          {
+            "name": "Xiaodong He"
+          },
+          {
+            "name": "Jianfeng Gao"
+          },
+          {
+            "name": "Li Deng"
+          },
+          {
+            "name": "Alex Acero"
+          },
+          {
+            "name": "Larry Heck"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Learning deep structured semantic models for Web search using clickthrough data.",
+        "url": null,
+        "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+        "year": 2013
+      },
+      "index": 14,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Po-Sen Huang, Xiaodong He, Jianfeng Gao, Li Deng, Alex Acero, and Larry Heck. 2013. Learning deep structured semantic models for Web search using clickthrough data. In ACM International Confer-ence on Information and Knowledge Management (CIKM), pages 2333-2338."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Samuel Humeau"
+          },
+          {
+            "name": "Kurt Shuster"
+          },
+          {
+            "name": "Marie-Anne Lachaux"
+          },
+          {
+            "name": "Jason Weston"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Poly-encoders: Architectures and pre-training strategies for fast and accurate multi-sentence scoring.",
+        "url": null,
+        "venue": "International Conference on Learning Representations (ICLR)",
+        "year": 2020
+      },
+      "index": 15,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Samuel Humeau, Kurt Shuster, Marie-Anne Lachaux, and Jason Weston. 2020. Poly-encoders: Architec-tures and pre-training strategies for fast and accurate multi-sentence scoring. In International Conference on Learning Representations (ICLR)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Gautier Izacard"
+          },
+          {
+            "name": "Edouard Grave"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "2007.01282"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Leveraging passage retrieval with generative models for open domain question answering.",
+        "url": null,
+        "venue": null,
+        "year": 2020
+      },
+      "index": 16,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Gautier Izacard and Edouard Grave. 2020. Leveraging passage retrieval with generative models for open do-main question answering. ArXiv, abs/2007.01282."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Jeff Johnson"
+          },
+          {
+            "name": "Matthijs Douze"
+          },
+          {
+            "name": "Hervé Jégou"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1702.08734"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Billion-scale similarity search with GPUs.",
+        "url": null,
+        "venue": null,
+        "year": 2017
+      },
+      "index": 17,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jeff Johnson, Matthijs Douze, and Hervé Jégou. 2017. Billion-scale similarity search with GPUs. ArXiv, abs/1702.08734."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Mandar Joshi"
+          },
+          {
+            "name": "Eunsol Choi"
+          },
+          {
+            "name": "Daniel Weld"
+          },
+          {
+            "name": "Luke Zettlemoyer"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "TriviaQA: A large scale distantly supervised challenge dataset for reading comprehension.",
+        "url": null,
+        "venue": "Association for Computational Linguistics (ACL)",
+        "year": 2017
+      },
+      "index": 18,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Mandar Joshi, Eunsol Choi, Daniel Weld, and Luke Zettlemoyer. 2017. TriviaQA: A large scale dis-tantly supervised challenge dataset for reading com-prehension. In Association for Computational Lin-guistics (ACL), pages 1601–1611."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Omar Khattab"
+          },
+          {
+            "name": "Matei Zaharia"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "ColBERT: Efficient and effective passage search via contextualized late interaction over BERT.",
+        "url": null,
+        "venue": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+        "year": 2020
+      },
+      "index": 19,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Omar Khattab and Matei Zaharia. 2020. ColBERT: Efficient and effective passage search via contextu-alized late interaction over BERT. In ACM SIGIR Conference on Research and Development in Infor-mation Retrieval (SIGIR), pages 39-48."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Brian Kulis"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Metric learning: A survey.",
+        "url": null,
+        "venue": "Foundations and Trends in Machine Learning",
+        "year": 2013
+      },
+      "index": 20,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Brian Kulis. 2013. Metric learning: A survey. Foun-dations and Trends in Machine Learning, 5(4):287-364."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Tom Kwiatkowski"
+          },
+          {
+            "name": "Jennimaria Palomaki"
+          },
+          {
+            "name": "Olivia Redfield"
+          },
+          {
+            "name": "Michael Collins"
+          },
+          {
+            "name": "Ankur Parikh"
+          },
+          {
+            "name": "Chris Alberti"
+          },
+          {
+            "name": "Danielle Epstein"
+          },
+          {
+            "name": "Illia Polosukhin"
+          },
+          {
+            "name": "Matthew Kelcey"
+          },
+          {
+            "name": "Jacob Devlin"
+          },
+          {
+            "name": "Kenton Lee"
+          },
+          {
+            "name": "Kristina N. Toutanova"
+          },
+          {
+            "name": "Llion Jones"
+          },
+          {
+            "name": "Ming-Wei Chang"
+          },
+          {
+            "name": "Andrew Dai"
+          },
+          {
+            "name": "Jakob Uszkoreit"
+          },
+          {
+            "name": "Quoc Le"
+          },
+          {
+            "name": "Slav Petrov"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Natural questions: a benchmark for question answering research.",
+        "url": null,
+        "venue": "Transactions of the Association of Computational Linguistics (TACL)",
+        "year": 2019
+      },
+      "index": 21,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Tom Kwiatkowski, Jennimaria Palomaki, Olivia Red-field, Michael Collins, Ankur Parikh, Chris Alberti, Danielle Epstein, Illia Polosukhin, Matthew Kelcey, Jacob Devlin, Kenton Lee, Kristina N. Toutanova, Llion Jones, Ming-Wei Chang, Andrew Dai, Jakob Uszkoreit, Quoc Le, and Slav Petrov. 2019. Natu-ral questions: a benchmark for question answering research. Transactions of the Association of Compu-tational Linguistics (TACL)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Kenton Lee"
+          },
+          {
+            "name": "Ming-Wei Chang"
+          },
+          {
+            "name": "Kristina Toutanova"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Latent retrieval for weakly supervised open domain question answering.",
+        "url": null,
+        "venue": "Association for Computational Linguistics (ACL)",
+        "year": 2019
+      },
+      "index": 22,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Kenton Lee, Ming-Wei Chang, and Kristina Toutanova. 2019. Latent retrieval for weakly supervised open domain question answering. In Association for Com-putational Linguistics (ACL), pages 6086-6096."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Mike Lewis"
+          },
+          {
+            "name": "Yinhan Liu"
+          },
+          {
+            "name": "Naman Goyal"
+          },
+          {
+            "name": "Marjan Ghazvininejad"
+          },
+          {
+            "name": "Abdelrahman Mohamed"
+          },
+          {
+            "name": "Omer Levy"
+          },
+          {
+            "name": "Veselin Stoyanov"
+          },
+          {
+            "name": "Luke Zettlemoyer"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "BART: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension.",
+        "url": null,
+        "venue": "Association for Computational Linguistics (ACL)",
+        "year": 2020
+      },
+      "index": 23,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Mike Lewis, Yinhan Liu, Naman Goyal, Mar-jan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Veselin Stoyanov, and Luke Zettlemoyer. 2020a. BART: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension. In Association for Computa-tional Linguistics (ACL), pages 7871–7880."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Patrick Lewis"
+          },
+          {
+            "name": "Ethan Perez"
+          },
+          {
+            "name": "Aleksandara Piktus"
+          },
+          {
+            "name": "Fabio Petroni"
+          },
+          {
+            "name": "Vladimir Karpukhin"
+          },
+          {
+            "name": "Naman Goyal"
+          },
+          {
+            "name": "Heinrich Küttler"
+          },
+          {
+            "name": "Mike Lewis"
+          },
+          {
+            "name": "Wen-tau Yih"
+          },
+          {
+            "name": "Tim Rocktäschel"
+          },
+          {
+            "name": "Sebastian Riedel"
+          },
+          {
+            "name": "Douwe Kiela"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Retrieval-augmented generation for knowledge-intensive NLP tasks.",
+        "url": null,
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+        "year": 2020
+      },
+      "index": 24,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Patrick Lewis, Ethan Perez, Aleksandara Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, and Douwe Kiela. 2020b. Retrieval-augmented generation for knowledge-intensive NLP tasks. In Advances in Neural Information Processing Systems (NeurIPS)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Yankai Lin"
+          },
+          {
+            "name": "Haozhe Ji"
+          },
+          {
+            "name": "Zhiyuan Liu"
+          },
+          {
+            "name": "Maosong Sun"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Denoising distantly supervised open-domain question answering.",
+        "url": null,
+        "venue": "Association for Computational Linguistics (ACL)",
+        "year": 2018
+      },
+      "index": 25,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Yankai Lin, Haozhe Ji, Zhiyuan Liu, and Maosong Sun. 2018. Denoising distantly supervised open-domain question answering. In Association for Computa-tional Linguistics (ACL), pages 1736-1745."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Sewon Min"
+          },
+          {
+            "name": "Danqi Chen"
+          },
+          {
+            "name": "Hannaneh Hajishirzi"
+          },
+          {
+            "name": "Luke Zettlemoyer"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "A discrete hard EM approach for weakly supervised question answering.",
+        "url": null,
+        "venue": "Empirical Methods in Natural Language Processing (EMNLP)",
+        "year": 2019
+      },
+      "index": 26,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Sewon Min, Danqi Chen, Hannaneh Hajishirzi, and Luke Zettlemoyer. 2019a. A discrete hard EM ap-proach for weakly supervised question answering. In Empirical Methods in Natural Language Process-ing (EMNLP)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Sewon Min"
+          },
+          {
+            "name": "Danqi Chen"
+          },
+          {
+            "name": "Luke Zettlemoyer"
+          },
+          {
+            "name": "Hannaneh Hajishirzi"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1911.03868"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Knowledge guided text retrieval and reading for open domain question answering.",
+        "url": null,
+        "venue": null,
+        "year": 2019
+      },
+      "index": 27,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Sewon Min, Danqi Chen, Luke Zettlemoyer, and Han-naneh Hajishirzi. 2019b. Knowledge guided text re-trieval and reading for open domain question answer-ing. ArXiv, abs/1911.03868."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Dan Moldovan"
+          },
+          {
+            "name": "Marius Paşca"
+          },
+          {
+            "name": "Sanda Harabagiu"
+          },
+          {
+            "name": "Mihai Surdeanu"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Performance issues and error analysis in an open-domain question answering system.",
+        "url": null,
+        "venue": "ACM Transactions on Information Systems (TOIS)",
+        "year": 2003
+      },
+      "index": 28,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Dan Moldovan, Marius Paşca, Sanda Harabagiu, and Mihai Surdeanu. 2003. Performance issues and er-ror analysis in an open-domain question answering system. ACM Transactions on Information Systems (TOIS), 21(2):133-154."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Stephen Mussmann"
+          },
+          {
+            "name": "Stefano Ermon"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Learning and inference via maximum inner product search.",
+        "url": null,
+        "venue": "International Conference on Machine Learning (ICML)",
+        "year": 2016
+      },
+      "index": 29,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Stephen Mussmann and Stefano Ermon. 2016. Learn-ing and inference via maximum inner product search. In International Conference on Machine Learning (ICML), pages 2587-2596."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Yixin Nie"
+          },
+          {
+            "name": "Songhe Wang"
+          },
+          {
+            "name": "Mohit Bansal"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Revealing the importance of semantic retrieval for machine reading at scale.",
+        "url": null,
+        "venue": "Empirical Methods in Natural Language Processing (EMNLP)",
+        "year": 2019
+      },
+      "index": 30,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Yixin Nie, Songhe Wang, and Mohit Bansal. 2019. Re-vealing the importance of semantic retrieval for ma-chine reading at scale. In Empirical Methods in Nat-ural Language Processing (EMNLP)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Rodrigo Nogueira"
+          },
+          {
+            "name": "Kyunghyun Cho"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1901.04085"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Passage re-ranking with BERT.",
+        "url": null,
+        "venue": null,
+        "year": 2019
+      },
+      "index": 31,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Rodrigo Nogueira and Kyunghyun Cho. 2019. Passage re-ranking with BERT. ArXiv, abs/1901.04085."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Colin Raffel"
+          },
+          {
+            "name": "Noam Shazeer"
+          },
+          {
+            "name": "Adam Roberts"
+          },
+          {
+            "name": "Katherine Lee"
+          },
+          {
+            "name": "Sharan Narang"
+          },
+          {
+            "name": "Michael Matena"
+          },
+          {
+            "name": "Yanqi Zhou"
+          },
+          {
+            "name": "Wei Li"
+          },
+          {
+            "name": "Peter J Liu"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1910.10683"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Exploring the limits of transfer learning with a unified text-to-text transformer.",
+        "url": null,
+        "venue": null,
+        "year": 2019
+      },
+      "index": 32,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J Liu. 2019. Exploring the limits of transfer learning with a unified text-to-text trans-former. ArXiv, abs/1910.10683."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Pranav Rajpurkar"
+          },
+          {
+            "name": "Jian Zhang"
+          },
+          {
+            "name": "Konstantin Lopyrev"
+          },
+          {
+            "name": "Percy Liang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "SQuAD: 100,000+ questions for machine comprehension of text.",
+        "url": null,
+        "venue": "Empirical Methods in Natural Language Processing (EMNLP)",
+        "year": 2016
+      },
+      "index": 33,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Pranav Rajpurkar, Jian Zhang, Konstantin Lopyrev, and Percy Liang. 2016. SQuAD: 100,000+ questions for machine comprehension of text. In Empirical Methods in Natural Language Processing (EMNLP), pages 2383-2392."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Parikshit Ram"
+          },
+          {
+            "name": "Alexander G Gray"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Maximum inner-product search using cone trees.",
+        "url": null,
+        "venue": "Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining",
+        "year": 2012
+      },
+      "index": 34,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Parikshit Ram and Alexander G Gray. 2012. Maximum inner-product search using cone trees. In Proceed-ings of the 18th ACM SIGKDD international con-ference on Knowledge discovery and data mining, pages 931-939."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Adam Roberts"
+          },
+          {
+            "name": "Colin Raffel"
+          },
+          {
+            "name": "Noam Shazeer"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "2002.08910"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "How much knowledge can you pack into the parameters of a language model?",
+        "url": null,
+        "venue": null,
+        "year": 2020
+      },
+      "index": 35,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Adam Roberts, Colin Raffel, and Noam Shazeer. 2020. How much knowledge can you pack into the param-eters of a language model? ArXiv, abs/2002.08910."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Stephen Robertson"
+          },
+          {
+            "name": "Hugo Zaragoza"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The probabilistic relevance framework: BM25 and beyond.",
+        "url": null,
+        "venue": "Foundations and Trends in Information Retrieval",
+        "year": 2009
+      },
+      "index": 36,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Stephen Robertson and Hugo Zaragoza. 2009. The probabilistic relevance framework: BM25 and be-yond. Foundations and Trends in Information Re-trieval, 3(4):333-389."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Minjoon Seo"
+          },
+          {
+            "name": "Jinhyuk Lee"
+          },
+          {
+            "name": "Tom Kwiatkowski"
+          },
+          {
+            "name": "Ankur Parikh"
+          },
+          {
+            "name": "Ali Farhadi"
+          },
+          {
+            "name": "Hannaneh Hajishirzi"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Real-time open-domain question answering with dense-sparse phrase index.",
+        "url": null,
+        "venue": "Association for Computational Linguistics (ACL)",
+        "year": 2019
+      },
+      "index": 37,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Minjoon Seo, Jinhyuk Lee, Tom Kwiatkowski, Ankur Parikh, Ali Farhadi, and Hannaneh Hajishirzi. 2019. Real-time open-domain question answering with dense-sparse phrase index. In Association for Com-putational Linguistics (ACL)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Anshumali Shrivastava"
+          },
+          {
+            "name": "Ping Li"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Asymmetric LSH (ALSH) for sublinear time maximum inner product search (MIPS).",
+        "url": null,
+        "venue": "Advances in Neural Information Processing Systems (NIPS)",
+        "year": 2014
+      },
+      "index": 38,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Anshumali Shrivastava and Ping Li. 2014. Asymmet-ric LSH (ALSH) for sublinear time maximum inner product search (MIPS). In Advances in Neural In-formation Processing Systems (NIPS), pages 2321-2329."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Ellen M Voorhees"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The TREC-8 question answering track report.",
+        "url": null,
+        "venue": "TREC",
         "year": 1999
       },
-      "index": 54,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
+      "index": 39,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ellen M Voorhees. 1999. The TREC-8 question an-swering track report. In TREC, volume 99, pages 77-82."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Shuohang Wang"
+          },
+          {
+            "name": "Mo Yu"
+          },
+          {
+            "name": "Xiaoxiao Guo"
+          },
+          {
+            "name": "Zhiguo Wang"
+          },
+          {
+            "name": "Tim Klinger"
+          },
+          {
+            "name": "Wei Zhang"
+          },
+          {
+            "name": "Shiyu Chang"
+          },
+          {
+            "name": "Gerry Tesauro"
+          },
+          {
+            "name": "Bowen Zhou"
+          },
+          {
+            "name": "Jing Jiang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "R^3: Reinforced ranker-reader for open-domain question answering.",
+        "url": null,
+        "venue": "Conference on Artificial Intelligence (AAAI)",
+        "year": 2018
+      },
+      "index": 40,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Shuohang Wang, Mo Yu, Xiaoxiao Guo, Zhiguo Wang, Tim Klinger, Wei Zhang, Shiyu Chang, Gerry Tesauro, Bowen Zhou, and Jing Jiang. 2018. R^3: Reinforced ranker-reader for open-domain question answering. In Conference on Artificial Intelligence (AAAI)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Zhiguo Wang"
+          },
+          {
+            "name": "Patrick Ng"
+          },
+          {
+            "name": "Xiaofei Ma"
+          },
+          {
+            "name": "Ramesh Nallapati"
+          },
+          {
+            "name": "Bing Xiang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Multi-passage BERT: A globally normalized bert model for open-domain question answering.",
+        "url": null,
+        "venue": "Empirical Methods in Natural Language Processing (EMNLP)",
+        "year": 2019
+      },
+      "index": 41,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Zhiguo Wang, Patrick Ng, Xiaofei Ma, Ramesh Nalla-pati, and Bing Xiang. 2019. Multi-passage BERT: A globally normalized bert model for open-domain question answering. In Empirical Methods in Natu-ral Language Processing (EMNLP)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Tomer Wolfson"
+          },
+          {
+            "name": "Mor Geva"
+          },
+          {
+            "name": "Ankit Gupta"
+          },
+          {
+            "name": "Matt Gardner"
+          },
+          {
+            "name": "Yoav Goldberg"
+          },
+          {
+            "name": "Daniel Deutch"
+          },
+          {
+            "name": "Jonathan Berant"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Break it down: A question understanding benchmark.",
+        "url": null,
+        "venue": "Transactions of the Association of Computational Linguistics (TACL)",
+        "year": 2020
+      },
+      "index": 42,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Tomer Wolfson, Mor Geva, Ankit Gupta, Matt Gard-ner, Yoav Goldberg, Daniel Deutch, and Jonathan Berant. 2020. Break it down: A question under-standing benchmark. Transactions of the Associa-tion of Computational Linguistics (TACL)."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Lee Xiong"
+          },
+          {
+            "name": "Chenyan Xiong"
+          },
+          {
+            "name": "Ye Li"
+          },
+          {
+            "name": "Kwok-Fung Tang"
+          },
+          {
+            "name": "Jialin Liu"
+          },
+          {
+            "name": "Paul Bennett"
+          },
+          {
+            "name": "Junaid Ahmed"
+          },
+          {
+            "name": "Arnold Overwijk"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "2007.00808"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Approximate nearest neighbor negative contrastive learning for dense text retrieval.",
+        "url": null,
+        "venue": null,
+        "year": 2020
+      },
+      "index": 43,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Lee Xiong, Chenyan Xiong, Ye Li, Kwok-Fung Tang, Jialin Liu, Paul Bennett, Junaid Ahmed, and Arnold Overwijk. 2020a. Approximate nearest neighbor negative contrastive learning for dense text retrieval. ArXiv, abs/2007.00808."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Wenhan Xiong"
+          },
+          {
+            "name": "Hankang Wang"
+          },
+          {
+            "name": "William Yang Wang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "2005.00038"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Progressively pretrained dense corpus index for open-domain question answering.",
+        "url": null,
+        "venue": null,
+        "year": 2020
+      },
+      "index": 44,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Wenhan Xiong, Hankang Wang, and William Yang Wang. 2020b. Progressively pretrained dense corpus index for open-domain question answering. ArXiv, abs/2005.00038."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Wei Yang"
+          },
+          {
+            "name": "Yuqing Xie"
+          },
+          {
+            "name": "Aileen Lin"
+          },
+          {
+            "name": "Xingyu Li"
+          },
+          {
+            "name": "Luchen Tan"
+          },
+          {
+            "name": "Kun Xiong"
+          },
+          {
+            "name": "Ming Li"
+          },
+          {
+            "name": "Jimmy Lin"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "End-to-end open-domain question answering with bertserini.",
+        "url": null,
+        "venue": "North American Association for Computational Linguistics (NAACL)",
+        "year": 2019
+      },
+      "index": 45,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Wei Yang, Yuqing Xie, Aileen Lin, Xingyu Li, Luchen Tan, Kun Xiong, Ming Li, and Jimmy Lin. 2019a. End-to-end open-domain question answering with bertserini. In North American Association for Com-putational Linguistics (NAACL), pages 72–77."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Wei Yang"
+          },
+          {
+            "name": "Yuqing Xie"
+          },
+          {
+            "name": "Luchen Tan"
+          },
+          {
+            "name": "Kun Xiong"
+          },
+          {
+            "name": "Ming Li"
+          },
+          {
+            "name": "Jimmy Lin"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1904.06652"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Data augmentation for bert fine-tuning in open-domain question answering.",
+        "url": null,
+        "venue": null,
+        "year": 2019
+      },
+      "index": 46,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Wei Yang, Yuqing Xie, Luchen Tan, Kun Xiong, Ming Li, and Jimmy Lin. 2019b. Data augmentation for bert fine-tuning in open-domain question answering. ArXiv, abs/1904.06652."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Wen-tau Yih"
+          },
+          {
+            "name": "Kristina Toutanova"
+          },
+          {
+            "name": "John C Platt"
+          },
+          {
+            "name": "Christopher Meek"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Learning discriminative projections for text similarity measures.",
+        "url": null,
+        "venue": "Computational Natural Language Learning (CoNLL)",
+        "year": 2011
+      },
+      "index": 47,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Wen-tau Yih, Kristina Toutanova, John C Platt, and Christopher Meek. 2011. Learning discriminative projections for text similarity measures. In Com-putational Natural Language Learning (CoNLL), pages 247-256."
     }
   ],
   "source": {
@@ -2382,7 +1680,7 @@
     },
     "paperId": "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
     "publicationDate": "2020-04-10",
-    "referenceCount": 55,
+    "referenceCount": 48,
     "title": "Dense Passage Retrieval for Open-Domain Question Answering",
     "url": "https://www.semanticscholar.org/paper/b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
     "venue": "Conference on Empirical Methods in Natural Language Processing",

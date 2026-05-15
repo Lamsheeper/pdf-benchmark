@@ -1,2766 +1,2142 @@
 {
   "pdf": "pdfs/2106.09685v2.pdf",
   "queryId": "ARXIV:2106.09685",
-  "referenceCount": 65,
+  "referenceCount": 62,
   "references": [
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2082648761",
-            "name": "Elad Ben-Zaken"
-          },
-          {
-            "authorId": "51432464",
-            "name": "Shauli Ravfogel"
-          },
-          {
-            "authorId": "79775260",
-            "name": "Yoav Goldberg"
-          }
-        ],
-        "citationCount": 1711,
-        "externalIds": {
-          "ACL": "2022.acl-short.1",
-          "ArXiv": "2106.10199",
-          "CorpusId": 231672601,
-          "DBLP": "conf/acl/ZakenGR22",
-          "DOI": "10.18653/v1/2022.acl-short.1"
-        },
-        "paperId": "339b2b711fb5b228d097b03ebc3e62a521779235",
-        "publicationDate": "2021-06-18",
-        "referenceCount": null,
-        "title": "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models",
-        "url": "https://www.semanticscholar.org/paper/339b2b711fb5b228d097b03ebc3e62a521779235",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2021
-      },
-      "index": 0,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": null,
-            "name": "Joe Davison"
-          }
-        ],
-        "citationCount": 628,
-        "externalIds": {
-          "ArXiv": "2106.04647",
-          "CorpusId": 235356070,
-          "DBLP": "conf/nips/MahabadiHR21"
-        },
-        "paperId": "656ed155c2d345c19d9bff4b50f2ae00db8407cc",
-        "publicationDate": "2021-06-08",
-        "referenceCount": null,
-        "title": "Compacter: Efficient Low-Rank Hypercomplex Adapter Layers",
-        "url": "https://www.semanticscholar.org/paper/656ed155c2d345c19d9bff4b50f2ae00db8407cc",
-        "venue": "Neural Information Processing Systems",
-        "year": 2021
-      },
-      "index": 1,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "10398264",
-            "name": "M. Khodak"
-          },
-          {
-            "authorId": "3333746",
-            "name": "Neil A. Tenenholtz"
-          },
-          {
-            "authorId": "143722101",
-            "name": "Lester W. Mackey"
-          },
-          {
-            "authorId": "2723245",
-            "name": "Nicoló Fusi"
-          }
-        ],
-        "citationCount": 74,
-        "externalIds": {
-          "ArXiv": "2105.01029",
-          "CorpusId": 233481638,
-          "DBLP": "journals/corr/abs-2105-01029"
-        },
-        "paperId": "f93f2476972228de142fde13913bccbec76859b8",
-        "publicationDate": "2021-05-03",
-        "referenceCount": null,
-        "title": "Initialization and Regularization of Factorized Neural Layers",
-        "url": "https://www.semanticscholar.org/paper/f93f2476972228de142fde13913bccbec76859b8",
-        "venue": "International Conference on Learning Representations",
-        "year": 2021
-      },
-      "index": 2,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "144104130",
-            "name": "Brian Lester"
-          },
-          {
-            "authorId": "1388360943",
-            "name": "Rami Al-Rfou"
-          },
-          {
-            "authorId": "40832517",
-            "name": "Noah Constant"
-          }
-        ],
-        "citationCount": 5465,
-        "externalIds": {
-          "ACL": "2021.emnlp-main.243",
-          "ArXiv": "2104.08691",
-          "CorpusId": 233296808,
-          "DBLP": "journals/corr/abs-2104-08691",
-          "DOI": "10.18653/v1/2021.emnlp-main.243"
-        },
-        "paperId": "ffdbd7f0b03b85747b001b4734d5ee31b5229aa4",
-        "publicationDate": "2021-04-18",
-        "referenceCount": null,
-        "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
-        "url": "https://www.semanticscholar.org/paper/ffdbd7f0b03b85747b001b4734d5ee31b5229aa4",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
-        "year": 2021
-      },
-      "index": 3,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2111312892",
-            "name": "Xiao Liu"
-          },
-          {
-            "authorId": "2111090780",
-            "name": "Yanan Zheng"
-          },
-          {
-            "authorId": "66395694",
-            "name": "Zhengxiao Du"
-          },
-          {
-            "authorId": "2055623340",
-            "name": "Ming Ding"
-          },
-          {
-            "authorId": "5606742",
-            "name": "Yujie Qian"
-          },
-          {
-            "authorId": "2109512754",
-            "name": "Zhilin Yang"
-          },
-          {
-            "authorId": "2109541439",
-            "name": "Jie Tang"
-          }
-        ],
-        "citationCount": 1422,
-        "externalIds": {
-          "ArXiv": "2103.10385",
-          "CorpusId": 232269696,
-          "DBLP": "journals/corr/abs-2103-10385",
-          "DOI": "10.1016/j.aiopen.2023.08.012"
-        },
-        "paperId": "bc37c6bdb8f39929a58b30464f72d6aa46cddc17",
-        "publicationDate": "2021-03-18",
-        "referenceCount": null,
-        "title": "GPT Understands, Too",
-        "url": "https://www.semanticscholar.org/paper/bc37c6bdb8f39929a58b30464f72d6aa46cddc17",
-        "venue": "AI Open",
-        "year": 2021
-      },
-      "index": 4,
-      "intents": [
-        "result",
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "5641536",
-            "name": "Karen Hambardzumyan"
-          },
-          {
-            "authorId": "1388829897",
-            "name": "Hrant Khachatrian"
-          },
-          {
-            "authorId": "143823227",
-            "name": "Jonathan May"
-          }
-        ],
-        "citationCount": 375,
-        "externalIds": {
-          "ACL": "2021.acl-long.381",
-          "ArXiv": "2101.00121",
-          "CorpusId": 230437613,
-          "DBLP": "conf/acl/HambardzumyanKM20",
-          "DOI": "10.18653/v1/2021.acl-long.381"
-        },
-        "paperId": "5a2e45ce35fb26ab70a61b424a49f8e5b4532a8e",
-        "publicationDate": "2021-01-01",
-        "referenceCount": null,
-        "title": "WARP: Word-level Adversarial ReProgramming",
-        "url": "https://www.semanticscholar.org/paper/5a2e45ce35fb26ab70a61b424a49f8e5b4532a8e",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2021
-      },
-      "index": 5,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2201435",
             "name": "Armen Aghajanyan"
           },
           {
-            "authorId": "1982950",
             "name": "Luke Zettlemoyer"
           },
           {
-            "authorId": "2118343423",
             "name": "Sonal Gupta"
           }
         ],
-        "citationCount": 841,
+        "citationCount": null,
         "externalIds": {
-          "ACL": "2021.acl-long.568",
-          "ArXiv": "2012.13255",
-          "CorpusId": 229371560,
-          "DBLP": "conf/acl/AghajanyanGZ20",
-          "DOI": "10.18653/v1/2021.acl-long.568"
+          "ArXiv": "2012.13255"
         },
-        "paperId": "e54ffc76d805c48660bb0fd20019ca82ac94ba0d",
-        "publicationDate": "2020-12-22",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
         "title": "Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning",
-        "url": "https://www.semanticscholar.org/paper/e54ffc76d805c48660bb0fd20019ca82ac94ba0d",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "url": "http://arxiv.org/abs/2012.13255",
+        "venue": "arXiv",
         "year": 2020
       },
-      "index": 6,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "index": 0,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Armen Aghajanyan, Luke Zettlemoyer, and Sonal Gupta. Intrinsic Dimensionality Explains the Effectiveness of Language Model Fine-Tuning. arXiv:2012.13255 [cs], December 2020. URL http://arxiv.org/abs/2012.13255."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "35064203",
-            "name": "Greg Yang"
+            "name": "Zeyuan Allen-Zhu"
           },
           {
-            "authorId": "2157840220",
-            "name": "J. Hu"
+            "name": "Yuanzhi Li"
           }
         ],
-        "citationCount": 197,
+        "citationCount": null,
         "externalIds": {
-          "ArXiv": "2011.14522",
-          "CorpusId": 227229101,
-          "DBLP": "journals/corr/abs-2011-14522",
-          "MAG": "3110116503"
+          "ArXiv": "1905.10337"
         },
-        "paperId": "87da4c27f7b2ddac63654458b06c9d708d042f6a",
-        "publicationDate": "2020-11-30",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Feature Learning in Infinite-Width Neural Networks",
-        "url": "https://www.semanticscholar.org/paper/87da4c27f7b2ddac63654458b06c9d708d042f6a",
-        "venue": "arXiv.org",
-        "year": 2020
+        "title": "What Can ResNet Learn Efficiently, Going Beyond Kernels?",
+        "url": "http://arxiv.org/abs/1905.10337",
+        "venue": "NeurIPS",
+        "year": 2019
       },
-      "index": 7,
+      "index": 1,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Zeyuan Allen-Zhu and Yuanzhi Li. What Can ResNet Learn Efficiently, Going Beyond Kernels? In NeurIPS, 2019. Full version available at http://arxiv.org/abs/1905.10337."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "22240011",
-            "name": "Andreas Rücklé"
+            "name": "Zeyuan Allen-Zhu"
           },
           {
-            "authorId": "2000828470",
-            "name": "Gregor Geigle"
-          },
-          {
-            "authorId": "46179620",
-            "name": "Max Glockner"
-          },
-          {
-            "authorId": "153371561",
-            "name": "Tilman Beck"
-          },
-          {
-            "authorId": "153733568",
-            "name": "Jonas Pfeiffer"
-          },
-          {
-            "authorId": "2959414",
-            "name": "Nils Reimers"
-          },
-          {
-            "authorId": "1730400",
-            "name": "Iryna Gurevych"
+            "name": "Yuanzhi Li"
           }
         ],
-        "citationCount": 315,
+        "citationCount": null,
         "externalIds": {
-          "ACL": "2021.emnlp-main.626",
-          "ArXiv": "2010.11918",
-          "CorpusId": 225040886,
-          "DBLP": "journals/corr/abs-2010-11918",
-          "DOI": "10.18653/v1/2021.emnlp-main.626",
-          "MAG": "3094491777"
+          "ArXiv": "2001.04413"
         },
-        "paperId": "bdeec55f95fd6b73e3e4635459b14c7248543efb",
-        "publicationDate": "2020-10-22",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "AdapterDrop: On the Efficiency of Adapters in Transformers",
-        "url": "https://www.semanticscholar.org/paper/bdeec55f95fd6b73e3e4635459b14c7248543efb",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "title": "Backward feature correction: How deep learning performs deep learning",
+        "url": null,
+        "venue": "arXiv preprint",
         "year": 2020
       },
-      "index": 8,
+      "index": 2,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Zeyuan Allen-Zhu and Yuanzhi Li. Backward feature correction: How deep learning performs deep learning. arXiv preprint arXiv:2001.04413, 2020a."
     },
     {
       "citedPaper": {
-        "authors": [],
+        "authors": [
+          {
+            "name": "Zeyuan Allen-Zhu"
+          },
+          {
+            "name": "Yuanzhi Li"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "2005.10190"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Feature purification: How adversarial training performs robust deep learning",
+        "url": null,
+        "venue": "arXiv preprint",
+        "year": 2020
+      },
+      "index": 3,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Zeyuan Allen-Zhu and Yuanzhi Li. Feature purification: How adversarial training performs robust deep learning. arXiv preprint arXiv:2005.10190, 2020b."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Zeyuan Allen-Zhu"
+          },
+          {
+            "name": "Yuanzhi Li"
+          },
+          {
+            "name": "Zhao Song"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1811.03962"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "A convergence theory for deep learning via over-parameterization",
+        "url": "http://arxiv.org/abs/1811.03962",
+        "venue": "ICML",
+        "year": 2019
+      },
+      "index": 4,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Zeyuan Allen-Zhu, Yuanzhi Li, and Zhao Song. A convergence theory for deep learning via over-parameterization. In ICML, 2019. Full version available at http://arxiv.org/abs/1811.03962."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Jimmy Lei Ba"
+          },
+          {
+            "name": "Jamie Ryan Kiros"
+          },
+          {
+            "name": "Geoffrey E. Hinton"
+          }
+        ],
         "citationCount": null,
         "externalIds": {},
         "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "Transformers: State-of-the-Art Natural Language Processing",
+        "title": "Layer normalization",
         "url": null,
-        "venue": "EMNLP",
-        "year": 2020
+        "venue": null,
+        "year": 2016
       },
-      "index": 9,
+      "index": 5,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E. Hinton. Layer normalization, 2016."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "9215251",
-            "name": "Dragomir R. Radev"
-          },
-          {
-            "authorId": "144142360",
-            "name": "Rui Zhang"
-          },
-          {
-            "authorId": "2079394858",
-            "name": "Amrit Rau"
-          },
-          {
-            "authorId": "1796276907",
-            "name": "Abhinand Sivaprasad"
-          },
-          {
-            "authorId": "2064372660",
-            "name": "Chia-Hsuan Hsieh"
-          },
-          {
-            "authorId": "8937909",
-            "name": "Nazneen Rajani"
-          },
-          {
-            "authorId": "47274259",
-            "name": "Xiangru Tang"
-          },
-          {
-            "authorId": "152945101",
-            "name": "Aadit Vyas"
-          },
-          {
-            "authorId": "2066061874",
-            "name": "Neha Verma"
-          },
-          {
-            "authorId": "50628118",
-            "name": "P. Krishna"
-          },
-          {
-            "authorId": "1604960908",
-            "name": "Yangxiaokang Liu"
-          },
-          {
-            "authorId": "5969285",
-            "name": "Nadia Irwanto"
-          },
-          {
-            "authorId": "2110167847",
-            "name": "Jessica Pan"
-          },
-          {
-            "authorId": "151002933",
-            "name": "Faiaz Rahman"
-          },
-          {
-            "authorId": "2056402211",
-            "name": "A. Zaidi"
-          },
-          {
-            "authorId": "1796268421",
-            "name": "Murori Mutuma"
-          },
-          {
-            "authorId": "1796273545",
-            "name": "Yasin Tarabar"
-          },
-          {
-            "authorId": null,
-            "name": "Ankit Gupta"
-          },
-          {
-            "authorId": "48881008",
-            "name": "Tao Yu"
-          },
-          {
-            "authorId": "144787248",
-            "name": "Y. Tan"
-          },
-          {
-            "authorId": "143724481",
-            "name": "Xi Victoria Lin"
-          },
-          {
-            "authorId": "2228109",
-            "name": "Caiming Xiong"
-          },
-          {
-            "authorId": "2166511",
-            "name": "R. Socher"
-          }
-        ],
-        "citationCount": 224,
-        "externalIds": {
-          "ACL": "2021.naacl-main.37",
-          "ArXiv": "2007.02871",
-          "CorpusId": 220364230,
-          "DBLP": "conf/naacl/NanRZRSHTVVKLIP21",
-          "DOI": "10.18653/V1/2021.NAACL-MAIN.37",
-          "MAG": "3170806096"
-        },
-        "paperId": "6e3f8187f8fef3e11578a73f32da07d33dbf8235",
-        "publicationDate": "2020-07-06",
-        "referenceCount": null,
-        "title": "DART: Open-Domain Structured Data Record to Text Generation",
-        "url": "https://www.semanticscholar.org/paper/6e3f8187f8fef3e11578a73f32da07d33dbf8235",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2020
-      },
-      "index": 10,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "150077954",
-            "name": "Dmitry Lepikhin"
-          },
-          {
-            "authorId": "34946720",
-            "name": "HyoukJoong Lee"
-          },
-          {
-            "authorId": "2145139570",
-            "name": "Yuanzhong Xu"
-          },
-          {
-            "authorId": "7167328",
-            "name": "Dehao Chen"
-          },
-          {
-            "authorId": "2345617",
-            "name": "Orhan Firat"
-          },
-          {
-            "authorId": "2145438541",
-            "name": "Yanping Huang"
-          },
-          {
-            "authorId": "2048712",
-            "name": "M. Krikun"
-          },
-          {
-            "authorId": "1846258",
-            "name": "Noam Shazeer"
-          },
-          {
-            "authorId": "2545358",
-            "name": "Z. Chen"
-          }
-        ],
-        "citationCount": 1958,
-        "externalIds": {
-          "ArXiv": "2006.16668",
-          "CorpusId": 220265858,
-          "DBLP": "conf/iclr/LepikhinLXCFHKS21",
-          "MAG": "3040573126"
-        },
-        "paperId": "1882f194cb43828852cc052887671e55a80f945a",
-        "publicationDate": "2020-06-30",
-        "referenceCount": null,
-        "title": "GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding",
-        "url": "https://www.semanticscholar.org/paper/1882f194cb43828852cc052887671e55a80f945a",
-        "venue": "International Conference on Learning Representations",
-        "year": 2020
-      },
-      "index": 11,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "47475538",
-            "name": "B. Ghorbani"
-          },
-          {
-            "authorId": "2068869988",
-            "name": "Song Mei"
-          },
-          {
-            "authorId": "3282093",
-            "name": "Theodor Misiakiewicz"
-          },
-          {
-            "authorId": "145071265",
-            "name": "A. Montanari"
-          }
-        ],
-        "citationCount": 208,
-        "externalIds": {
-          "ArXiv": "2006.13409",
-          "CorpusId": 220042268,
-          "DBLP": "journals/corr/abs-2006-13409",
-          "DOI": "10.1088/1742-5468/ac3a81",
-          "MAG": "3037180580"
-        },
-        "paperId": "00c3bfcc503e675e640cb92d71611f0e43bf43dc",
-        "publicationDate": "2020-06-24",
-        "referenceCount": null,
-        "title": "When do neural networks outperform kernel methods?",
-        "url": "https://www.semanticscholar.org/paper/00c3bfcc503e675e640cb92d71611f0e43bf43dc",
-        "venue": "Neural Information Processing Systems",
-        "year": 2020
-      },
-      "index": 12,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "50462546",
-            "name": "Pengcheng He"
-          },
-          {
-            "authorId": "2108860856",
-            "name": "Xiaodong Liu"
-          },
-          {
-            "authorId": "1800422",
-            "name": "Jianfeng Gao"
-          },
-          {
-            "authorId": "2109136147",
-            "name": "Weizhu Chen"
-          }
-        ],
-        "citationCount": 3736,
-        "externalIds": {
-          "ArXiv": "2006.03654",
-          "CorpusId": 219531210,
-          "DBLP": "conf/iclr/HeLGC21",
-          "MAG": "3033187248"
-        },
-        "paperId": "14b65a86c82e38fce0eb3506e0d4084ad5cdb583",
-        "publicationDate": "2020-06-05",
-        "referenceCount": null,
-        "title": "DeBERTa: Decoding-enhanced BERT with Disentangled Attention",
-        "url": "https://www.semanticscholar.org/paper/14b65a86c82e38fce0eb3506e0d4084ad5cdb583",
-        "venue": "International Conference on Learning Representations",
-        "year": 2020
-      },
-      "index": 13,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "31035595",
             "name": "Tom B. Brown"
           },
           {
-            "authorId": "2056658938",
             "name": "Benjamin Mann"
           },
           {
-            "authorId": "39849748",
             "name": "Nick Ryder"
           },
           {
-            "authorId": "2065894334",
             "name": "Melanie Subbiah"
           },
           {
-            "authorId": "152724169",
-            "name": "J. Kaplan"
+            "name": "Jared Kaplan"
           },
           {
-            "authorId": "6515819",
             "name": "Prafulla Dhariwal"
           },
           {
-            "authorId": "2072676",
             "name": "Arvind Neelakantan"
           },
           {
-            "authorId": "67311962",
             "name": "Pranav Shyam"
           },
           {
-            "authorId": "144864359",
-            "name": "G. Sastry"
+            "name": "Girish Sastry"
           },
           {
-            "authorId": "119609682",
             "name": "Amanda Askell"
           },
           {
-            "authorId": "144517868",
-            "name": "S. Agarwal"
+            "name": "Sandhini Agarwal"
           },
           {
-            "authorId": "1404060687",
             "name": "Ariel Herbert-Voss"
           },
           {
-            "authorId": "2064404342",
             "name": "Gretchen Krueger"
           },
           {
-            "authorId": "103143311",
-            "name": "T. Henighan"
+            "name": "Tom Henighan"
           },
           {
-            "authorId": "48422824",
-            "name": "R. Child"
+            "name": "Rewon Child"
           },
           {
-            "authorId": "1992922591",
-            "name": "A. Ramesh"
+            "name": "Aditya Ramesh"
           },
           {
-            "authorId": "2052152920",
             "name": "Daniel M. Ziegler"
           },
           {
-            "authorId": "49387725",
-            "name": "Jeff Wu"
+            "name": "Jeffrey Wu"
           },
           {
-            "authorId": "2059411355",
             "name": "Clemens Winter"
           },
           {
-            "authorId": "144239765",
             "name": "Christopher Hesse"
           },
           {
-            "authorId": "2108828435",
             "name": "Mark Chen"
           },
           {
-            "authorId": "2064673055",
             "name": "Eric Sigler"
           },
           {
-            "authorId": "1380985420",
-            "name": "Ma-teusz Litwin"
+            "name": "Mateusz Litwin"
           },
           {
-            "authorId": "145565184",
             "name": "Scott Gray"
           },
           {
-            "authorId": "1490681878",
             "name": "Benjamin Chess"
           },
           {
-            "authorId": "2115193883",
             "name": "Jack Clark"
           },
           {
-            "authorId": "133740015",
             "name": "Christopher Berner"
           },
           {
-            "authorId": "52238703",
             "name": "Sam McCandlish"
           },
           {
-            "authorId": "38909097",
             "name": "Alec Radford"
           },
           {
-            "authorId": "1701686",
-            "name": "I. Sutskever"
+            "name": "Ilya Sutskever"
           },
           {
-            "authorId": "2698777",
             "name": "Dario Amodei"
           }
         ],
-        "citationCount": 57716,
+        "citationCount": null,
         "externalIds": {
-          "ArXiv": "2005.14165",
-          "CorpusId": 218971783,
-          "DBLP": "conf/nips/BrownMRSKDNSSAA20",
-          "MAG": "3030163527"
+          "ArXiv": "2005.14165"
         },
-        "paperId": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
-        "publicationDate": "2020-05-28",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
         "title": "Language Models are Few-Shot Learners",
-        "url": "https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
-        "venue": "Neural Information Processing Systems",
+        "url": "http://arxiv.org/abs/2005.14165",
+        "venue": "arXiv",
         "year": 2020
       },
-      "index": 14,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": true
+      "index": 6,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. Language Models are Few-Shot Learners. arXiv:2005.14165 [cs], July 2020. URL http://arxiv.org/abs/2005.14165."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1388725932",
-            "name": "Zeyuan Allen-Zhu"
+            "name": "Jian-Feng Cai"
           },
           {
-            "authorId": "2110486765",
-            "name": "Yuanzhi Li"
+            "name": "Emmanuel J Candès"
+          },
+          {
+            "name": "Zuowei Shen"
           }
         ],
-        "citationCount": 174,
-        "externalIds": {
-          "ArXiv": "2005.10190",
-          "CorpusId": 218719281,
-          "DBLP": "conf/focs/Allen-ZhuL21",
-          "DOI": "10.1109/FOCS52979.2021.00098",
-          "MAG": "3028525609"
-        },
-        "paperId": "23c84238f9b15d7fd87a95d3b16882a21b953d8a",
-        "publicationDate": "2020-05-20",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Feature Purification: How Adversarial Training Performs Robust Deep Learning",
-        "url": "https://www.semanticscholar.org/paper/23c84238f9b15d7fd87a95d3b16882a21b953d8a",
-        "venue": "IEEE Annual Symposium on Foundations of Computer Science",
+        "title": "A singular value thresholding algorithm for matrix completion",
+        "url": null,
+        "venue": "SIAM Journal on optimization",
+        "year": 2010
+      },
+      "index": 7,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jian-Feng Cai, Emmanuel J Candès, and Zuowei Shen. A singular value thresholding algorithm for matrix completion. SIAM Journal on optimization, 20(4):1956–1982, 2010."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Daniel Cer"
+          },
+          {
+            "name": "Mona Diab"
+          },
+          {
+            "name": "Eneko Agirre"
+          },
+          {
+            "name": "Inigo Lopez-Gazpio"
+          },
+          {
+            "name": "Lucia Specia"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "DOI": "10.18653/v1/s17-2001"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Semeval-2017 task 1: Semantic textual similarity multilingual and crosslingual focused evaluation",
+        "url": "http://dx.doi.org/10.18653/v1/S17-2001",
+        "venue": "Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017)",
+        "year": 2017
+      },
+      "index": 8,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Daniel Cer, Mona Diab, Eneko Agirre, Inigo Lopez-Gazpio, and Lucia Specia. Semeval-2017 task 1: Semantic textual similarity multilingual and crosslingual focused evaluation. Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017), 2017. doi: 10.18653/v1/s17-2001. URL http://dx.doi.org/10.18653/v1/S17-2001."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Ronan Collobert"
+          },
+          {
+            "name": "Jason Weston"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "DOI": "10.1145/1390156.1390177"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "A unified architecture for natural language processing: deep neural networks with multitask learning",
+        "url": "https://doi.org/10.1145/1390156.1390177",
+        "venue": "Proceedings of the 25th international conference on Machine learning, ICML '08",
+        "year": 2008
+      },
+      "index": 9,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ronan Collobert and Jason Weston. A unified architecture for natural language processing: deep neural networks with multitask learning. In Proceedings of the 25th international conference on Machine learning, ICML '08, pp. 160–167, New York, NY, USA, July 2008. Association for Computing Machinery. ISBN 978-1-60558-205-4. doi: 10.1145/1390156.1390177. URL https://doi.org/10.1145/1390156.1390177."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Misha Denil"
+          },
+          {
+            "name": "Babak Shakibi"
+          },
+          {
+            "name": "Laurent Dinh"
+          },
+          {
+            "name": "Marc'Aurelio Ranzato"
+          },
+          {
+            "name": "Nando de Freitas"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Predicting parameters in deep learning",
+        "url": null,
+        "venue": null,
+        "year": 2014
+      },
+      "index": 10,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Misha Denil, Babak Shakibi, Laurent Dinh, Marc'Aurelio Ranzato, and Nando de Freitas. Predicting parameters in deep learning, 2014."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Jacob Devlin"
+          },
+          {
+            "name": "Ming-Wei Chang"
+          },
+          {
+            "name": "Kenton Lee"
+          },
+          {
+            "name": "Kristina Toutanova"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+        "url": null,
+        "venue": null,
+        "year": 2019
+      },
+      "index": 11,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding, 2019a."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Jacob Devlin"
+          },
+          {
+            "name": "Ming-Wei Chang"
+          },
+          {
+            "name": "Kenton Lee"
+          },
+          {
+            "name": "Kristina Toutanova"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1810.04805"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "url": "http://arxiv.org/abs/1810.04805",
+        "venue": "arXiv",
+        "year": 2019
+      },
+      "index": 12,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805 [cs], May 2019b. URL http://arxiv.org/abs/1810.04805. arXiv: 1810.04805."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "William B. Dolan"
+          },
+          {
+            "name": "Chris Brockett"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Automatically constructing a corpus of sentential paraphrases",
+        "url": "https://aclanthology.org/105-5002",
+        "venue": "Proceedings of the Third International Workshop on Paraphrasing (IWP2005)",
+        "year": 2005
+      },
+      "index": 13,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "William B. Dolan and Chris Brockett. Automatically constructing a corpus of sentential paraphrases. In Proceedings of the Third International Workshop on Paraphrasing (IWP2005), 2005. URL https://aclanthology.org/105-5002."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Claire Gardent"
+          },
+          {
+            "name": "Anastasia Shimorina"
+          },
+          {
+            "name": "Shashi Narayan"
+          },
+          {
+            "name": "Laura Perez-Beltrachini"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "The webnlg challenge: Generating text from rdf data",
+        "url": null,
+        "venue": "Proceedings of the 10th International Conference on Natural Language Generation",
+        "year": 2017
+      },
+      "index": 14,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Claire Gardent, Anastasia Shimorina, Shashi Narayan, and Laura Perez-Beltrachini. The webnlg challenge: Generating text from rdf data. In Proceedings of the 10th International Conference on Natural Language Generation, pp. 124–133, 2017."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Behrooz Ghorbani"
+          },
+          {
+            "name": "Song Mei"
+          },
+          {
+            "name": "Theodor Misiakiewicz"
+          },
+          {
+            "name": "Andrea Montanari"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "2006.13409"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "When do neural networks outperform kernel methods?",
+        "url": null,
+        "venue": "arXiv preprint",
         "year": 2020
       },
       "index": 15,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "153733568",
-            "name": "Jonas Pfeiffer"
-          },
-          {
-            "authorId": "46174952",
-            "name": "Aishwarya Kamath"
-          },
-          {
-            "authorId": "22240011",
-            "name": "Andreas Rücklé"
-          },
-          {
-            "authorId": "1979489",
-            "name": "Kyunghyun Cho"
-          },
-          {
-            "authorId": "1730400",
-            "name": "Iryna Gurevych"
-          }
-        ],
-        "citationCount": 1154,
-        "externalIds": {
-          "ACL": "2021.eacl-main.39",
-          "ArXiv": "2005.00247",
-          "CorpusId": 218470208,
-          "DBLP": "journals/corr/abs-2005-00247",
-          "DOI": "10.18653/v1/2021.eacl-main.39",
-          "MAG": "3023528699"
-        },
-        "paperId": "98ef0db84e62aef969629264c9de1f4d0013f3b9",
-        "publicationDate": "2020-05-01",
-        "referenceCount": null,
-        "title": "AdapterFusion: Non-Destructive Task Composition for Transfer Learning",
-        "url": "https://www.semanticscholar.org/paper/98ef0db84e62aef969629264c9de1f4d0013f3b9",
-        "venue": "Conference of the European Chapter of the Association for Computational Linguistics",
-        "year": 2020
-      },
-      "index": 16,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Behrooz Ghorbani, Song Mei, Theodor Misiakiewicz, and Andrea Montanari. When do neural networks outperform kernel methods? arXiv preprint arXiv:2006.13409, 2020."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "100466830",
-            "name": "Zhaojiang Lin"
-          },
-          {
-            "authorId": "3064807",
-            "name": "Andrea Madotto"
-          },
-          {
-            "authorId": "40539650",
-            "name": "Pascale Fung"
-          }
-        ],
-        "citationCount": 194,
-        "externalIds": {
-          "ACL": "2020.findings-emnlp.41",
-          "ArXiv": "2004.03829",
-          "CorpusId": 215415943,
-          "DBLP": "journals/corr/abs-2004-03829",
-          "DOI": "10.18653/v1/2020.findings-emnlp.41",
-          "MAG": "3103616906"
-        },
-        "paperId": "1187c70c4011f935642084e84186284ac0add3d0",
-        "publicationDate": "2020-04-01",
-        "referenceCount": null,
-        "title": "Exploring Versatile Generative Language Model Via Parameter-Efficient Transfer Learning",
-        "url": "https://www.semanticscholar.org/paper/1187c70c4011f935642084e84186284ac0add3d0",
-        "venue": "Findings",
-        "year": 2020
-      },
-      "index": 17,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "70468159",
-            "name": "Frank Schimmelfennig"
-          },
-          {
-            "authorId": "70566072",
-            "name": "Thomas Winzen"
-          }
-        ],
-        "citationCount": 400,
-        "externalIds": {
-          "CorpusId": 240702641,
-          "DOI": "10.1093/oso/9780198854333.003.0007",
-          "MAG": "3018760273"
-        },
-        "paperId": "7f27e7bf9116ebeeeab1ef010fde5a4d6544ee14",
-        "publicationDate": "2020-02-21",
-        "referenceCount": null,
-        "title": "Normalization",
-        "url": "https://www.semanticscholar.org/paper/7f27e7bf9116ebeeeab1ef010fde5a4d6544ee14",
-        "venue": "Ever Looser Union?",
-        "year": 2020
-      },
-      "index": 18,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1388725932",
-            "name": "Zeyuan Allen-Zhu"
-          },
-          {
-            "authorId": "2110486765",
-            "name": "Yuanzhi Li"
-          }
-        ],
-        "citationCount": 124,
-        "externalIds": {
-          "CorpusId": 210165061,
-          "DBLP": "journals/corr/abs-2001-04413",
-          "MAG": "3000127803"
-        },
-        "paperId": "2e7f6967b25459a9bcfa67e9f0f32d7e3465ab76",
-        "publicationDate": "2020-01-13",
-        "referenceCount": null,
-        "title": "Backward Feature Correction: How Deep Learning Performs Deep Learning",
-        "url": "https://www.semanticscholar.org/paper/2e7f6967b25459a9bcfa67e9f0f32d7e3465ab76",
-        "venue": "arXiv.org",
-        "year": 2020
-      },
-      "index": 19,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1782426",
             "name": "Bogdan Gliwa"
           },
           {
-            "authorId": "103241417",
             "name": "Iwona Mochol"
           },
           {
-            "authorId": "2065251929",
-            "name": "M. Biesek"
+            "name": "Maciej Biesek"
           },
           {
-            "authorId": "1744393",
-            "name": "A. Wawer"
+            "name": "Aleksander Wawer"
           }
         ],
-        "citationCount": 801,
+        "citationCount": null,
         "externalIds": {
-          "ACL": "D19-5409",
-          "ArXiv": "1911.12237",
-          "CorpusId": 208010268,
-          "DBLP": "journals/corr/abs-1911-12237",
-          "DOI": "10.18653/v1/D19-5409",
-          "MAG": "2989743967"
+          "ArXiv": "1911.12237"
         },
-        "paperId": "f9700e31a1d0ae34d4571ab056dfb268c1543349",
-        "publicationDate": "2019-11-27",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "SAMSum Corpus: A Human-annotated Dialogue Dataset for Abstractive Summarization",
-        "url": "https://www.semanticscholar.org/paper/f9700e31a1d0ae34d4571ab056dfb268c1543349",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "title": "Samsum corpus: A human-annotated dialogue dataset for abstractive summarization",
+        "url": "http://arxiv.org/abs/1911.12237",
+        "venue": "CoRR",
         "year": 2019
       },
-      "index": 20,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "index": 16,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Bogdan Gliwa, Iwona Mochol, Maciej Biesek, and Aleksander Wawer. Samsum corpus: A human-annotated dialogue dataset for abstractive summarization. CoRR, abs/1911.12237, 2019. URL http://arxiv.org/abs/1911.12237."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1911755",
-            "name": "M. Shoeybi"
+            "name": "Lars Grasedyck"
           },
           {
-            "authorId": "66870756",
-            "name": "M. Patwary"
+            "name": "Daniel Kressner"
           },
           {
-            "authorId": "41158993",
-            "name": "Raul Puri"
-          },
-          {
-            "authorId": "3081566",
-            "name": "P. LeGresley"
-          },
-          {
-            "authorId": "48991386",
-            "name": "J. Casper"
-          },
-          {
-            "authorId": "2301680",
-            "name": "Bryan Catanzaro"
+            "name": "Christine Tobler"
           }
         ],
-        "citationCount": 2727,
-        "externalIds": {
-          "ArXiv": "1909.08053",
-          "CorpusId": 202660670,
-          "DBLP": "journals/corr/abs-1909-08053",
-          "MAG": "2973727699"
-        },
-        "paperId": "8323c591e119eb09b28b29fd6c7bc76bd889df7a",
-        "publicationDate": "2019-09-17",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
-        "url": "https://www.semanticscholar.org/paper/8323c591e119eb09b28b29fd6c7bc76bd889df7a",
-        "venue": "arXiv.org",
+        "title": "A literature survey of low-rank tensor approximation techniques",
+        "url": null,
+        "venue": "GAMM-Mitteilungen",
+        "year": 2013
+      },
+      "index": 17,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Lars Grasedyck, Daniel Kressner, and Christine Tobler. A literature survey of low-rank tensor approximation techniques. GAMM-Mitteilungen, 36(1):53–78, 2013."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Jihun Ham"
+          },
+          {
+            "name": "Daniel D. Lee"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "DOI": "10.1145/1390156.1390204"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Grassmann discriminant analysis: a unifying view on subspace-based learning",
+        "url": "https://doi.org/10.1145/1390156.1390204",
+        "venue": "ICML",
+        "year": 2008
+      },
+      "index": 18,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jihun Ham and Daniel D. Lee. Grassmann discriminant analysis: a unifying view on subspace-based learning. In ICML, pp. 376–383, 2008. URL https://doi.org/10.1145/1390156.1390204."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Karen Hambardzumyan"
+          },
+          {
+            "name": "Hrant Khachatrian"
+          },
+          {
+            "name": "Jonathan May"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "2101.00121"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "WARP: Word-level Adversarial ReProgramming",
+        "url": "http://arxiv.org/abs/2101.00121",
+        "venue": "arXiv",
+        "year": 2020
+      },
+      "index": 19,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Karen Hambardzumyan, Hrant Khachatrian, and Jonathan May. WARP: Word-level Adversarial ReProgramming. arXiv:2101.00121 [cs], December 2020. URL http://arxiv.org/abs/2101.00121. arXiv: 2101.00121."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Pengcheng He"
+          },
+          {
+            "name": "Xiaodong Liu"
+          },
+          {
+            "name": "Jianfeng Gao"
+          },
+          {
+            "name": "Weizhu Chen"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Deberta: Decoding-enhanced bert with disentangled attention",
+        "url": null,
+        "venue": null,
+        "year": 2021
+      },
+      "index": 20,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Pengcheng He, Xiaodong Liu, Jianfeng Gao, and Weizhu Chen. Deberta: Decoding-enhanced bert with disentangled attention, 2021."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Neil Houlsby"
+          },
+          {
+            "name": "Andrei Giurgiu"
+          },
+          {
+            "name": "Stanislaw Jastrzebski"
+          },
+          {
+            "name": "Bruna Morrone"
+          },
+          {
+            "name": "Quentin de Laroussilhe"
+          },
+          {
+            "name": "Andrea Gesmundo"
+          },
+          {
+            "name": "Mona Attariyan"
+          },
+          {
+            "name": "Sylvain Gelly"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1902.00751"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Parameter-Efficient Transfer Learning for NLP",
+        "url": "http://arxiv.org/abs/1902.00751",
+        "venue": "arXiv",
         "year": 2019
       },
       "index": 21,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, and Sylvain Gelly. Parameter-Efficient Transfer Learning for NLP. arXiv:1902.00751 [cs, stat], June 2019. URL http://arxiv.org/abs/1902.00751."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "11323179",
-            "name": "Yinhan Liu"
+            "name": "Max Jaderberg"
           },
           {
-            "authorId": "40511414",
-            "name": "Myle Ott"
+            "name": "Andrea Vedaldi"
           },
           {
-            "authorId": "39589154",
-            "name": "Naman Goyal"
-          },
-          {
-            "authorId": "3048577",
-            "name": "Jingfei Du"
-          },
-          {
-            "authorId": "144863691",
-            "name": "Mandar Joshi"
-          },
-          {
-            "authorId": "50536468",
-            "name": "Danqi Chen"
-          },
-          {
-            "authorId": "39455775",
-            "name": "Omer Levy"
-          },
-          {
-            "authorId": "35084211",
-            "name": "M. Lewis"
-          },
-          {
-            "authorId": "1982950",
-            "name": "Luke Zettlemoyer"
-          },
-          {
-            "authorId": "1759422",
-            "name": "Veselin Stoyanov"
+            "name": "Andrew Zisserman"
           }
         ],
-        "citationCount": 29503,
+        "citationCount": null,
         "externalIds": {
-          "ArXiv": "1907.11692",
-          "CorpusId": 198953378,
-          "DBLP": "journals/corr/abs-1907-11692",
-          "MAG": "2965373594"
+          "ArXiv": "1405.3866"
         },
-        "paperId": "077f8329a7b6fa3b7c877a57b81eb6c18b5f87de",
-        "publicationDate": "2019-07-26",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
-        "url": "https://www.semanticscholar.org/paper/077f8329a7b6fa3b7c877a57b81eb6c18b5f87de",
-        "venue": "arXiv.org",
-        "year": 2019
+        "title": "Speeding up convolutional neural networks with low rank expansions",
+        "url": null,
+        "venue": "arXiv preprint",
+        "year": 2014
       },
       "index": 22,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Max Jaderberg, Andrea Vedaldi, and Andrew Zisserman. Speeding up convolutional neural networks with low rank expansions. arXiv preprint arXiv:1405.3866, 2014."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "3103394",
-            "name": "Samet Oymak"
+            "name": "Mikhail Khodak"
           },
           {
-            "authorId": "143825665",
-            "name": "Zalan Fabian"
+            "name": "Neil Tenenholtz"
           },
           {
-            "authorId": "47629178",
-            "name": "Mingchen Li"
+            "name": "Lester Mackey"
           },
           {
-            "authorId": "2766123",
-            "name": "M. Soltanolkotabi"
+            "name": "Nicolò Fusi"
           }
         ],
-        "citationCount": 108,
-        "externalIds": {
-          "ArXiv": "1906.05392",
-          "CorpusId": 189762232,
-          "DBLP": "journals/corr/abs-1906-05392",
-          "MAG": "2949960976"
-        },
-        "paperId": "3f1edf11bc3ca1f0ed116cf72ff51d092ad8644b",
-        "publicationDate": "2019-06-12",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Generalization Guarantees for Neural Networks via Harnessing the Low-rank Structure of the Jacobian",
-        "url": "https://www.semanticscholar.org/paper/3f1edf11bc3ca1f0ed116cf72ff51d092ad8644b",
-        "venue": "arXiv.org",
-        "year": 2019
+        "title": "Initialization and regularization of factorized neural layers",
+        "url": null,
+        "venue": null,
+        "year": 2021
       },
       "index": 23,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Mikhail Khodak, Neil Tenenholtz, Lester Mackey, and Nicolò Fusi. Initialization and regularization of factorized neural layers, 2021."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1388725932",
-            "name": "Zeyuan Allen-Zhu"
+            "name": "Diederik P. Kingma"
           },
           {
-            "authorId": "2110486765",
-            "name": "Yuanzhi Li"
+            "name": "Jimmy Ba"
           }
         ],
-        "citationCount": 196,
-        "externalIds": {
-          "ArXiv": "1905.10337",
-          "CorpusId": 165164191,
-          "DBLP": "journals/corr/abs-1905-10337",
-          "MAG": "2945404573"
-        },
-        "paperId": "d849c09c319f2ce12efc14bddc7581ab9aa688ac",
-        "publicationDate": "2019-05-24",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "What Can ResNet Learn Efficiently, Going Beyond Kernels?",
-        "url": "https://www.semanticscholar.org/paper/d849c09c319f2ce12efc14bddc7581ab9aa688ac",
-        "venue": "Neural Information Processing Systems",
-        "year": 2019
+        "title": "Adam: A method for stochastic optimization",
+        "url": null,
+        "venue": null,
+        "year": 2017
       },
       "index": 24,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization, 2017."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "144906624",
-            "name": "Alex Wang"
+            "name": "Dmitry Lepikhin"
           },
           {
-            "authorId": "100984698",
-            "name": "Yada Pruksachatkun"
+            "name": "HyoukJoong Lee"
           },
           {
-            "authorId": "10666396",
-            "name": "Nikita Nangia"
+            "name": "Yuanzhong Xu"
           },
           {
-            "authorId": "50286460",
-            "name": "Amanpreet Singh"
+            "name": "Dehao Chen"
           },
           {
-            "authorId": "38614754",
-            "name": "Julian Michael"
+            "name": "Orhan Firat"
           },
           {
-            "authorId": "145783676",
-            "name": "Felix Hill"
+            "name": "Yanping Huang"
           },
           {
-            "authorId": "39455775",
-            "name": "Omer Levy"
+            "name": "Maxim Krikun"
           },
           {
-            "authorId": "3644767",
-            "name": "Samuel R. Bowman"
+            "name": "Noam Shazeer"
+          },
+          {
+            "name": "Zhifeng Chen"
           }
         ],
-        "citationCount": 2744,
-        "externalIds": {
-          "ArXiv": "1905.00537",
-          "CorpusId": 143424870,
-          "DBLP": "conf/nips/WangPNSMHLB19",
-          "MAG": "2943552823"
-        },
-        "paperId": "d9f6ada77448664b71128bb19df15765336974a6",
-        "publicationDate": "2019-05-02",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
-        "url": "https://www.semanticscholar.org/paper/d9f6ada77448664b71128bb19df15765336974a6",
-        "venue": "Neural Information Processing Systems",
-        "year": 2019
+        "title": "Gshard: Scaling giant models with conditional computation and automatic sharding",
+        "url": null,
+        "venue": null,
+        "year": 2020
       },
       "index": 25,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang, Maxim Krikun, Noam Shazeer, and Zhifeng Chen. Gshard: Scaling giant models with conditional computation and automatic sharding, 2020."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2815290",
-            "name": "N. Houlsby"
+            "name": "Brian Lester"
           },
           {
-            "authorId": "1911881",
-            "name": "A. Giurgiu"
+            "name": "Rami Al-Rfou"
           },
           {
-            "authorId": "40569328",
-            "name": "Stanislaw Jastrzebski"
-          },
-          {
-            "authorId": "68973833",
-            "name": "Bruna Morrone"
-          },
-          {
-            "authorId": "51985388",
-            "name": "Quentin de Laroussilhe"
-          },
-          {
-            "authorId": "2813347",
-            "name": "Andrea Gesmundo"
-          },
-          {
-            "authorId": "2809991",
-            "name": "Mona Attariyan"
-          },
-          {
-            "authorId": "1802148",
-            "name": "S. Gelly"
+            "name": "Noah Constant"
           }
         ],
-        "citationCount": 6383,
+        "citationCount": null,
         "externalIds": {
-          "ArXiv": "1902.00751",
-          "CorpusId": 59599816,
-          "DBLP": "journals/corr/abs-1902-00751",
-          "MAG": "2950266224"
+          "ArXiv": "2104.08691"
         },
-        "paperId": "29ddc1f43f28af7c846515e32cc167bc66886d0c",
-        "publicationDate": "2019-02-02",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Parameter-Efficient Transfer Learning for NLP",
-        "url": "https://www.semanticscholar.org/paper/29ddc1f43f28af7c846515e32cc167bc66886d0c",
-        "venue": "International Conference on Machine Learning",
-        "year": 2019
+        "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+        "url": "http://arxiv.org/abs/2104.08691",
+        "venue": "arXiv",
+        "year": 2021
       },
       "index": 26,
-      "intents": [
-        "background",
-        "methodology"
-      ],
-      "isInfluential": true
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Brian Lester, Rami Al-Rfou, and Noah Constant. The Power of Scale for Parameter-Efficient Prompt Tuning. arXiv:2104.08691 [cs], April 2021. URLhttp://arxiv.org/abs/2104.08691. arXiv: 2104.08691."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1912720",
-            "name": "Yen-Chang Hsu"
+            "name": "Chunyuan Li"
           },
           {
-            "authorId": "2108334170",
-            "name": "Yen-Cheng Liu"
+            "name": "Heerad Farkhoor"
           },
           {
-            "authorId": "145276578",
-            "name": "Z. Kira"
+            "name": "Rosanne Liu"
+          },
+          {
+            "name": "Jason Yosinski"
           }
         ],
-        "citationCount": 393,
+        "citationCount": null,
         "externalIds": {
-          "ArXiv": "1810.12488",
-          "CorpusId": 53106595,
-          "DBLP": "journals/corr/abs-1810-12488",
-          "MAG": "2899063268"
+          "ArXiv": "1804.08838"
         },
-        "paperId": "fe111c477ea0ce9186eb58ff847052976d9a2dd9",
-        "publicationDate": "2018-10-30",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Re-evaluating Continual Learning Scenarios: A Categorization and Case for Strong Baselines",
-        "url": "https://www.semanticscholar.org/paper/fe111c477ea0ce9186eb58ff847052976d9a2dd9",
-        "venue": "arXiv.org",
+        "title": "Measuring the Intrinsic Dimension of Objective Landscapes",
+        "url": "http://arxiv.org/abs/1804.08838",
+        "venue": "arXiv",
         "year": 2018
       },
       "index": 27,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Chunyuan Li, Heerad Farkhoor, Rosanne Liu, and Jason Yosinski. Measuring the Intrinsic Di-mension of Objective Landscapes. arXiv:1804.08838 [cs, stat], April 2018a. URL http: //arxiv.org/abs/1804.08838. arXiv: 1804.08838."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1792214",
-            "name": "Daniel Povey"
+            "name": "Xiang Lisa Li"
           },
           {
-            "authorId": "32607116",
-            "name": "Gaofeng Cheng"
-          },
-          {
-            "authorId": "21595671",
-            "name": "Yiming Wang"
-          },
-          {
-            "authorId": "144954689",
-            "name": "Ke Li"
-          },
-          {
-            "authorId": "2094929",
-            "name": "Hainan Xu"
-          },
-          {
-            "authorId": "36491882",
-            "name": "M. Yarmohammadi"
-          },
-          {
-            "authorId": "2803071",
-            "name": "S. Khudanpur"
-          }
-        ],
-        "citationCount": 517,
-        "externalIds": {
-          "CorpusId": 4949673,
-          "DBLP": "conf/interspeech/PoveyCWLXYK18",
-          "DOI": "10.21437/Interspeech.2018-1417",
-          "MAG": "2888867175"
-        },
-        "paperId": "78b29eba4d6c836483c0aa67d637205e95223ae4",
-        "publicationDate": "2018-09-02",
-        "referenceCount": null,
-        "title": "Semi-Orthogonal Low-Rank Matrix Factorization for Deep Neural Networks",
-        "url": "https://www.semanticscholar.org/paper/78b29eba4d6c836483c0aa67d637205e95223ae4",
-        "venue": "Interspeech",
-        "year": 2018
-      },
-      "index": 28,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1388725932",
-            "name": "Zeyuan Allen-Zhu"
-          },
-          {
-            "authorId": "2110486765",
-            "name": "Yuanzhi Li"
-          },
-          {
-            "authorId": "143825455",
-            "name": "Zhao Song"
-          }
-        ],
-        "citationCount": 1602,
-        "externalIds": {
-          "ArXiv": "1811.03962",
-          "CorpusId": 53250107,
-          "DBLP": "journals/corr/abs-1811-03962",
-          "MAG": "2964098911"
-        },
-        "paperId": "42ec3db12a2e4628885451b13035c2e975220a25",
-        "publicationDate": "2018-09-01",
-        "referenceCount": null,
-        "title": "A Convergence Theory for Deep Learning via Over-Parameterization",
-        "url": "https://www.semanticscholar.org/paper/42ec3db12a2e4628885451b13035c2e975220a25",
-        "venue": "International Conference on Machine Learning",
-        "year": 2018
-      },
-      "index": 29,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2340566356",
-            "name": "Yuanzhi Li"
-          },
-          {
-            "authorId": "40609253",
-            "name": "Yingyu Liang"
-          }
-        ],
-        "citationCount": 679,
-        "externalIds": {
-          "ArXiv": "1808.01204",
-          "CorpusId": 51920936,
-          "DBLP": "journals/corr/abs-1808-01204",
-          "MAG": "2949804919"
-        },
-        "paperId": "ccb1bafdae68c635cbd30d49fda7dbf88a3ce1b6",
-        "publicationDate": "2018-08-03",
-        "referenceCount": null,
-        "title": "Learning Overparameterized Neural Networks via Stochastic Gradient Descent on Structured Data",
-        "url": "https://www.semanticscholar.org/paper/ccb1bafdae68c635cbd30d49fda7dbf88a3ce1b6",
-        "venue": "Neural Information Processing Systems",
-        "year": 2018
-      },
-      "index": 30,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2706258",
-            "name": "Pranav Rajpurkar"
-          },
-          {
-            "authorId": "3422908",
-            "name": "Robin Jia"
-          },
-          {
-            "authorId": "145419642",
             "name": "Percy Liang"
           }
         ],
-        "citationCount": 3271,
+        "citationCount": null,
         "externalIds": {
-          "ACL": "P18-2124",
-          "ArXiv": "1806.03822",
-          "CorpusId": 47018994,
-          "DBLP": "journals/corr/abs-1806-03822",
-          "DOI": "10.18653/v1/P18-2124",
-          "MAG": "2963323070"
+          "ArXiv": "2101.00190"
         },
-        "paperId": "4d1c856275744c0284312a3a50efb6ca9dc4cd4c",
-        "publicationDate": "2018-06-11",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Know What You Don’t Know: Unanswerable Questions for SQuAD",
-        "url": "https://www.semanticscholar.org/paper/4d1c856275744c0284312a3a50efb6ca9dc4cd4c",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
+        "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+        "url": "http://arxiv.org/abs/2101.00190",
+        "venue": "arXiv",
+        "year": 2021
+      },
+      "index": 28,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Xiang Lisa Li and Percy Liang. Prefix-Tuning: Optimizing Continuous Prompts for Generation. arXiv:2101.00190 [cs], January 2021. URL http://arxiv.org/abs/2101.00190."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Yuanzhi Li"
+          },
+          {
+            "name": "Yingyu Liang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Learning overparameterized neural networks via stochastic gradient descent on structured data",
+        "url": null,
+        "venue": "Advances in Neural Information Processing Systems",
+        "year": 2018
+      },
+      "index": 29,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Yuanzhi Li and Yingyu Liang. Learning overparameterized neural networks via stochastic gradient descent on structured data. In Advances in Neural Information Processing Systems, 2018."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Yuanzhi Li"
+          },
+          {
+            "name": "Yingyu Liang"
+          },
+          {
+            "name": "Andrej Risteski"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Recovery guarantee of weighted low-rank approximation via alternating minimization",
+        "url": null,
+        "venue": "International Conference on Machine Learning",
+        "year": 2016
+      },
+      "index": 30,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Yuanzhi Li, Yingyu Liang, and Andrej Risteski. Recovery guarantee of weighted low-rank ap-proximation via alternating minimization. In International Conference on Machine Learning, pp. 2358-2367. PMLR, 2016."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Yuanzhi Li"
+          },
+          {
+            "name": "Tengyu Ma"
+          },
+          {
+            "name": "Hongyang Zhang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Algorithmic regularization in over-parameterized matrix sensing and neural networks with quadratic activations",
+        "url": null,
+        "venue": "Conference On Learning Theory",
         "year": 2018
       },
       "index": 31,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Yuanzhi Li, Tengyu Ma, and Hongyang Zhang. Algorithmic regularization in over-parameterized matrix sensing and neural networks with quadratic activations. In Conference On Learning The-ory, pp. 2-47. PMLR, 2018b."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "46236380",
-            "name": "Alex Warstadt"
+            "name": "Zhaojiang Lin"
           },
           {
-            "authorId": "50286460",
-            "name": "Amanpreet Singh"
+            "name": "Andrea Madotto"
           },
           {
-            "authorId": "3644767",
-            "name": "Samuel R. Bowman"
+            "name": "Pascale Fung"
           }
         ],
-        "citationCount": 1612,
+        "citationCount": null,
         "externalIds": {
-          "ArXiv": "1805.12471",
-          "CorpusId": 44072099,
-          "DBLP": "journals/tacl/WarstadtSB19",
-          "DOI": "10.1162/tacl_a_00290",
-          "MAG": "2978670439"
+          "DOI": "10.18653/v1/2020.findings-emnlp.41"
         },
-        "paperId": "cb0f3ee1e98faf92429d601cdcd76c69c1e484eb",
-        "publicationDate": "2018-05-31",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Neural Network Acceptability Judgments",
-        "url": "https://www.semanticscholar.org/paper/cb0f3ee1e98faf92429d601cdcd76c69c1e484eb",
-        "venue": "Transactions of the Association for Computational Linguistics",
-        "year": 2018
+        "title": "Exploring versatile generative language model via parameter-efficient transfer learning",
+        "url": "https://aclanthology.org/2020.findings-emnlp.41",
+        "venue": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+        "year": 2020
       },
       "index": 32,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Zhaojiang Lin, Andrea Madotto, and Pascale Fung. Exploring versatile generative language model via parameter-efficient transfer learning. In Findings of the Association for Computational Lin-guistics: EMNLP 2020, pp. 441–459, Online, November 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.findings-emnlp.41. URL https://aclanthology.org/2020.findings-emnlp.41."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "144906624",
-            "name": "Alex Wang"
+            "name": "Xiao Liu"
           },
           {
-            "authorId": "50286460",
-            "name": "Amanpreet Singh"
+            "name": "Yanan Zheng"
           },
           {
-            "authorId": "38614754",
-            "name": "Julian Michael"
+            "name": "Zhengxiao Du"
           },
           {
-            "authorId": "145783676",
-            "name": "Felix Hill"
+            "name": "Ming Ding"
           },
           {
-            "authorId": "39455775",
-            "name": "Omer Levy"
+            "name": "Yujie Qian"
           },
           {
-            "authorId": "3644767",
-            "name": "Samuel R. Bowman"
+            "name": "Zhilin Yang"
+          },
+          {
+            "name": "Jie Tang"
           }
         ],
-        "citationCount": 8480,
+        "citationCount": null,
         "externalIds": {
-          "ACL": "W18-5446",
-          "ArXiv": "1804.07461",
-          "CorpusId": 5034059,
-          "DBLP": "conf/emnlp/WangSMHLB18",
-          "DOI": "10.18653/v1/W18-5446",
-          "MAG": "2963310665"
+          "ArXiv": "2103.10385"
         },
-        "paperId": "451d4a16e425ecbf38c4b1cca0dcf5d9bec8255c",
-        "publicationDate": "2018-04-20",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
-        "url": "https://www.semanticscholar.org/paper/451d4a16e425ecbf38c4b1cca0dcf5d9bec8255c",
-        "venue": "BlackboxNLP@EMNLP",
-        "year": 2018
+        "title": "GPT Understands, Too",
+        "url": "http://arxiv.org/abs/2103.10385",
+        "venue": "arXiv",
+        "year": 2021
       },
       "index": 33,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, and Jie Tang. GPT Understands, Too. arXiv:2103.10385 [cs], March 2021. URL http://arxiv.org/abs/2103.10385. arXiv: 2103.10385."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2109737569",
-            "name": "Chunyuan Li"
+            "name": "Yinhan Liu"
           },
           {
-            "authorId": "40977947",
-            "name": "Heerad Farkhoor"
+            "name": "Myle Ott"
           },
           {
-            "authorId": "48757909",
-            "name": "Rosanne Liu"
+            "name": "Naman Goyal"
           },
           {
-            "authorId": "2965424",
-            "name": "J. Yosinski"
+            "name": "Jingfei Du"
+          },
+          {
+            "name": "Mandar Joshi"
+          },
+          {
+            "name": "Danqi Chen"
+          },
+          {
+            "name": "Omer Levy"
+          },
+          {
+            "name": "Mike Lewis"
+          },
+          {
+            "name": "Luke Zettlemoyer"
+          },
+          {
+            "name": "Veselin Stoyanov"
           }
         ],
-        "citationCount": 530,
-        "externalIds": {
-          "ArXiv": "1804.08838",
-          "CorpusId": 13739955,
-          "DBLP": "conf/iclr/LiFLY18",
-          "MAG": "2963477238"
-        },
-        "paperId": "d55d1d035e91220335edff0fe8f5d249d8c4a00b",
-        "publicationDate": "2018-02-15",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Measuring the Intrinsic Dimension of Objective Landscapes",
-        "url": "https://www.semanticscholar.org/paper/d55d1d035e91220335edff0fe8f5d249d8c4a00b",
-        "venue": "International Conference on Learning Representations",
-        "year": 2018
+        "title": "Roberta: A robustly optimized bert pretraining approach",
+        "url": null,
+        "venue": null,
+        "year": 2019
       },
       "index": 34,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized bert pretraining approach, 2019."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2257259435",
-            "name": "Yuanzhi Li"
+            "name": "Ilya Loshchilov"
           },
           {
-            "authorId": "1901958",
-            "name": "Tengyu Ma"
-          },
-          {
-            "authorId": "40975176",
-            "name": "Hongyang Zhang"
+            "name": "Frank Hutter"
           }
         ],
-        "citationCount": 322,
+        "citationCount": null,
         "externalIds": {
-          "CorpusId": 3526301,
-          "DBLP": "conf/colt/LiMZ18",
-          "MAG": "2953190589"
+          "ArXiv": "1711.05101"
         },
-        "paperId": "8b4b861583f698e89c8cd9e198aad86809a71de7",
-        "publicationDate": "2017-12-26",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Algorithmic Regularization in Over-parameterized Matrix Sensing and Neural Networks with Quadratic Activations",
-        "url": "https://www.semanticscholar.org/paper/8b4b861583f698e89c8cd9e198aad86809a71de7",
-        "venue": "Annual Conference Computational Learning Theory",
+        "title": "Decoupled weight decay regularization",
+        "url": null,
+        "venue": "arXiv preprint",
         "year": 2017
       },
       "index": 35,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1678656",
-            "name": "I. Loshchilov"
+            "name": "Ilya Loshchilov"
           },
           {
-            "authorId": "144661829",
-            "name": "F. Hutter"
+            "name": "Frank Hutter"
           }
         ],
-        "citationCount": 33512,
-        "externalIds": {
-          "CorpusId": 53592270,
-          "DBLP": "conf/iclr/LoshchilovH19",
-          "MAG": "2950541952"
-        },
-        "paperId": "d07284a6811f1b2745d91bdb06b040b57f226882",
-        "publicationDate": "2017-11-14",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Decoupled Weight Decay Regularization",
-        "url": "https://www.semanticscholar.org/paper/d07284a6811f1b2745d91bdb06b040b57f226882",
-        "venue": "International Conference on Learning Representations",
-        "year": 2017
+        "title": "Decoupled weight decay regularization",
+        "url": null,
+        "venue": null,
+        "year": 2019
       },
       "index": 36,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": true
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization, 2019."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1794075",
-            "name": "Claire Gardent"
+            "name": "Rabeeh Karimi Mahabadi"
           },
           {
-            "authorId": "2181869",
-            "name": "Anastasia Shimorina"
+            "name": "James Henderson"
           },
           {
-            "authorId": "143790499",
-            "name": "Shashi Narayan"
-          },
-          {
-            "authorId": "1400959575",
-            "name": "Laura Perez-Beltrachini"
+            "name": "Sebastian Ruder"
           }
         ],
-        "citationCount": 436,
-        "externalIds": {
-          "ACL": "W17-3518",
-          "CorpusId": 28193461,
-          "DBLP": "conf/inlg/GardentSNP17",
-          "DOI": "10.18653/v1/W17-3518",
-          "MAG": "2786660442"
-        },
-        "paperId": "a4c40532e68728fbeab5d9415f6ad8e9530db360",
-        "publicationDate": "2017-09-01",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "The WebNLG Challenge: Generating Text from RDF Data",
-        "url": "https://www.semanticscholar.org/paper/a4c40532e68728fbeab5d9415f6ad8e9530db360",
-        "venue": "International Conference on Natural Language Generation",
-        "year": 2017
+        "title": "Compacter: Efficient low-rank hypercomplex adapter layers",
+        "url": null,
+        "venue": null,
+        "year": 2021
       },
       "index": 37,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": true
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Rabeeh Karimi Mahabadi, James Henderson, and Sebastian Ruder. Compacter: Efficient low-rank hypercomplex adapter layers, 2021."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "3428769",
-            "name": "Victor Zhong"
+            "name": "Linyong Nan"
           },
           {
-            "authorId": "2228109",
-            "name": "Caiming Xiong"
+            "name": "Dragomir Radev"
           },
           {
-            "authorId": "2166511",
-            "name": "R. Socher"
+            "name": "Rui Zhang"
+          },
+          {
+            "name": "Amrit Rau"
+          },
+          {
+            "name": "Abhinand Sivaprasad"
+          },
+          {
+            "name": "Chiachun Hsieh"
+          },
+          {
+            "name": "Xiangru Tang"
+          },
+          {
+            "name": "Aadit Vyas"
+          },
+          {
+            "name": "Neha Verma"
+          },
+          {
+            "name": "Pranav Krishna"
           }
         ],
-        "citationCount": 1504,
+        "citationCount": null,
         "externalIds": {
-          "ArXiv": "1709.00103",
-          "CorpusId": 25156106,
-          "DBLP": "journals/corr/abs-1709-00103",
-          "MAG": "2751448157"
+          "ArXiv": "2007.02871"
         },
-        "paperId": "cbd569036fc72ae7ff747350b91816440282596b",
-        "publicationDate": "2017-08-31",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning",
-        "url": "https://www.semanticscholar.org/paper/cbd569036fc72ae7ff747350b91816440282596b",
-        "venue": "arXiv.org",
-        "year": 2017
+        "title": "Dart: Open-domain structured data record to text generation",
+        "url": null,
+        "venue": "arXiv preprint",
+        "year": 2020
       },
       "index": 38,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Linyong Nan, Dragomir Radev, Rui Zhang, Amrit Rau, Abhinand Sivaprasad, Chiachun Hsieh, Xiangru Tang, Aadit Vyas, Neha Verma, Pranav Krishna, et al. Dart: Open-domain structured data record to text generation. arXiv preprint arXiv:2007.02871, 2020."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "46724030",
-            "name": "Daniel Matthew Cer"
+            "name": "Jekaterina Novikova"
           },
           {
-            "authorId": "1700007",
-            "name": "Mona T. Diab"
+            "name": "Ondřej Dušek"
           },
           {
-            "authorId": "1733049",
-            "name": "Eneko Agirre"
-          },
-          {
-            "authorId": "1405529953",
-            "name": "I. Lopez-Gazpio"
-          },
-          {
-            "authorId": "1702974",
-            "name": "Lucia Specia"
+            "name": "Verena Rieser"
           }
         ],
-        "citationCount": 2076,
+        "citationCount": null,
         "externalIds": {
-          "ACL": "S17-2001",
-          "ArXiv": "1708.00055",
-          "CorpusId": 4421747,
-          "DBLP": "journals/corr/abs-1708-00055",
-          "DOI": "10.18653/v1/S17-2001",
-          "MAG": "3104033643"
+          "ArXiv": "1706.09254"
         },
-        "paperId": "a23fa96e7217ba0e9405d9e1fe3cdedd57b6e096",
-        "publicationDate": "2017-07-31",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "SemEval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation",
-        "url": "https://www.semanticscholar.org/paper/a23fa96e7217ba0e9405d9e1fe3cdedd57b6e096",
-        "venue": "International Workshop on Semantic Evaluation",
+        "title": "The e2e dataset: New challenges for end-to-end generation",
+        "url": null,
+        "venue": "arXiv preprint",
         "year": 2017
       },
       "index": 39,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Jekaterina Novikova, Ondřej Dušek, and Verena Rieser. The e2e dataset: New challenges for end-to-end generation. arXiv preprint arXiv:1706.09254, 2017."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2848048",
-            "name": "Jekaterina Novikova"
+            "name": "Samet Oymak"
           },
           {
-            "authorId": "2544049",
-            "name": "Ondrej Dusek"
+            "name": "Zalan Fabian"
           },
           {
-            "authorId": "1681799",
-            "name": "Verena Rieser"
+            "name": "Mingchen Li"
+          },
+          {
+            "name": "Mahdi Soltanolkotabi"
           }
         ],
-        "citationCount": 517,
+        "citationCount": null,
         "externalIds": {
-          "ACL": "W17-5525",
-          "ArXiv": "1706.09254",
-          "CorpusId": 19662556,
-          "DBLP": "conf/sigdial/NovikovaDR17",
-          "DOI": "10.18653/v1/W17-5525",
-          "MAG": "2963912046"
+          "ArXiv": "1906.05392"
         },
-        "paperId": "531a7f2c659787165df4fd5b4580590b953448e4",
-        "publicationDate": "2017-06-28",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "The E2E Dataset: New Challenges For End-to-End Generation",
-        "url": "https://www.semanticscholar.org/paper/531a7f2c659787165df4fd5b4580590b953448e4",
-        "venue": "SIGDIAL Conference",
-        "year": 2017
+        "title": "Generalization guarantees for neural networks via harnessing the low-rank structure of the jacobian",
+        "url": null,
+        "venue": "arXiv preprint",
+        "year": 2019
       },
       "index": 40,
-      "intents": [
-        "methodology"
-      ],
-      "isInfluential": false
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Samet Oymak, Zalan Fabian, Mingchen Li, and Mahdi Soltanolkotabi. Generalization guaran-tees for neural networks via harnessing the low-rank structure of the jacobian. arXiv preprint arXiv:1906.05392, 2019."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "40348417",
-            "name": "Ashish Vaswani"
+            "name": "Jonas Pfeiffer"
           },
           {
-            "authorId": "1846258",
-            "name": "Noam Shazeer"
+            "name": "Aishwarya Kamath"
           },
           {
-            "authorId": "3877127",
-            "name": "Niki Parmar"
+            "name": "Andreas Rücklé"
           },
           {
-            "authorId": "39328010",
-            "name": "Jakob Uszkoreit"
+            "name": "Kyunghyun Cho"
           },
           {
-            "authorId": "145024664",
-            "name": "Llion Jones"
-          },
-          {
-            "authorId": "19177000",
-            "name": "Aidan N. Gomez"
-          },
-          {
-            "authorId": "40527594",
-            "name": "Lukasz Kaiser"
-          },
-          {
-            "authorId": "3443442",
-            "name": "I. Polosukhin"
+            "name": "Iryna Gurevych"
           }
         ],
-        "citationCount": 175735,
-        "externalIds": {
-          "ArXiv": "1706.03762",
-          "CorpusId": 13756489,
-          "DBLP": "journals/corr/VaswaniSPUJGKP17",
-          "MAG": "2963403868"
-        },
-        "paperId": "204e3073870fae3d05bcbc2f6a8e263d9b72e776",
-        "publicationDate": "2017-06-12",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Attention is All you Need",
-        "url": "https://www.semanticscholar.org/paper/204e3073870fae3d05bcbc2f6a8e263d9b72e776",
-        "venue": "Neural Information Processing Systems",
-        "year": 2017
+        "title": "Adapter-fusion: Non-destructive task composition for transfer learning",
+        "url": null,
+        "venue": null,
+        "year": 2021
       },
       "index": 41,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Jonas Pfeiffer, Aishwarya Kamath, Andreas Rücklé, Kyunghyun Cho, and Iryna Gurevych. Adapter-fusion: Non-destructive task composition for transfer learning, 2021."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "8478422",
+            "name": "Daniel Povey"
+          },
+          {
+            "name": "Gaofeng Cheng"
+          },
+          {
+            "name": "Yiming Wang"
+          },
+          {
+            "name": "Ke Li"
+          },
+          {
+            "name": "Hainan Xu"
+          },
+          {
+            "name": "Mahsa Yarmohammadi"
+          },
+          {
+            "name": "Sanjeev Khudanpur"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Semi-orthogonal low-rank matrix factorization for deep neural networks",
+        "url": null,
+        "venue": "Interspeech",
+        "year": 2018
+      },
+      "index": 42,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Daniel Povey, Gaofeng Cheng, Yiming Wang, Ke Li, Hainan Xu, Mahsa Yarmohammadi, and San-jeev Khudanpur. Semi-orthogonal low-rank matrix factorization for deep neural networks. In Interspeech, pp. 3743–3747, 2018."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Alec Radford"
+          },
+          {
+            "name": "Karthik Narasimhan"
+          },
+          {
+            "name": "Tim Salimans"
+          },
+          {
+            "name": "Ilya Sutskever"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Improving Language Understanding by Generative Pre-Training",
+        "url": null,
+        "venue": null,
+        "year": null
+      },
+      "index": 43,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. Improving Language Under-standing by Generative Pre-Training. pp. 12, a."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Alec Radford"
+          },
+          {
+            "name": "Jeffrey Wu"
+          },
+          {
+            "name": "Rewon Child"
+          },
+          {
+            "name": "David Luan"
+          },
+          {
+            "name": "Dario Amodei"
+          },
+          {
+            "name": "Ilya Sutskever"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Language Models are Unsupervised Multitask Learners",
+        "url": null,
+        "venue": null,
+        "year": null
+      },
+      "index": 44,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. Language Models are Unsupervised Multitask Learners. pp. 24, b."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Pranav Rajpurkar"
+          },
+          {
+            "name": "Robin Jia"
+          },
+          {
+            "name": "Percy Liang"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1806.03822"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Know what you don't know: Unanswerable questions for squad",
+        "url": "http://arxiv.org/abs/1806.03822",
+        "venue": "CoRR",
+        "year": 2018
+      },
+      "index": 45,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Pranav Rajpurkar, Robin Jia, and Percy Liang. Know what you don't know: Unanswerable questions for squad. CoRR, abs/1806.03822, 2018. URL http://arxiv.org/abs/1806.03822."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
             "name": "Sylvestre-Alvise Rebuffi"
           },
           {
-            "authorId": "2518212",
             "name": "Hakan Bilen"
           },
           {
-            "authorId": "1687524",
-            "name": "A. Vedaldi"
+            "name": "Andrea Vedaldi"
           }
         ],
-        "citationCount": 1050,
+        "citationCount": null,
         "externalIds": {
-          "ArXiv": "1705.08045",
-          "CorpusId": 215826266,
-          "DBLP": "conf/nips/RebuffiBV17",
-          "MAG": "2616957565"
+          "ArXiv": "1705.08045"
         },
-        "paperId": "d89ee98810039d2061ed42ee8026da49c503d16b",
-        "publicationDate": "2017-05-22",
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
         "title": "Learning multiple visual domains with residual adapters",
-        "url": "https://www.semanticscholar.org/paper/d89ee98810039d2061ed42ee8026da49c503d16b",
-        "venue": "Neural Information Processing Systems",
+        "url": "http://arxiv.org/abs/1705.08045",
+        "venue": "arXiv",
         "year": 2017
-      },
-      "index": 42,
-      "intents": [
-        "background",
-        "methodology"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "81840293",
-            "name": "Adina Williams"
-          },
-          {
-            "authorId": "10666396",
-            "name": "Nikita Nangia"
-          },
-          {
-            "authorId": "3644767",
-            "name": "Samuel R. Bowman"
-          }
-        ],
-        "citationCount": 5001,
-        "externalIds": {
-          "ACL": "N18-1101",
-          "ArXiv": "1704.05426",
-          "CorpusId": 3432876,
-          "DBLP": "journals/corr/WilliamsNB17",
-          "DOI": "10.18653/v1/N18-1101",
-          "MAG": "2963846996"
-        },
-        "paperId": "5ded2b8c64491b4a67f6d39ce473d4b9347a672e",
-        "publicationDate": "2017-04-18",
-        "referenceCount": null,
-        "title": "A Broad-Coverage Challenge Corpus for Sentence Understanding through Inference",
-        "url": "https://www.semanticscholar.org/paper/5ded2b8c64491b4a67f6d39ce473d4b9347a672e",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2017
-      },
-      "index": 43,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2066516991",
-            "name": "J. Kirkpatrick"
-          },
-          {
-            "authorId": "1996134",
-            "name": "Razvan Pascanu"
-          },
-          {
-            "authorId": "3422052",
-            "name": "Neil C. Rabinowitz"
-          },
-          {
-            "authorId": "144056327",
-            "name": "J. Veness"
-          },
-          {
-            "authorId": "2755582",
-            "name": "Guillaume Desjardins"
-          },
-          {
-            "authorId": "2228824",
-            "name": "Andrei A. Rusu"
-          },
-          {
-            "authorId": "8181864",
-            "name": "Kieran Milan"
-          },
-          {
-            "authorId": "34660073",
-            "name": "John Quan"
-          },
-          {
-            "authorId": "34505275",
-            "name": "Tiago Ramalho"
-          },
-          {
-            "authorId": "1398898827",
-            "name": "A. Grabska-Barwinska"
-          },
-          {
-            "authorId": "48987704",
-            "name": "D. Hassabis"
-          },
-          {
-            "authorId": "2388737",
-            "name": "C. Clopath"
-          },
-          {
-            "authorId": "2106164",
-            "name": "D. Kumaran"
-          },
-          {
-            "authorId": "2315504",
-            "name": "R. Hadsell"
-          }
-        ],
-        "citationCount": 9702,
-        "externalIds": {
-          "ArXiv": "1612.00796",
-          "CorpusId": 4704285,
-          "DBLP": "journals/corr/KirkpatrickPRVD16",
-          "DOI": "10.1073/pnas.1611835114",
-          "MAG": "2560647685",
-          "PubMed": "28292907"
-        },
-        "paperId": "2e55ba6c97ce5eb55abd959909403fe8da7e9fe9",
-        "publicationDate": "2016-12-02",
-        "referenceCount": null,
-        "title": "Overcoming catastrophic forgetting in neural networks",
-        "url": "https://www.semanticscholar.org/paper/2e55ba6c97ce5eb55abd959909403fe8da7e9fe9",
-        "venue": "Proceedings of the National Academy of Sciences of the United States of America",
-        "year": 2016
-      },
-      "index": 44,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "49339371",
-            "name": "Yong Zhao"
-          },
-          {
-            "authorId": "152319568",
-            "name": "Jinyu Li"
-          },
-          {
-            "authorId": "1777280",
-            "name": "Y. Gong"
-          }
-        ],
-        "citationCount": 71,
-        "externalIds": {
-          "CorpusId": 10506309,
-          "DBLP": "conf/icassp/ZhaoLG16",
-          "DOI": "10.1109/ICASSP.2016.7472630",
-          "MAG": "2394882406"
-        },
-        "paperId": "33aa588c89401cbc22a2f4d2fb121d10909a6f18",
-        "publicationDate": "2016-03-20",
-        "referenceCount": null,
-        "title": "Low-rank plus diagonal adaptation for deep neural networks",
-        "url": "https://www.semanticscholar.org/paper/33aa588c89401cbc22a2f4d2fb121d10909a6f18",
-        "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
-        "year": 2016
-      },
-      "index": 45,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2340566356",
-            "name": "Yuanzhi Li"
-          },
-          {
-            "authorId": "40609253",
-            "name": "Yingyu Liang"
-          },
-          {
-            "authorId": "3181040",
-            "name": "Andrej Risteski"
-          }
-        ],
-        "citationCount": 52,
-        "externalIds": {
-          "ArXiv": "1602.02262",
-          "CorpusId": 9734659,
-          "DBLP": "journals/corr/LiLR16",
-          "MAG": "2964035320"
-        },
-        "paperId": "0d2e018c2319c496313bbec3acfd76824cbc0ec3",
-        "publicationDate": "2016-02-06",
-        "referenceCount": null,
-        "title": "Recovery guarantee of weighted low-rank approximation via alternating minimization",
-        "url": "https://www.semanticscholar.org/paper/0d2e018c2319c496313bbec3acfd76824cbc0ec3",
-        "venue": "International Conference on Machine Learning",
-        "year": 2016
       },
       "index": 46,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Sylvestre-Alvise Rebuffi, Hakan Bilen, and Andrea Vedaldi. Learning multiple visual domains with residual adapters. arXiv:1705.08045 [cs, stat], November 2017. URL http://arxiv.org/abs/1705.08045. arXiv: 1705.08045."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1726807",
-            "name": "Diederik P. Kingma"
+            "name": "Andreas Rücklé"
           },
           {
-            "authorId": "2503659",
-            "name": "Jimmy Ba"
+            "name": "Gregor Geigle"
+          },
+          {
+            "name": "Max Glockner"
+          },
+          {
+            "name": "Tilman Beck"
+          },
+          {
+            "name": "Jonas Pfeiffer"
+          },
+          {
+            "name": "Nils Reimers"
+          },
+          {
+            "name": "Iryna Gurevych"
           }
         ],
-        "citationCount": 165867,
-        "externalIds": {
-          "ArXiv": "1412.6980",
-          "CorpusId": 6628106,
-          "DBLP": "journals/corr/KingmaB14",
-          "MAG": "2964121744"
-        },
-        "paperId": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
-        "publicationDate": "2014-12-22",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Adam: A Method for Stochastic Optimization",
-        "url": "https://www.semanticscholar.org/paper/a6cb366736791bcccc5c8639de5a8f9636bf87e8",
-        "venue": "International Conference on Learning Representations",
-        "year": 2014
+        "title": "Adapterdrop: On the efficiency of adapters in transformers",
+        "url": null,
+        "venue": null,
+        "year": 2020
       },
       "index": 47,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Andreas Rücklé, Gregor Geigle, Max Glockner, Tilman Beck, Jonas Pfeiffer, Nils Reimers, and Iryna Gurevych. Adapterdrop: On the efficiency of adapters in transformers, 2020."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "3093886",
-            "name": "Max Jaderberg"
+            "name": "Tara N Sainath"
           },
           {
-            "authorId": "1687524",
-            "name": "A. Vedaldi"
+            "name": "Brian Kingsbury"
           },
           {
-            "authorId": "1688869",
-            "name": "Andrew Zisserman"
+            "name": "Vikas Sindhwani"
+          },
+          {
+            "name": "Ebru Arisoy"
+          },
+          {
+            "name": "Bhuvana Ramabhadran"
           }
         ],
-        "citationCount": 1548,
-        "externalIds": {
-          "ArXiv": "1405.3866",
-          "CorpusId": 17864746,
-          "DBLP": "journals/corr/JaderbergVZ14",
-          "DOI": "10.5244/C.28.88",
-          "MAG": "1996901117"
-        },
-        "paperId": "021fc345d40d3e6332cd2ef276e2eaa5e71102e4",
-        "publicationDate": "2014-05-15",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Speeding up Convolutional Neural Networks with Low Rank Expansions",
-        "url": "https://www.semanticscholar.org/paper/021fc345d40d3e6332cd2ef276e2eaa5e71102e4",
-        "venue": "British Machine Vision Conference",
-        "year": 2014
+        "title": "Low-rank matrix factorization for deep neural network training with high-dimensional output targets",
+        "url": null,
+        "venue": "2013 IEEE international conference on acoustics, speech and signal processing",
+        "year": 2013
       },
       "index": 48,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Tara N Sainath, Brian Kingsbury, Vikas Sindhwani, Ebru Arisoy, and Bhuvana Ramabhadran. Low-rank matrix factorization for deep neural network training with high-dimensional output targets. In 2013 IEEE international conference on acoustics, speech and signal processing, pp. 6655-6659. IEEE, 2013."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2153634932",
-            "name": "Yu Zhang"
+            "name": "Mohammad Shoeybi"
           },
           {
-            "authorId": "1819128",
-            "name": "E. Chuangsuwanich"
+            "name": "Mostofa Patwary"
           },
           {
-            "authorId": "145898106",
-            "name": "James R. Glass"
+            "name": "Raul Puri"
+          },
+          {
+            "name": "Patrick LeGresley"
+          },
+          {
+            "name": "Jared Casper"
+          },
+          {
+            "name": "Bryan Catanzaro"
           }
         ],
-        "citationCount": 71,
-        "externalIds": {
-          "CorpusId": 1791734,
-          "DBLP": "conf/icassp/ZhangCG14",
-          "DOI": "10.1109/ICASSP.2014.6853583",
-          "MAG": "2090958120"
-        },
-        "paperId": "7c5fa43e6f9a85c81e3d7b9532e3d851af638e2d",
-        "publicationDate": "2014-05-04",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Extracting deep neural network bottleneck features using low-rank matrix factorization",
-        "url": "https://www.semanticscholar.org/paper/7c5fa43e6f9a85c81e3d7b9532e3d851af638e2d",
-        "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
-        "year": 2014
+        "title": "Megatron-lm: Training multi-billion parameter language models using model parallelism",
+        "url": null,
+        "venue": null,
+        "year": 2020
       },
       "index": 49,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro. Megatron-lm: Training multi-billion parameter language models using model par-allelism, 2020."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "2166511",
-            "name": "R. Socher"
+            "name": "Richard Socher"
           },
           {
-            "authorId": "24590005",
             "name": "Alex Perelygin"
           },
           {
-            "authorId": "2110402830",
             "name": "Jean Wu"
           },
           {
-            "authorId": "1964541",
             "name": "Jason Chuang"
           },
           {
-            "authorId": "144783904",
             "name": "Christopher D. Manning"
           },
           {
-            "authorId": "34699434",
-            "name": "A. Ng"
+            "name": "Andrew Ng"
           },
           {
-            "authorId": "144922861",
             "name": "Christopher Potts"
           }
         ],
-        "citationCount": 9359,
-        "externalIds": {
-          "ACL": "D13-1170",
-          "CorpusId": 990233,
-          "DBLP": "conf/emnlp/SocherPWCMNP13",
-          "DOI": "10.18653/v1/d13-1170",
-          "MAG": "2251939518"
-        },
-        "paperId": "687bac2d3320083eb4530bf18bb8f8f721477600",
-        "publicationDate": "2013-10-01",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
         "referenceCount": null,
-        "title": "Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank",
-        "url": "https://www.semanticscholar.org/paper/687bac2d3320083eb4530bf18bb8f8f721477600",
-        "venue": "Conference on Empirical Methods in Natural Language Processing",
+        "title": "Recursive deep models for semantic compositionality over a sentiment treebank",
+        "url": "https://aclanthology.org/D13-1170",
+        "venue": "Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing",
         "year": 2013
       },
       "index": 50,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher D. Manning, Andrew Ng, and Christopher Potts. Recursive deep models for semantic compositionality over a sentiment treebank. In Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, pp. 1631–1642, Seattle, Washington, USA, October 2013. Association for Computa-tional Linguistics. URL https://aclanthology.org/D13-1170."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "1715051",
-            "name": "Misha Denil"
+            "name": "Ashish Vaswani"
           },
           {
-            "authorId": "3355894",
-            "name": "B. Shakibi"
+            "name": "Noam Shazeer"
           },
           {
-            "authorId": "46573521",
-            "name": "Laurent Dinh"
+            "name": "Niki Parmar"
           },
           {
-            "authorId": "1706809",
-            "name": "Marc'Aurelio Ranzato"
+            "name": "Jakob Uszkoreit"
           },
           {
-            "authorId": "1737568",
-            "name": "Nando de Freitas"
+            "name": "Llion Jones"
+          },
+          {
+            "name": "Aidan N Gomez"
+          },
+          {
+            "name": "Łukasz Kaiser"
+          },
+          {
+            "name": "Illia Polosukhin"
           }
         ],
-        "citationCount": 1399,
-        "externalIds": {
-          "ArXiv": "1306.0543",
-          "CorpusId": 1639981,
-          "DBLP": "journals/corr/DenilSDRF13",
-          "DOI": "10.14288/1.0165555",
-          "MAG": "2952899695"
-        },
-        "paperId": "eff61216e0136886e1158625b1e5a88ed1a7cbce",
-        "publicationDate": "2013-06-03",
-        "referenceCount": null,
-        "title": "Predicting Parameters in Deep Learning",
-        "url": "https://www.semanticscholar.org/paper/eff61216e0136886e1158625b1e5a88ed1a7cbce",
-        "venue": "Neural Information Processing Systems",
-        "year": 2013
-      },
-      "index": 51,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1784851",
-            "name": "Tara N. Sainath"
-          },
-          {
-            "authorId": "144707379",
-            "name": "Brian Kingsbury"
-          },
-          {
-            "authorId": "1808676",
-            "name": "Vikas Sindhwani"
-          },
-          {
-            "authorId": "3122752",
-            "name": "E. Arisoy"
-          },
-          {
-            "authorId": "1720857",
-            "name": "B. Ramabhadran"
-          }
-        ],
-        "citationCount": 707,
-        "externalIds": {
-          "CorpusId": 3334366,
-          "DBLP": "conf/icassp/SainathKSAR13",
-          "DOI": "10.1109/ICASSP.2013.6638949",
-          "MAG": "2058641082"
-        },
-        "paperId": "5cea23330c76994cb626df20bed31cc2588033df",
-        "publicationDate": "2013-05-26",
-        "referenceCount": null,
-        "title": "Low-rank matrix factorization for Deep Neural Network training with high-dimensional output targets",
-        "url": "https://www.semanticscholar.org/paper/5cea23330c76994cb626df20bed31cc2588033df",
-        "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
-        "year": 2013
-      },
-      "index": 52,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "1926208",
-            "name": "L. Grasedyck"
-          },
-          {
-            "authorId": "1708810",
-            "name": "D. Kressner"
-          },
-          {
-            "authorId": "2026872",
-            "name": "C. Tobler"
-          }
-        ],
-        "citationCount": 711,
-        "externalIds": {
-          "ArXiv": "1302.7121",
-          "CorpusId": 7038912,
-          "DOI": "10.1002/GAMM.201310004",
-          "MAG": "1967077133"
-        },
-        "paperId": "e603dbdf275ce8c4d2aaf1c137b557b96a555209",
-        "publicationDate": "2013-02-28",
-        "referenceCount": null,
-        "title": "A literature survey of low‐rank tensor approximation techniques",
-        "url": "https://www.semanticscholar.org/paper/e603dbdf275ce8c4d2aaf1c137b557b96a555209",
-        "venue": "",
-        "year": 2013
-      },
-      "index": 53,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "70561463",
-            "name": "Jian-Feng Cai"
-          },
-          {
-            "authorId": "2006869",
-            "name": "E. Candès"
-          },
-          {
-            "authorId": "1776716",
-            "name": "Zuowei Shen"
-          }
-        ],
-        "citationCount": 6038,
-        "externalIds": {
-          "ArXiv": "0810.3286",
-          "CorpusId": 1254778,
-          "DBLP": "journals/siamjo/CaiCS10",
-          "DOI": "10.1137/080738970",
-          "MAG": "2103972604"
-        },
-        "paperId": "023f6fc69fe1f6498e35dbf85932ecb549d36ca4",
-        "publicationDate": "2008-10-18",
-        "referenceCount": null,
-        "title": "A Singular Value Thresholding Algorithm for Matrix Completion",
-        "url": "https://www.semanticscholar.org/paper/023f6fc69fe1f6498e35dbf85932ecb549d36ca4",
-        "venue": "SIAM Journal on Optimization",
-        "year": 2008
-      },
-      "index": 54,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2939803",
-            "name": "R. Collobert"
-          },
-          {
-            "authorId": "145183709",
-            "name": "J. Weston"
-          }
-        ],
-        "citationCount": 6000,
-        "externalIds": {
-          "CorpusId": 2617020,
-          "DBLP": "conf/icml/CollobertW08",
-          "DOI": "10.1145/1390156.1390177",
-          "MAG": "2117130368"
-        },
-        "paperId": "57458bc1cffe5caa45a885af986d70f723f406b4",
-        "publicationDate": "2008-07-05",
-        "referenceCount": null,
-        "title": "A unified architecture for natural language processing: deep neural networks with multitask learning",
-        "url": "https://www.semanticscholar.org/paper/57458bc1cffe5caa45a885af986d70f723f406b4",
-        "venue": "International Conference on Machine Learning",
-        "year": 2008
-      },
-      "index": 55,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "2720935",
-            "name": "Jihun Ham"
-          },
-          {
-            "authorId": "145675444",
-            "name": "Daniel D. Lee"
-          }
-        ],
-        "citationCount": 680,
-        "externalIds": {
-          "CorpusId": 1872039,
-          "DBLP": "conf/icml/HamL08",
-          "DOI": "10.1145/1390156.1390204",
-          "MAG": "2126017757"
-        },
-        "paperId": "64441c8396211b5e799b9ad5138dade15ff5cd0a",
-        "publicationDate": "2008-07-05",
-        "referenceCount": null,
-        "title": "Grassmann discriminant analysis: a unifying view on subspace-based learning",
-        "url": "https://www.semanticscholar.org/paper/64441c8396211b5e799b9ad5138dade15ff5cd0a",
-        "venue": "International Conference on Machine Learning",
-        "year": 2008
-      },
-      "index": 56,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "32551341",
-            "name": "Xiang Lisa Li"
-          },
-          {
-            "authorId": "145419642",
-            "name": "Percy Liang"
-          }
-        ],
-        "citationCount": 5753,
-        "externalIds": {
-          "ACL": "2021.acl-long.353",
-          "ArXiv": "2101.00190",
-          "CorpusId": 230433941,
-          "DBLP": "conf/acl/LiL20",
-          "DOI": "10.18653/v1/2021.acl-long.353"
-        },
-        "paperId": "53d8b356551a2361020a948f64454a6d599af69f",
-        "publicationDate": null,
-        "referenceCount": null,
-        "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
-        "url": "https://www.semanticscholar.org/paper/53d8b356551a2361020a948f64454a6d599af69f",
-        "venue": "Annual Meeting of the Association for Computational Linguistics",
-        "year": 2021
-      },
-      "index": 57,
-      "intents": [
-        "result",
-        "background",
-        "methodology"
-      ],
-      "isInfluential": true
-    },
-    {
-      "citedPaper": {
-        "authors": [],
         "citationCount": null,
         "externalIds": {},
         "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "DEBERTA We again train using AdamW with a linear learning rate decay schedule",
+        "title": "Attention is all you need",
         "url": null,
-        "venue": "Following He et al",
+        "venue": "Proceedings of the 31st International Conference on Neural Information Processing Systems",
+        "year": 2017
+      },
+      "index": 51,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In Proceedings of the 31st In-ternational Conference on Neural Information Processing Systems, pp. 6000–6010, 2017."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Alex Wang"
+          },
+          {
+            "name": "Amanpreet Singh"
+          },
+          {
+            "name": "Julian Michael"
+          },
+          {
+            "name": "Felix Hill"
+          },
+          {
+            "name": "Omer Levy"
+          },
+          {
+            "name": "Samuel R. Bowman"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Glue: A multi-task benchmark and analysis platform for natural language understanding",
+        "url": null,
+        "venue": null,
+        "year": 2019
+      },
+      "index": 52,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Alex Wang, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman. Glue: A multi-task benchmark and analysis platform for natural language understanding, 2019."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Alex Wang"
+          },
+          {
+            "name": "Yada Pruksachatkun"
+          },
+          {
+            "name": "Nikita Nangia"
+          },
+          {
+            "name": "Amanpreet Singh"
+          },
+          {
+            "name": "Julian Michael"
+          },
+          {
+            "name": "Felix Hill"
+          },
+          {
+            "name": "Omer Levy"
+          },
+          {
+            "name": "Samuel R. Bowman"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Superglue: A stickier benchmark for general-purpose language understanding systems",
+        "url": null,
+        "venue": null,
+        "year": 2020
+      },
+      "index": 53,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel R. Bowman. Superglue: A stickier benchmark for general-purpose language understanding systems, 2020."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Alex Warstadt"
+          },
+          {
+            "name": "Amanpreet Singh"
+          },
+          {
+            "name": "Samuel R Bowman"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "1805.12471"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Neural network acceptability judgments",
+        "url": null,
+        "venue": "arXiv preprint",
+        "year": 2018
+      },
+      "index": 54,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Alex Warstadt, Amanpreet Singh, and Samuel R Bowman. Neural network acceptability judgments. arXiv preprint arXiv:1805.12471, 2018."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Adina Williams"
+          },
+          {
+            "name": "Nikita Nangia"
+          },
+          {
+            "name": "Samuel Bowman"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "DOI": "10.18653/v1/N18-1101"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "A broad-coverage challenge corpus for sentence understanding through inference",
+        "url": "https://www.aclweb.org/anthology/N18-1101",
+        "venue": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+        "year": 2018
+      },
+      "index": 55,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Adina Williams, Nikita Nangia, and Samuel Bowman. A broad-coverage challenge corpus for sen-tence understanding through inference. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technolo-gies, Volume 1 (Long Papers), pp. 1112–1122, New Orleans, Louisiana, June 2018. Association for Computational Linguistics. doi: 10.18653/v1/N18-1101. URL https://www.aclweb.org/anthology/N18-1101."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Thomas Wolf"
+          },
+          {
+            "name": "Lysandre Debut"
+          },
+          {
+            "name": "Victor Sanh"
+          },
+          {
+            "name": "Julien Chaumond"
+          },
+          {
+            "name": "Clement Delangue"
+          },
+          {
+            "name": "Anthony Moi"
+          },
+          {
+            "name": "Pierric Cistac"
+          },
+          {
+            "name": "Tim Rault"
+          },
+          {
+            "name": "Rémi Louf"
+          },
+          {
+            "name": "Morgan Funtowicz"
+          },
+          {
+            "name": "Joe Davison"
+          },
+          {
+            "name": "Sam Shleifer"
+          },
+          {
+            "name": "Patrick von Platen"
+          },
+          {
+            "name": "Clara Ma"
+          },
+          {
+            "name": "Yacine Jernite"
+          },
+          {
+            "name": "Julien Plu"
+          },
+          {
+            "name": "Canwen Xu"
+          },
+          {
+            "name": "Teven Le Scao"
+          },
+          {
+            "name": "Sylvain Gugger"
+          },
+          {
+            "name": "Mariama Drame"
+          },
+          {
+            "name": "Quentin Lhoest"
+          },
+          {
+            "name": "Alexander M. Rush"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Transformers: State-of-the-art natural language processing",
+        "url": "https://www.aclweb.org/anthology/2020.emnlp-demos.6",
+        "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+        "year": 2020
+      },
+      "index": 56,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven Le Scao, Sylvain Gug-ger, Mariama Drame, Quentin Lhoest, and Alexander M. Rush. Transformers: State-of-the-art natural language processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, pp. 38-45, Online, October 2020. As-sociation for Computational Linguistics. URL https://www.aclweb.org/anthology/2020.emnlp-demos.6."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Greg Yang"
+          },
+          {
+            "name": "Edward J. Hu"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {
+          "ArXiv": "2011.14522"
+        },
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Feature Learning in Infinite-Width Neural Networks",
+        "url": "http://arxiv.org/abs/2011.14522",
+        "venue": "arXiv",
+        "year": 2021
+      },
+      "index": 57,
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Greg Yang and Edward J. Hu. Feature Learning in Infinite-Width Neural Networks. arXiv:2011.14522 [cond-mat], May 2021. URL http://arxiv.org/abs/2011.14522. arXiv: 2011.14522."
+    },
+    {
+      "citedPaper": {
+        "authors": [
+          {
+            "name": "Elad Ben Zaken"
+          },
+          {
+            "name": "Shauli Ravfogel"
+          },
+          {
+            "name": "Yoav Goldberg"
+          }
+        ],
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
+        "publicationDate": null,
+        "referenceCount": null,
+        "title": "Bitfit: Simple parameter-efficient fine-tuning for transformer-based masked language-models",
+        "url": null,
+        "venue": null,
         "year": 2021
       },
       "index": 58,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Elad Ben Zaken, Shauli Ravfogel, and Yoav Goldberg. Bitfit: Simple parameter-efficient fine-tuning for transformer-based masked language-models, 2021."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "39172707",
-            "name": "Jacob Devlin"
+            "name": "Yu Zhang"
           },
           {
-            "authorId": "1744179",
-            "name": "Ming-Wei Chang"
+            "name": "Ekapol Chuangsuwanich"
           },
           {
-            "authorId": "2544107",
-            "name": "Kenton Lee"
-          },
-          {
-            "authorId": "3259253",
-            "name": "Kristina Toutanova"
+            "name": "James Glass"
           }
         ],
-        "citationCount": 114270,
-        "externalIds": {
-          "ACL": "N19-1423",
-          "ArXiv": "1810.04805",
-          "CorpusId": 52967399,
-          "DBLP": "journals/corr/abs-1810-04805",
-          "DOI": "10.18653/v1/N19-1423",
-          "MAG": "2951055169"
-        },
-        "paperId": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-        "url": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992",
-        "venue": "North American Chapter of the Association for Computational Linguistics",
-        "year": 2019
+        "title": "Extracting deep neural network bottleneck features using low-rank matrix factorization",
+        "url": null,
+        "venue": "2014 IEEE international conference on acoustics, speech and signal processing (ICASSP)",
+        "year": 2014
       },
       "index": 59,
-      "intents": [
-        "background"
-      ],
-      "isInfluential": true
+      "intents": [],
+      "isInfluential": false,
+      "rawReference": "Yu Zhang, Ekapol Chuangsuwanich, and James Glass. Extracting deep neural network bottleneck features using low-rank matrix factorization. In 2014 IEEE international conference on acoustics, speech and signal processing (ICASSP), pp. 185–189. IEEE, 2014."
     },
     {
       "citedPaper": {
         "authors": [
           {
-            "authorId": "38909097",
-            "name": "Alec Radford"
+            "name": "Yong Zhao"
           },
           {
-            "authorId": "49387725",
-            "name": "Jeff Wu"
+            "name": "Jinyu Li"
           },
           {
-            "authorId": "48422824",
-            "name": "R. Child"
-          },
-          {
-            "authorId": "150970919",
-            "name": "D. Luan"
-          },
-          {
-            "authorId": "2698777",
-            "name": "Dario Amodei"
-          },
-          {
-            "authorId": "1701686",
-            "name": "I. Sutskever"
+            "name": "Yifan Gong"
           }
         ],
-        "citationCount": 28438,
-        "externalIds": {
-          "CorpusId": 160025533,
-          "MAG": "2955855238"
-        },
-        "paperId": "9405cc0d6169988371b2755e573cc28650d14dfe",
+        "citationCount": null,
+        "externalIds": {},
+        "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "Language Models are Unsupervised Multitask Learners",
-        "url": "https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe",
-        "venue": "",
-        "year": 2019
+        "title": "Low-rank plus diagonal adaptation for deep neural networks",
+        "url": null,
+        "venue": "2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "year": 2016
       },
       "index": 60,
       "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Yong Zhao, Jinyu Li, and Yifan Gong. Low-rank plus diagonal adaptation for deep neural networks. In 2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 5005-5009. IEEE, 2016."
     },
     {
       "citedPaper": {
-        "authors": [],
+        "authors": [
+          {
+            "name": "Victor Zhong"
+          },
+          {
+            "name": "Caiming Xiong"
+          },
+          {
+            "name": "Richard Socher"
+          }
+        ],
         "citationCount": null,
-        "externalIds": {},
+        "externalIds": {
+          "ArXiv": "1709.00103"
+        },
         "paperId": null,
         "publicationDate": null,
         "referenceCount": null,
-        "title": "We train using AdamW with a linear learning rate decay schedule. We sweep learning rate, number of training epochs, and batch size for LoRA",
-        "url": null,
-        "venue": "",
-        "year": 2019
+        "title": "Seq2sql: Generating structured queries from natural language using reinforcement learning",
+        "url": "http://arxiv.org/abs/1709.00103",
+        "venue": "CoRR",
+        "year": 2017
       },
       "index": 61,
       "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "38909097",
-            "name": "Alec Radford"
-          },
-          {
-            "authorId": "144958935",
-            "name": "Karthik Narasimhan"
-          }
-        ],
-        "citationCount": 14702,
-        "externalIds": {
-          "CorpusId": 49313245,
-          "MAG": "2965425874"
-        },
-        "paperId": "cd18800a0fe0b668a1cc19f2ec95b5003d0a5035",
-        "publicationDate": null,
-        "referenceCount": null,
-        "title": "Improving Language Understanding by Generative Pre-Training",
-        "url": "https://www.semanticscholar.org/paper/cd18800a0fe0b668a1cc19f2ec95b5003d0a5035",
-        "venue": "",
-        "year": 2018
-      },
-      "index": 62,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [],
-        "citationCount": null,
-        "externalIds": {},
-        "paperId": null,
-        "publicationDate": null,
-        "referenceCount": null,
-        "title": "The broad coverage makes GLUE benchmark a standard metric to evaluate NLU models such as RoBERTa and DeBERTa. The individual datasets are released under different permissive licenses",
-        "url": null,
-        "venue": "WikiSQL is introduced in Zhong et al. (2017) and contains 56,",
-        "year": 2017
-      },
-      "index": 63,
-      "intents": [],
-      "isInfluential": false
-    },
-    {
-      "citedPaper": {
-        "authors": [
-          {
-            "authorId": "83415753",
-            "name": "W. Dolan"
-          },
-          {
-            "authorId": "3125776",
-            "name": "Chris Brockett"
-          }
-        ],
-        "citationCount": 1991,
-        "externalIds": {
-          "ACL": "I05-5002",
-          "CorpusId": 16639476,
-          "DBLP": "conf/acl-iwp/DolanB05",
-          "MAG": "131533222"
-        },
-        "paperId": "475354f10798f110d34792b6d88f31d6d5cb099e",
-        "publicationDate": null,
-        "referenceCount": null,
-        "title": "Automatically Constructing a Corpus of Sentential Paraphrases",
-        "url": "https://www.semanticscholar.org/paper/475354f10798f110d34792b6d88f31d6d5cb099e",
-        "venue": "International Joint Conference on Natural Language Processing",
-        "year": 2005
-      },
-      "index": 64,
-      "intents": [],
-      "isInfluential": false
+      "isInfluential": false,
+      "rawReference": "Victor Zhong, Caiming Xiong, and Richard Socher. Seq2sql: Generating structured queries from natural language using reinforcement learning. CoRR, abs/1709.00103, 2017. URL http://arxiv.org/abs/1709.00103."
     }
   ],
   "source": {
@@ -2802,7 +2178,7 @@
     },
     "paperId": "a8ca46b171467ceb2d7652fbfb67fe701ad86092",
     "publicationDate": "2021-06-17",
-    "referenceCount": 65,
+    "referenceCount": 62,
     "title": "LoRA: Low-Rank Adaptation of Large Language Models",
     "url": "https://www.semanticscholar.org/paper/a8ca46b171467ceb2d7652fbfb67fe701ad86092",
     "venue": "International Conference on Learning Representations",

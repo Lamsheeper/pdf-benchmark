@@ -248,6 +248,7 @@ Plots are written to `benchmark_runs/<timestamp>/plots/` by default:
 - `average_error_rate.png`: percentage of attempted papers with an error.
 - `average_input_output_tokens_per_page.png`: known input/output tokens per page.
 - `average_cost_per_page.png`: estimated USD per page.
+- `paper_heatmaps.png`: per-paper heatmaps for accuracy, runtime, tokens, cost, reference count error, and error status.
 - `reference_counts_by_pipeline.png`: aggregate chart with one panel per pipeline.
 - `reference_counts_by_model.png`: aggregate chart with one panel per model.
 - `reference_counts_by_pipeline_<pipeline>.png`: correct reference counts by model for one pipeline.
@@ -270,6 +271,12 @@ uv run plot-benchmark \
   --pipeline pdf_images \
   --model gemini-3.1-flash-lite \
   --format svg
+```
+
+Generate one dashboard per paper:
+
+```sh
+uv run plot-benchmark --run-dir benchmark_runs/<timestamp> --paper-plots
 ```
 
 Runtime plots include failed or timed-out attempts because they consumed wall
